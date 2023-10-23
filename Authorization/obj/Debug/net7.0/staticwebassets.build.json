@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "cwKL7AzXi11q0IBjMxfPhK+w6U2BpAYT0CXSZH1xzmY=",
+  "Source": "Authorization",
+  "BasePath": "_content/Authorization",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Authorization\\wwwroot",
+      "Source": "Authorization",
+      "ContentRoot": "C:\\Users\\jay.paragas.ext\\Documents\\Proyectos\\ACME\\Backend\\ACME\\Authorization\\wwwroot\\",
+      "BasePath": "_content/Authorization",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\jay.paragas.ext\\Documents\\Proyectos\\ACME\\Backend\\ACME\\Authorization\\wwwroot\\css\\site.css",
+      "SourceId": "Authorization",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jay.paragas.ext\\Documents\\Proyectos\\ACME\\Backend\\ACME\\Authorization\\wwwroot\\",
+      "BasePath": "_content/Authorization",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    }
+  ]
+}

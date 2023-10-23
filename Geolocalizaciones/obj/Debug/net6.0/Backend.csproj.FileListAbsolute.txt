@@ -1,0 +1,1111 @@
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\appsettings.Development.json
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\appsettings.json
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\Backend.exe
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\Backend.deps.json
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\Backend.runtimeconfig.json
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\Backend.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\Backend.pdb
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Escritorio\Pruebas\Backend\obj\Debug\net6.0\Backend.csproj.AssemblyReference.cache
+D:\Escritorio\Pruebas\Backend\obj\Debug\net6.0\Backend.GeneratedMSBuildEditorConfig.editorconfig
+D:\Escritorio\Pruebas\Backend\obj\Debug\net6.0\Backend.AssemblyInfoInputs.cache
+D:\Escritorio\Pruebas\Backend\obj\Debug\net6.0\Backend.AssemblyInfo.cs
+D:\Escritorio\Pruebas\Backend\obj\Debug\net6.0\Backend.csproj.CoreCompileInputs.cache
+D:\Escritorio\Pruebas\Backend\obj\Debug\net6.0\Backend.MvcApplicationPartsAssemblyInfo.cs
+D:\Escritorio\Pruebas\Backend\obj\Debug\net6.0\Backend.MvcApplicationPartsAssemblyInfo.cache
+D:\Escritorio\Pruebas\Backend\obj\Debug\net6.0\staticwebassets\msbuild.Backend.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Escritorio\Pruebas\Backend\obj\Debug\net6.0\staticwebassets\msbuild.build.Backend.props
+D:\Escritorio\Pruebas\Backend\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Backend.props
+D:\Escritorio\Pruebas\Backend\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Backend.props
+D:\Escritorio\Pruebas\Backend\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Escritorio\Pruebas\Backend\obj\Debug\net6.0\staticwebassets.build.json
+D:\Escritorio\Pruebas\Backend\obj\Debug\net6.0\staticwebassets.development.json
+D:\Escritorio\Pruebas\Backend\obj\Debug\net6.0\scopedcss\bundle\Backend.styles.css
+D:\Escritorio\Pruebas\Backend\obj\Debug\net6.0\Backend.csproj.CopyComplete
+D:\Escritorio\Pruebas\Backend\obj\Debug\net6.0\Backend.dll
+D:\Escritorio\Pruebas\Backend\obj\Debug\net6.0\refint\Backend.dll
+D:\Escritorio\Pruebas\Backend\obj\Debug\net6.0\Backend.pdb
+D:\Escritorio\Pruebas\Backend\obj\Debug\net6.0\Backend.genruntimeconfig.cache
+D:\Escritorio\Pruebas\Backend\obj\Debug\net6.0\ref\Backend.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\Azure.Core.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\Azure.Identity.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\EntityFramework.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\Humanizer.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\Mono.TextTemplating.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\System.CodeDom.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\System.Memory.Data.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\System.Text.Json.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Escritorio\Pruebas\Backend\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\appsettings.Development.json
+D:\Pruebas\Backend\bin\Debug\net6.0\appsettings.json
+D:\Pruebas\Backend\bin\Debug\net6.0\Backend.exe
+D:\Pruebas\Backend\bin\Debug\net6.0\Backend.deps.json
+D:\Pruebas\Backend\bin\Debug\net6.0\Backend.runtimeconfig.json
+D:\Pruebas\Backend\bin\Debug\net6.0\Backend.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\Backend.pdb
+D:\Pruebas\Backend\bin\Debug\net6.0\Azure.Core.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\Azure.Identity.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\EntityFramework.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\Humanizer.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\Mono.TextTemplating.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\System.CodeDom.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\System.Memory.Data.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\System.Text.Json.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\Pruebas\Backend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Pruebas\Backend\obj\Debug\net6.0\Backend.csproj.AssemblyReference.cache
+D:\Pruebas\Backend\obj\Debug\net6.0\Backend.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pruebas\Backend\obj\Debug\net6.0\Backend.AssemblyInfoInputs.cache
+D:\Pruebas\Backend\obj\Debug\net6.0\Backend.AssemblyInfo.cs
+D:\Pruebas\Backend\obj\Debug\net6.0\Backend.csproj.CoreCompileInputs.cache
+D:\Pruebas\Backend\obj\Debug\net6.0\Backend.MvcApplicationPartsAssemblyInfo.cs
+D:\Pruebas\Backend\obj\Debug\net6.0\Backend.MvcApplicationPartsAssemblyInfo.cache
+D:\Pruebas\Backend\obj\Debug\net6.0\staticwebassets\msbuild.Backend.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Pruebas\Backend\obj\Debug\net6.0\staticwebassets\msbuild.build.Backend.props
+D:\Pruebas\Backend\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Backend.props
+D:\Pruebas\Backend\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Backend.props
+D:\Pruebas\Backend\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Pruebas\Backend\obj\Debug\net6.0\staticwebassets.build.json
+D:\Pruebas\Backend\obj\Debug\net6.0\staticwebassets.development.json
+D:\Pruebas\Backend\obj\Debug\net6.0\scopedcss\bundle\Backend.styles.css
+D:\Pruebas\Backend\obj\Debug\net6.0\Backend.csproj.CopyComplete
+D:\Pruebas\Backend\obj\Debug\net6.0\Backend.dll
+D:\Pruebas\Backend\obj\Debug\net6.0\refint\Backend.dll
+D:\Pruebas\Backend\obj\Debug\net6.0\Backend.pdb
+D:\Pruebas\Backend\obj\Debug\net6.0\Backend.genruntimeconfig.cache
+D:\Pruebas\Backend\obj\Debug\net6.0\ref\Backend.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\appsettings.json
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\Backend.exe
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\Backend.deps.json
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\Backend.runtimeconfig.json
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\Backend.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\Backend.pdb
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\EntityFramework.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\Humanizer.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\obj\Debug\net6.0\Backend.csproj.AssemblyReference.cache
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\obj\Debug\net6.0\Backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\obj\Debug\net6.0\Backend.AssemblyInfoInputs.cache
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\obj\Debug\net6.0\Backend.AssemblyInfo.cs
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\obj\Debug\net6.0\Backend.csproj.CoreCompileInputs.cache
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\obj\Debug\net6.0\Backend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\obj\Debug\net6.0\Backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\obj\Debug\net6.0\staticwebassets\msbuild.Backend.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\obj\Debug\net6.0\staticwebassets\msbuild.build.Backend.props
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Backend.props
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Backend.props
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\obj\Debug\net6.0\scopedcss\bundle\Backend.styles.css
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\obj\Debug\net6.0\Backend.csproj.CopyComplete
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\obj\Debug\net6.0\Backend.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\obj\Debug\net6.0\refint\Backend.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\obj\Debug\net6.0\Backend.pdb
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\obj\Debug\net6.0\Backend.genruntimeconfig.cache
+C:\Users\veronica.cartagena\Documents\My Web Sites\ACME\obj\Debug\net6.0\ref\Backend.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\appsettings.json
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\Backend.exe
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\Backend.deps.json
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\Backend.runtimeconfig.json
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\Backend.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\Backend.pdb
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\EntityFramework.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\Humanizer.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\obj\Debug\net6.0\Backend.csproj.AssemblyReference.cache
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\obj\Debug\net6.0\Backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\obj\Debug\net6.0\Backend.AssemblyInfoInputs.cache
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\obj\Debug\net6.0\Backend.AssemblyInfo.cs
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\obj\Debug\net6.0\Backend.csproj.CoreCompileInputs.cache
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\obj\Debug\net6.0\Backend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\obj\Debug\net6.0\Backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\obj\Debug\net6.0\staticwebassets\msbuild.Backend.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\obj\Debug\net6.0\staticwebassets\msbuild.build.Backend.props
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Backend.props
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Backend.props
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\obj\Debug\net6.0\scopedcss\bundle\Backend.styles.css
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\obj\Debug\net6.0\Backend.csproj.CopyComplete
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\obj\Debug\net6.0\Backend.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\obj\Debug\net6.0\refint\Backend.dll
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\obj\Debug\net6.0\Backend.pdb
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\obj\Debug\net6.0\Backend.genruntimeconfig.cache
+C:\Users\veronica.cartagena\Documents\My Web Sites\myapp_net_angular\backApp\obj\Debug\net6.0\ref\Backend.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\appsettings.json
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\Backend.exe
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\Backend.deps.json
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\Backend.runtimeconfig.json
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\Backend.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\Backend.pdb
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\EntityFramework.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\Humanizer.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\obj\Debug\net6.0\Backend.csproj.AssemblyReference.cache
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\obj\Debug\net6.0\Backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\obj\Debug\net6.0\Backend.AssemblyInfoInputs.cache
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\obj\Debug\net6.0\Backend.AssemblyInfo.cs
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\obj\Debug\net6.0\Backend.csproj.CoreCompileInputs.cache
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\obj\Debug\net6.0\Backend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\obj\Debug\net6.0\Backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\obj\Debug\net6.0\staticwebassets\msbuild.Backend.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\obj\Debug\net6.0\staticwebassets\msbuild.build.Backend.props
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Backend.props
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Backend.props
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\obj\Debug\net6.0\scopedcss\bundle\Backend.styles.css
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\obj\Debug\net6.0\Backend.csproj.CopyComplete
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\obj\Debug\net6.0\Backend.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\obj\Debug\net6.0\refint\Backend.dll
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\obj\Debug\net6.0\Backend.pdb
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\obj\Debug\net6.0\Backend.genruntimeconfig.cache
+C:\Users\jay.paragas.ext\Desktop\BackendHoy\ACME\obj\Debug\net6.0\ref\Backend.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\obj\Debug\net6.0\Backend.csproj.AssemblyReference.cache
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\obj\Debug\net6.0\Backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\obj\Debug\net6.0\Backend.AssemblyInfoInputs.cache
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\obj\Debug\net6.0\Backend.AssemblyInfo.cs
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\obj\Debug\net6.0\Backend.csproj.CoreCompileInputs.cache
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\obj\Debug\net6.0\Backend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\obj\Debug\net6.0\Backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\obj\Debug\net6.0\Backend.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\obj\Debug\net6.0\refint\Backend.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\obj\Debug\net6.0\Backend.pdb
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\appsettings.json
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\Backend.exe
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\Backend.deps.json
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\Backend.runtimeconfig.json
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\Backend.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\Backend.pdb
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\EntityFramework.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\Humanizer.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\obj\Debug\net6.0\staticwebassets\msbuild.Backend.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\obj\Debug\net6.0\staticwebassets\msbuild.build.Backend.props
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Backend.props
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Backend.props
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\obj\Debug\net6.0\scopedcss\bundle\Backend.styles.css
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\obj\Debug\net6.0\Backend.csproj.CopyComplete
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\obj\Debug\net6.0\Backend.genruntimeconfig.cache
+C:\Users\abel.valdes\Documents\ACME-PROYECT\ACME-back\obj\Debug\net6.0\ref\Backend.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\appsettings.json
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\Backend.exe
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\Backend.deps.json
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\Backend.runtimeconfig.json
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\Backend.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\Backend.pdb
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\EntityFramework.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\Humanizer.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\obj\Debug\net6.0\Backend.csproj.AssemblyReference.cache
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\obj\Debug\net6.0\Backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\obj\Debug\net6.0\Backend.AssemblyInfoInputs.cache
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\obj\Debug\net6.0\Backend.AssemblyInfo.cs
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\obj\Debug\net6.0\Backend.csproj.CoreCompileInputs.cache
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\obj\Debug\net6.0\Backend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\obj\Debug\net6.0\Backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\obj\Debug\net6.0\staticwebassets\msbuild.Backend.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\obj\Debug\net6.0\staticwebassets\msbuild.build.Backend.props
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Backend.props
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Backend.props
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\obj\Debug\net6.0\scopedcss\bundle\Backend.styles.css
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\obj\Debug\net6.0\Backend.csproj.CopyComplete
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\obj\Debug\net6.0\Backend.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\obj\Debug\net6.0\refint\Backend.dll
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\obj\Debug\net6.0\Backend.pdb
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\obj\Debug\net6.0\Backend.genruntimeconfig.cache
+C:\Users\carta\Documents\My Web Sites\ACMEback\ACME\obj\Debug\net6.0\ref\Backend.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\appsettings.json
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\Backend.exe
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\Backend.deps.json
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\Backend.runtimeconfig.json
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\Backend.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\Backend.pdb
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\EntityFramework.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\Humanizer.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\obj\Debug\net6.0\Backend.csproj.AssemblyReference.cache
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\obj\Debug\net6.0\Backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\obj\Debug\net6.0\Backend.AssemblyInfoInputs.cache
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\obj\Debug\net6.0\Backend.AssemblyInfo.cs
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\obj\Debug\net6.0\Backend.csproj.CoreCompileInputs.cache
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\obj\Debug\net6.0\Backend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\obj\Debug\net6.0\Backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\obj\Debug\net6.0\staticwebassets\msbuild.Backend.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\obj\Debug\net6.0\staticwebassets\msbuild.build.Backend.props
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Backend.props
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Backend.props
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\obj\Debug\net6.0\scopedcss\bundle\Backend.styles.css
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\obj\Debug\net6.0\Backend.csproj.CopyComplete
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\obj\Debug\net6.0\Backend.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\obj\Debug\net6.0\refint\Backend.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\obj\Debug\net6.0\Backend.pdb
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\obj\Debug\net6.0\Backend.genruntimeconfig.cache
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Backend\ACME\obj\Debug\net6.0\ref\Backend.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\appsettings.Development.json
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\appsettings.json
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\Backend.exe
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\Backend.deps.json
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\Backend.runtimeconfig.json
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\Backend.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\Backend.pdb
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\Azure.Core.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\Azure.Identity.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\EntityFramework.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\Humanizer.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\Mono.TextTemplating.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\System.CodeDom.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\System.Memory.Data.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\System.Text.Json.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\Escritorio\ACME\Backend\ACME\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Escritorio\ACME\Backend\ACME\obj\Debug\net6.0\Backend.csproj.AssemblyReference.cache
+D:\Escritorio\ACME\Backend\ACME\obj\Debug\net6.0\Backend.GeneratedMSBuildEditorConfig.editorconfig
+D:\Escritorio\ACME\Backend\ACME\obj\Debug\net6.0\Backend.AssemblyInfoInputs.cache
+D:\Escritorio\ACME\Backend\ACME\obj\Debug\net6.0\Backend.AssemblyInfo.cs
+D:\Escritorio\ACME\Backend\ACME\obj\Debug\net6.0\Backend.csproj.CoreCompileInputs.cache
+D:\Escritorio\ACME\Backend\ACME\obj\Debug\net6.0\Backend.MvcApplicationPartsAssemblyInfo.cs
+D:\Escritorio\ACME\Backend\ACME\obj\Debug\net6.0\Backend.MvcApplicationPartsAssemblyInfo.cache
+D:\Escritorio\ACME\Backend\ACME\obj\Debug\net6.0\staticwebassets\msbuild.Backend.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Escritorio\ACME\Backend\ACME\obj\Debug\net6.0\staticwebassets\msbuild.build.Backend.props
+D:\Escritorio\ACME\Backend\ACME\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Backend.props
+D:\Escritorio\ACME\Backend\ACME\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Backend.props
+D:\Escritorio\ACME\Backend\ACME\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Escritorio\ACME\Backend\ACME\obj\Debug\net6.0\staticwebassets.build.json
+D:\Escritorio\ACME\Backend\ACME\obj\Debug\net6.0\staticwebassets.development.json
+D:\Escritorio\ACME\Backend\ACME\obj\Debug\net6.0\scopedcss\bundle\Backend.styles.css
+D:\Escritorio\ACME\Backend\ACME\obj\Debug\net6.0\Backend.csproj.CopyComplete
+D:\Escritorio\ACME\Backend\ACME\obj\Debug\net6.0\Backend.dll
+D:\Escritorio\ACME\Backend\ACME\obj\Debug\net6.0\refint\Backend.dll
+D:\Escritorio\ACME\Backend\ACME\obj\Debug\net6.0\Backend.pdb
+D:\Escritorio\ACME\Backend\ACME\obj\Debug\net6.0\Backend.genruntimeconfig.cache
+D:\Escritorio\ACME\Backend\ACME\obj\Debug\net6.0\ref\Backend.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\appsettings.json
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\Backend.exe
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\Backend.deps.json
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\Backend.runtimeconfig.json
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\Backend.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\Backend.pdb
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\EntityFramework.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\Humanizer.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\obj\Debug\net6.0\Backend.csproj.AssemblyReference.cache
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\obj\Debug\net6.0\Backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\obj\Debug\net6.0\Backend.AssemblyInfoInputs.cache
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\obj\Debug\net6.0\Backend.AssemblyInfo.cs
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\obj\Debug\net6.0\Backend.csproj.CoreCompileInputs.cache
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\obj\Debug\net6.0\Backend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\obj\Debug\net6.0\Backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\obj\Debug\net6.0\staticwebassets\msbuild.Backend.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\obj\Debug\net6.0\staticwebassets\msbuild.build.Backend.props
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Backend.props
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Backend.props
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\obj\Debug\net6.0\scopedcss\bundle\Backend.styles.css
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\obj\Debug\net6.0\Backend.csproj.CopyComplete
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\obj\Debug\net6.0\Backend.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\obj\Debug\net6.0\refint\Backend.dll
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\obj\Debug\net6.0\Backend.pdb
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\obj\Debug\net6.0\Backend.genruntimeconfig.cache
+C:\Users\mustapha.bouleili\Documents\Projectes\ACMEBack\ACME\obj\Debug\net6.0\ref\Backend.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\appsettings.json
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\Backend.exe
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\Backend.deps.json
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\Backend.runtimeconfig.json
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\Backend.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\Backend.pdb
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\EntityFramework.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\Humanizer.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\obj\Debug\net6.0\Backend.csproj.AssemblyReference.cache
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\obj\Debug\net6.0\Backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\obj\Debug\net6.0\Backend.AssemblyInfoInputs.cache
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\obj\Debug\net6.0\Backend.AssemblyInfo.cs
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\obj\Debug\net6.0\Backend.csproj.CoreCompileInputs.cache
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\obj\Debug\net6.0\Backend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\obj\Debug\net6.0\Backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\obj\Debug\net6.0\staticwebassets\msbuild.Backend.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\obj\Debug\net6.0\staticwebassets\msbuild.build.Backend.props
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Backend.props
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Backend.props
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\obj\Debug\net6.0\scopedcss\bundle\Backend.styles.css
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\obj\Debug\net6.0\Backend.csproj.CopyComplete
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\obj\Debug\net6.0\Backend.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\obj\Debug\net6.0\refint\Backend.dll
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\obj\Debug\net6.0\Backend.pdb
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\obj\Debug\net6.0\Backend.genruntimeconfig.cache
+C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\Microservicios\ACME\obj\Debug\net6.0\ref\Backend.dll

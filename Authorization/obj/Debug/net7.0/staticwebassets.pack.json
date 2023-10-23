@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\jay.paragas.ext\\Documents\\Proyectos\\ACME\\Backend\\ACME\\Authorization\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Authorization.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Authorization.props",
+      "PackagePath": "build\\Authorization.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Authorization.props",
+      "PackagePath": "buildMultiTargeting\\Authorization.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Authorization.props",
+      "PackagePath": "buildTransitive\\Authorization.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
