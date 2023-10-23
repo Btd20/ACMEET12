@@ -1,0 +1,9 @@
+#container-botones{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.boton{
+  margin-left: 10px;
+}

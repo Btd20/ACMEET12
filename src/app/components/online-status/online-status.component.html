@@ -1,0 +1,8 @@
+<div *ngIf="isOnline; else offlineTemplate">
+    <p>¡Estás en línea!</p>
+  </div>
+  
+  <ng-template #offlineTemplate>
+    <p>Estás fuera de línea. Por favor, verifica tu conexión a Internet.</p>
+  </ng-template>
+  

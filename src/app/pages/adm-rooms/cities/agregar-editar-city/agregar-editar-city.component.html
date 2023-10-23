@@ -1,0 +1,29 @@
+    <div mat-dialog-content >
+      <form [formGroup]="form"  >
+        <mat-grid-list cols="2" rowHeight="80px" >
+          <mat-grid-tile [colspan]="2">
+            <mat-form-field class="input" appearance="outline">
+              <mat-label>City Name</mat-label> 
+              <input formControlName="cityName" matInput mat-cell value="cityName">
+            </mat-form-field>
+          </mat-grid-tile>
+          <mat-grid-tile [colspan]="2">
+            <mat-form-field class="input" appearance="outline" >
+              <mat-label>Country</mat-label>
+              <mat-select formControlName="countryId">
+                <mat-option *ngFor="let country of countries" [value]="country.countryId">
+                  {{ country.countryName }}
+                </mat-option>
+              </mat-select>
+            </mat-form-field>
+          </mat-grid-tile>
+        </mat-grid-list>
+      </form>
+      <button  (click)="onNoClick()"  mat-raised-button >Back</button>
+      <button (click)="agregarEditarCity()" mat-raised-button color="primary">Save</button>
+    </div>
+
+
+
+
+

@@ -1,0 +1,29 @@
+<div class="containerTabla">
+  <h1>{{ Operacion }} Oficina</h1>
+
+<!-- <app-spinner *ngIf="loading"></app-spinner> -->
+
+    <br>
+    <form [formGroup]="form" (ngSubmit)="agregarEditarOffice()">
+      <mat-grid-list cols="2" rowHeight="80px">
+        <mat-grid-tile [colspan]="2">
+          <mat-form-field class="input" appearance="outline">
+            <mat-label>Name Office</mat-label>
+            <input formControlName="nameOffice" matInput>
+          </mat-form-field>
+        </mat-grid-tile>
+
+        <mat-grid-tile [colspan]="2">
+          <mat-form-field class="input" appearance="outline">
+            <mat-label>City id</mat-label>
+            <input formControlName="cityId" matInput>
+          </mat-form-field>
+        </mat-grid-tile>
+
+        <mat-grid-tile [colspan]="2">
+          <button [disabled]="form.invalid" type="submit" class="btnAceptar" mat-raised-button color="primary">Aceptar</button>
+          <button mat-raised-button routerLink="/home/admRooms/offices/listaOffices">Volver</button>
+        </mat-grid-tile>
+      </mat-grid-list>
+    </form>
+</div>

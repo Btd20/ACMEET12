@@ -1,0 +1,39 @@
+.change-profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .file-input {
+    display: none; /* Oculta el input de archivo */
+  }
+  
+  .custom-file-input {
+    background-color:  #6723d5; /* Color de fondo del "botón" personalizado */
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer; /* Cambia el cursor al pasar sobre él para indicar que es interactivo */
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color 0.3s; /* Efecto de transición al pasar el cursor sobre el "botón" */
+  }
+  
+  .custom-file-input:hover {
+    background-color: #005dab; /* Cambia el color de fondo al pasar el cursor */
+  }
+  
+  .back-button {
+    margin-top: 10px;
+    background-color: #6723d5;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .back-button:hover {
+    background-color: #005dab;
+  }
+  

@@ -1,0 +1,17 @@
+<div mat-dialog-content class="my-dialog-content">
+    <h1 class="title">Add New Country</h1>
+    <form [formGroup]="form">
+    <mat-grid-list cols="4" rowHeight="100px">
+      <mat-grid-tile [colspan]="4">
+        <mat-form-field class="my-input" appearance="outline">
+          <mat-label>Country Name</mat-label>
+          <input formControlName="countryName" matInput mat-cell value="countryName">
+        </mat-form-field>
+      </mat-grid-tile>
+    </mat-grid-list>
+  </form>
+  <div class="my-button-container">
+    <button (click)="onNoClick()" mat-raised-button class="my-button">Back</button>
+    <button (click)="agregarCountry()" mat-raised-button color="primary" class="my-button">Save</button>
+  </div>
+</div>

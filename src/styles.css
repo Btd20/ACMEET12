@@ -1,0 +1,94 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+html, body { height: 100%; }
+
+
+body {
+  background: #ADA996; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top,#ADA996,#F2F2F2, #DBDBDB, #EAEAEA); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top,#ADA996,#F2F2F2, #DBDBDB, #EAEAEA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: url('assets/img/background.jpg');
+  background-size: 100%; /* Tamaño */
+  background-position: fixed;
+  background-position:absolute;
+  background-repeat: repeat;
+
+}
+.mat-mdc-snack-bar-container {
+  --mat-mdc-snack-bar-button-color: #ffffff;
+  --mdc-snackbar-supporting-text-color: #ffffff;
+
+  &.app-notification-error {
+    --mdc-snackbar-container-color: #f23a2f;
+  }
+
+  &.app-notification-success {
+    --mdc-snackbar-container-color: #43a446;
+  }
+}
+
+.containerTabla{
+  background-color: white;
+  padding:50px;
+  margin: auto;
+  margin-top: 40px;
+  width: 80%;
+  border-radius: 15px;
+  animation: fadeIn 1s ease-in-out forwards;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/* Simple CSS3 Fade-in Animation */
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fadeIn {
+  opacity: 0;
+  -webkit-animation: fadeIn ease-in 1;
+  -moz-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-duration: 1s;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

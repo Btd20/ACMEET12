@@ -1,0 +1,8 @@
+button {
+    margin-right: 15px;
+  }
+  
+  .snackbar-error {
+    background-color: red;
+    color: white; 
+  }

@@ -1,0 +1,6 @@
+<div mat-dialog-content class="change-profile-container">
+    <img [src]="url" height="300px">
+    <input type="file" id="fileInput" (change)="onselectedFile($event)" class="file-input">
+    <label for="fileInput" class="custom-file-input">Seleccionar imagen</label>
+    <button (click)="onNoClick()" mat-raised-button class="back-button">Aceptar</button>
+</div>

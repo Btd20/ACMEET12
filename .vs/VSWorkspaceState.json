@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\pages",
+    "\\src\\app\\pages\\home",
+    "\\src\\app\\pages\\navbar",
+    "\\src\\app\\pages\\profile",
+    "\\src\\app\\pages\\users",
+    "\\src\\app\\pages\\users\\add-edit-users",
+    "\\src\\app\\pages\\users\\list-users"
+  ],
+  "SelectedNode": "\\src\\app\\pages\\home\\home.component.html",
+  "PreviewInSolutionExplorer": false
+}

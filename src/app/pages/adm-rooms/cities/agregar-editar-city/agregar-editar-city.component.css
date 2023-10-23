@@ -1,0 +1,41 @@
+
+.title {
+  color: white;
+  padding: 15px 15px 15px 15px;
+  Background: black;
+  font-size: 3.5vh;
+}
+.card {
+    max-width: 400px;
+    margin-bottom: 8px;
+    display:block;
+    margin-top:15px;
+    margin-left: 28vw;
+}
+.input {
+  margin-top: 15px;
+}
+.subtitle {
+  text-align:center;
+  font-size: 15px;
+  padding-top: 15px;
+}
+
+mat-form-field{
+  width: 80%;
+}
+
+mat-grid-list {
+  width: 150px;
+
+}
+
+
+
+button:hover {
+  background-color: #0056b3; /* Color de fondo azul más oscuro en el hover */
+}
+
+button {
+  margin-right: 15px;
+}

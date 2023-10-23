@@ -1,0 +1,111 @@
+/* Estilos generales del navbar */
+
+#nav {
+  position: sticky;
+  padding: 10px;
+  width: 80%;
+  height: 10%;
+  margin: 0 auto;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #673ab7;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  transition: color 0.3s ease, font-size 0.3s ease;
+}
+
+  .navbar-brand:hover {
+    color: #512da8;
+    font-size: 2.2rem;
+  }
+
+.navbar-nav .nav-item {
+  margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+  .navbar-nav .nav-link.active {
+    font-weight: bold;
+  }
+
+/* Estilos del menú de administración */
+.mat-menu-panel {
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  border-bottom-right-radius: 10px;
+}
+
+.mat-menu-item {
+  padding: 5px 15px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+/* Estilos del botón de administración */
+button[matMenuTriggerFor="administration"] {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+  button[matMenuTriggerFor="administration"] span {
+    margin-right: 5px;
+  }
+
+.valign-center {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  margin-left: auto;
+}
+
+li > a {
+  font-size: 1.6rem;
+  font-weight: bold
+}
+
+  li > a.nav-link:hover {
+    color: #6723d5;
+    border-radius: 10px;
+    font-size: 25px;
+    transition: color 0.3s ease, font-size 0.3s ease;
+  }
+
+
+@media (max-width: 768px) {
+
+  .navbar-brand {
+    font-size: 25px;
+  }
+
+    .navbar-brand:hover {
+      color: #512da8;
+      font-size: 30px;
+    }
+
+  .nav-link {
+    transition: color 0.3s ease, background-color 0.3s ease;
+  }
+
+  li > a.nav-link:hover {
+    color: #6723d5;
+    border-radius: 10px;
+    font-size: 25px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+}

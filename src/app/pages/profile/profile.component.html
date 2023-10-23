@@ -1,0 +1,39 @@
+<div class="containerTabla">
+<div >
+  <div>
+    <div class="row">
+      <div class="col-4">
+        <div class="user-img">
+          <img [src]="profilepictureId" >
+          <mat-card class="button">
+            <button style="color: white;" class="underlineHover" (click)="changeProfilePicture()" mat-button>Change Profile Image</button>
+          </mat-card>     
+        </div>
+      </div>
+      <div class="col">
+        <div class="user-info">
+          <mat-card class="text">
+            <strong>
+              <h1>Name: {{ user }}
+                <button class="editPen"  mat-raised-button (click)="openDialog()"><mat-icon>edit</mat-icon>Edit</button>
+              </h1>
+            </strong>
+            <strong>
+              <h1>Email: {{ email }}</h1>
+            </strong>
+            <strong>
+              <h1>Phone: {{ phone }}</h1>
+            </strong>
+            <mat-card class="button">
+              <button style="color: white;" class="underlineHover" (click)="changePassword()" mat-button>Change Password</button>
+            </mat-card>
+          </mat-card>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+

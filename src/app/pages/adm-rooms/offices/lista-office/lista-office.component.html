@@ -1,0 +1,61 @@
+<div *ngIf="mostrarElemento" class="containerTabla">
+  <h1>List Offices</h1>
+
+
+<app-spinner *ngIf="loading"></app-spinner>
+<br />
+
+<div class="container">
+
+  <mat-form-field>
+    <mat-label>Filter</mat-label>
+    <input matInput (keyup)="applyFilter($event)" placeholder="Ex. Espanya" #input>
+  </mat-form-field>
+
+  <table mat-table [dataSource]="dataSource" matSort>
+
+
+    <ng-container matColumnDef="officeId">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Office Id</th>
+      <td mat-cell *matCellDef="let element"> {{element.officeId}} </td>
+    </ng-container>
+
+
+    <ng-container matColumnDef="nameOffice">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Name Office</th>
+      <td mat-cell *matCellDef="let element"> {{element.nameOffice}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="cityName">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>City Name</th>
+      <td mat-cell *matCellDef="let element"> {{element.cityName}} </td>
+    </ng-container>
+
+    <!-- Acciones Column -->
+    <ng-container matColumnDef="Acciones">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>
+        <button routerLink="/home/admRooms/offices/agregarOffice" class="buttonAceptar" mat-raised-button color="primary">Add Office</button>
+      </th>
+      <td mat-cell *matCellDef="let element">
+        <!-- <mat-icon routerLink="/verOffice/{{ element.officeId }}" class="visibility" matTooltip="Ver" fontIcon="visibility"></mat-icon> -->
+        <mat-icon fontIcon=""></mat-icon>
+        <mat-icon routerLink="/home/admRooms/offices/editarOffice/{{ element.officeId }}" class="edit" matTooltip="Editar" fontIcon="edit"></mat-icon>
+        <mat-icon fontIcon=""></mat-icon>
+        <mat-icon (click)="openDialog(element.officeId)" class="delete" matTooltip="Eliminar" fontIcon="delete"></mat-icon>
+      </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+
+  <mat-paginator [pageSizeOptions]="[5, 10, 20]"
+                 showFirstLastButtons
+                 aria-label="Select page of periodic elements">
+  </mat-paginator>
+ </div>
+</div>
+
+<div *ngIf="!mostrarElemento" class="containerTabla">
+  <strong><h1>No tienes permisos</h1></strong>
+</div>

@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 40px;
+  text-align: left;
+}
+
+.titulo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  float:left;
+  text-align: left;
+  margin-right:80px;
+  margin-bottom:20px;
+}
+
+.container-fluid {
+  width: 80%;
+  background-color: white;
+  position: relative;
+  padding: 50px;
+  margin: 20px auto 10px; /* Margen vertical de 20px arriba, 80px abajo y centrado horizontalmente */
+  border-radius: 20px;
+  animation: fadeIn 1s ease-in-out forwards;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.salaImg1 {
+  width: 550px;
+  border-radius: 15px;
+  animation: fadeIn 4s ease-in-out forwards;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.salaImg2 {
+  width: 550px;
+  float: right;
+  border-radius: 15px;
+  animation: fadeIn 8s ease-in-out forwards;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bienvenida {
+  font-size: larger;
+  font-family: Roboto, sans-serif;
+  text-align: justify;
+  line-height: 2;
+}
+
+.botones {
+  margin-top: 30px;
+}
+  .botones > button:first-child {
+    margin-bottom: 10px;
+    margin-right: 3px;
+  }
+
+.botonesReserve {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 80px;
+}
+
+
+.row1 {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.consultaReserva {
+  margin-top:10px;
+  font-family: Roboto, sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.salaImg2 {
+  width: 550px;
+  float: right;
+  border-radius: 15px;
+  animation: fadeIn 8s ease-in-out forwards;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.info {
+  margin-left: 2%;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fadeIn {
+  opacity: 0;
+  animation: fadeIn ease-in 1;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+}
+
+@media (max-width: 576px) {
+  .container-fluid {
+    justify-content: left;
+  }
+
+  h1 {
+    text-align: left;
+  }
+
+  body {
+    font-size: 0.8rem;
+  }
+  .bienvenida {
+    text-align: left;
+    vertical-align: middle;
+  }
+  .salaImg1 {
+    display: none;
+  }
+
+  .salaImg2 {
+    display: none;
+  }
+}

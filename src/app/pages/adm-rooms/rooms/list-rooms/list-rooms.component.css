@@ -1,0 +1,59 @@
+.containerTabla {
+  width: 80%;
+  background-color: white;
+  position: relative;
+  padding: 50px;
+  margin: 20px auto 10px; /* Margen vertical de 20px arriba, 80px abajo y centrado horizontalmente */
+  border-radius: 20px;
+  animation: fadeIn 1s ease-in-out forwards;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+table {
+  width: 80%;
+}
+
+td, th {
+  width: 15%;
+}
+
+.mat-mdc-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+.delete {
+  cursor: pointer;
+  color: #E15639;
+}
+
+.edit {
+  cursor: pointer;
+  color: #187889;
+}
+
+.visibility {
+  cursor: pointer;
+}
+
+.buttonAceptar {
+  font-size: 11px;
+}
+.title {
+  color: white;
+  padding: 15px 15px 15px 15px;
+  Background: black;
+  font-size: 3.5vh;
+}
+.person {
+  color: grey;
+  width: 25px;
+  height: 22px;
+  position: absolute;
+  margin-right: 15px;
+}
+.contenedor {
+  border: 1px solid #000; /* Borde negro */
+  padding: 10px; /* Espacio interno */
+}
+

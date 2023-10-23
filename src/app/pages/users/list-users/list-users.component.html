@@ -1,0 +1,68 @@
+
+<div *ngIf="mostrarElemento"  class="containerTabla">
+    <h1>List Users</h1>
+
+  <app-spinner *ngIf="loading"></app-spinner>
+  <br />
+
+  <div class="container">
+
+    <mat-form-field>
+      <mat-label>Filter</mat-label>
+      <input matInput (keyup)="applyFilter($event)" placeholder="Ex. Abel" #input>
+    </mat-form-field>
+
+    <table mat-table [dataSource]="dataSource" matSort>
+
+
+      <ng-container matColumnDef="userName">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>User Name </th>
+        <td mat-cell *matCellDef="let element"> {{element.userName}} </td>
+      </ng-container>
+
+
+      <ng-container matColumnDef="email">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>Email</th>
+        <td mat-cell *matCellDef="let element"> {{element.email}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="phone">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>Phone</th>
+        <td mat-cell *matCellDef="let element"> {{element.phoneNumber}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="isAdministrador">
+        <th mat-header-cell *matHeaderCellDef>Admin</th>
+        <td mat-cell *matCellDef="let element">
+          <mat-slide-toggle class="admcheck" [checked]="element.isAdmin"
+           (change)="onToggleChange($event, element.userName)"></mat-slide-toggle>
+        </td>
+      </ng-container>
+
+      <!-- Acciones Column -->
+      <ng-container matColumnDef="Acciones">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>
+          <button routerLink="/home/users/addUser" class="buttonAceptar" mat-raised-button color="primary">Agregar User</button>
+        </th>
+        <td mat-cell *matCellDef="let element">
+          <mat-icon fontIcon=""></mat-icon>
+          <mat-icon (click)="openDialogEditar(element.id)" class="edit" matTooltip="Editar" fontIcon="edit"></mat-icon>
+          <mat-icon fontIcon=""></mat-icon>
+          <mat-icon (click)="openDialog(element.id)" class="delete" matTooltip="Eliminar" fontIcon="delete"></mat-icon>
+
+        </td>
+      </ng-container>
+
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
+    <mat-paginator [pageSizeOptions]="[5, 10, 20]"
+                   showFirstLastButtons
+                   aria-label="Select page of periodic elements">
+    </mat-paginator>
+  </div>
+</div>
+
+<div *ngIf="!mostrarElemento" class="containerTabla">
+  <strong><h1>No tienes permisos</h1></strong>
+</div>

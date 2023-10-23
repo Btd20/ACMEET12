@@ -1,0 +1,34 @@
+<div class="container">
+  <div class="wrapper fadeInDown">
+    <div id="formContent">
+      <!-- Tabs Titles -->
+      <h2 class="active"> Add new User </h2>
+
+      <!-- Register Form -->
+      <form [formGroup]="formm" (ngSubmit)="submitForm()">
+        <input formControlName="user" [class.is-invalid]="f.user.errors && f.user.touched" type="text" id="register" class="fadeIn second" name="register" placeholder="User name">
+        <div id="validationServer04Feedback" class="invalid-feedback">
+          Mandatory User Name
+        </div>
+        <input formControlName="email" [class.is-invalid]="f.email.errors && f.email.touched" type="email" id="register" class="fadeIn second" name="register" placeholder="Email">
+        <div id="validationServer04Feedback" class="invalid-feedback">
+          Mandatory Email
+        </div>
+        <div class="col-auto">
+          <label for="inputPassword2" class="visually-hidden">Password</label>
+          <input formControlName="password" [class.is-invalid]="f.password.errors && f.password.touched" name="register" id="password" type="password" class="fadeIn third" placeholder="Password">
+          <div id="validationServer04Feedback" class="invalid-feedback">
+            Mandatory Password must have at least 8 characters,
+               Contain at least one uppercase letter, one lowercase letter,
+                and one symbol  
+              </div> 
+        </div>
+    
+        
+        <button type="submit" class="btn btn-primary custom-button custom-outline fadeIn fourth">Submit</button>
+      </form>
+
+    </div>
+  </div>
+</div>
+

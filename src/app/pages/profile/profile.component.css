@@ -1,0 +1,73 @@
+.containerTabla {
+  width: 80%;
+  background-color: white;
+  position: relative;
+  margin: 20px auto 10px; /* Margen vertical de 20px arriba, 80px abajo y centrado horizontalmente */
+  border-radius: 20px;
+  animation: fadeIn 1s ease-in-out forwards;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.user-img {
+  width: 50%;
+  padding: 10px;
+  justify-content: center;
+}
+
+div .img {
+  display: block;
+  width: 300px;
+  height: 300px;   
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid gray round;
+}
+
+.user-info {
+  text-align: left;
+  flex: 1; /* Hacemos que ocupe todo el espacio disponible */
+}
+
+.user-info .text {
+  padding: 2%;
+}
+
+.button-container {
+  display: flex; /* Utilizamos flexbox para alinear el botón al centro verticalmente */
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.button {
+  background-color: #6723d5;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #8d54ea;
+  color: gray; /* Cambiamos el color del texto al hacer hover en el botón */
+}
+
+.text{
+  margin-top: 7%;
+}
+
+.editPen{
+ float: right;
+}
+
+.profile{
+  text-align: center;
+  display: inline;
+  margin-left: 100px;
+  background-color: #6723d5;
+  display: flex; /* Utilizamos flexbox para alinear el botón al centro verticalmente */
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.profile:hover {
+  background-color: #8d54ea;
+  color: gray; /* Cambiamos el color del texto al hacer hover en el botón */
+}
+
