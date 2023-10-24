@@ -1,8 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AgregarEditarCityComponent } from './agregar-editar-city/agregar-editar-city.component';
-import { ListCityComponent } from './list-city/list-city.component';
-import { VerCityComponent } from './ver-city/ver-city.component';
+import { AgregarEditarCityComponent } from './update-cities/update-city.component';
+import { ListCityComponent } from './read-cities/read-city.component';
 
 const routes: Routes = [
   {
@@ -14,9 +13,10 @@ const routes: Routes = [
   {
     path: 'agregarCity', component: AgregarEditarCityComponent
   },
+  /*
   {
     path: 'verCity/:cityId', component: VerCityComponent
-  }, // ":id" es el parametro que le pasara cuando el usuario le de clic a un pais
+  },*/ // ":id" es el parametro que le pasara cuando el usuario le de clic a un pais
   {
     path: 'editarCity/:cityId', component: AgregarEditarCityComponent
   },

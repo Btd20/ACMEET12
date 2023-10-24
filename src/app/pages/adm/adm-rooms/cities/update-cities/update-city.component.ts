@@ -9,9 +9,9 @@ import { CountryService } from '../../../../../shared/services/country.service';
 import { Country } from '../../../../../shared/interfaces/country';
 
 @Component({
-  selector: 'app-agregar-editar-city',
-  templateUrl: './agregar-editar-city.component.html',
-  styleUrls: ['./agregar-editar-city.component.css']
+  selector: 'app-update-city',
+  templateUrl: './update-city.component.html',
+  styleUrls: ['./update-city.component.css']
 })
 export class AgregarEditarCityComponent {
   loading: boolean = false;

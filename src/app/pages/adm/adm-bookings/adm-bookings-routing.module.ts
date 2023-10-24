@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { ListReservasComponent } from './list-reservas/list-reservas.component';
-import { EditarReservaComponent } from '../../reserves/editar-reserva/EditarReservaComponent';
+import { ListReservasComponent } from './read-bookings/read-booking.component';
+import { EditarReservaComponent } from '../../bookings/edit-booking/EditarReservaComponent';
 
 const routes: Routes = [
   {

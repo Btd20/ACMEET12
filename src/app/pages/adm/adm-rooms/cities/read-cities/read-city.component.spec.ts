@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ListCityComponent } from './list-city.component';
+import { ListCityComponent } from './read-city.component';
 
 describe('ListCityComponent', () => {
   let component: ListCityComponent;

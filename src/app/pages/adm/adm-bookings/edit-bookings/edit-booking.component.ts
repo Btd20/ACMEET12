@@ -13,9 +13,9 @@ import { MeetingRoomService } from '../../../../shared/services/meeting-room.ser
 import { UsersService } from '../../../../shared/services/users.service';
 
 @Component({
-  selector: 'app-edit-reservas',
-  templateUrl: './edit-reservas.component.html',
-  styleUrls: ['./edit-reservas.component.css']
+  selector: 'app-edit-booking',
+  templateUrl: './edit-booking.component.html',
+  styleUrls: ['./edit-booking.component.css']
 })
 export class EditReservasComponent {
   mostrarElemento?:boolean;

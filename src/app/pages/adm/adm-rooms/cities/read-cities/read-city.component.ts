@@ -7,11 +7,11 @@ import { City } from '../../../../../shared/interfaces/city';
 import { CityService } from '../../../../../shared/services/city.service';
 import { MAT_DIALOG_DATA, MatDialog } from '@angular/material/dialog';
 import { PopRemoveQuestionComponent } from '../../../../../pages/pop-remove-question/pop-remove-question.component';
-import { AgregarEditarCityComponent } from '../agregar-editar-city/agregar-editar-city.component';
+import { AgregarEditarCityComponent } from '../update-cities/update-city.component';
 @Component({
   selector: 'app-list-city',
-  templateUrl: './list-city.component.html',
-  styleUrls: ['./list-city.component.css']
+  templateUrl: './read-city.component.html',
+  styleUrls: ['./read-city.component.css']
 })
 export class ListCityComponent {
   mostrarElemento?:boolean;
