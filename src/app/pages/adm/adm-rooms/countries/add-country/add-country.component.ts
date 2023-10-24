@@ -6,9 +6,9 @@ import { CountryService } from '../../../../../shared/services/country.service';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 
 @Component({
-  selector: 'app-agregar-country',
-  templateUrl: './agregar-country.component.html',
-  styleUrls: ['./agregar-country.component.css']
+  selector: 'app-add-country',
+  templateUrl: './add-country.component.html',
+  styleUrls: ['./add-country.component.css']
 })
 export class AgregarCountryComponent {
   //Variables

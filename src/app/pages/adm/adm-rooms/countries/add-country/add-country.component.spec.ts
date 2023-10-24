@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AgregarCountryComponent } from './agregar-country.component';
+import { AgregarCountryComponent } from './add-country.component';
 
 describe('AgregarCountryComponent', () => {
   let component: AgregarCountryComponent;

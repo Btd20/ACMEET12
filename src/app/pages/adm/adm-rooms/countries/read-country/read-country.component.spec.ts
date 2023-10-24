@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ListaCountryComponent } from './lista-country.component';
+import { ListaCountryComponent } from './read-country.component';
 
 describe('ListaCountryComponent', () => {
   let component: ListaCountryComponent;
