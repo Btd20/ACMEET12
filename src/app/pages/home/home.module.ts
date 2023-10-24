@@ -2,9 +2,9 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { HomeRoutingModule } from './home-routing.module';
-import { HomeComponent } from './home.component';
-import { SharedModule } from 'src/app/shared/shared.module';
-import { FooterModule } from '../footer/footer.module';
+import { HomeComponent } from './index/home.component';
+import { SharedModule } from '../../shared/shared.module';
+import { FooterModule } from './footer/footer.module';
 
 
 @NgModule({

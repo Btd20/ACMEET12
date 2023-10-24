@@ -3,7 +3,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { Router } from '@angular/router';
 
-import { tokenUser } from 'src/app/interfaces/token';
+import { tokenUser } from '../../shared/interfaces/token';
 
 
 @Component({

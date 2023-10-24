@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ConnectionStatusService } from './services/connection-status.service';
+import { ConnectionStatusService } from './shared/services/connection-status.service';
 import { MatSnackBar } from '@angular/material/snack-bar';
 
 @Component({

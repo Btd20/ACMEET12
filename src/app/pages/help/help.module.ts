@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { HelpRoutingModule } from './help-routing.module';
 import { helpComponent } from './help.component';
-import { SharedModule } from 'src/app/shared/shared.module';
+import { SharedModule } from '../../shared/shared.module';
 
 
 @NgModule({

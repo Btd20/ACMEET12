@@ -2,9 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { MatSnackBar } from '@angular/material/snack-bar';
-import { LoginService } from '../../services/login.service';
-import { login } from '../../interfaces/login';
-import { tokenUser } from '../../interfaces/token';
+import { LoginService } from '../../shared/services/login.service';
+import { login } from '../../shared/interfaces/login';
+import { tokenUser } from '../../shared/interfaces/token';
 import jwt_decode from 'jwt-decode';
 
 

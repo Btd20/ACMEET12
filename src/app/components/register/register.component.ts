@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
-import { Register } from '../../interfaces/register';
-import { tokenUser } from 'src/app/interfaces/token';
+import { Register } from '../../shared/interfaces/register';
+import { tokenUser } from '../../shared/interfaces/token';
 import { MatSnackBar } from '@angular/material/snack-bar';
-import { RegisterService } from '../../services/register.service';
+import { RegisterService } from '../../shared/services/register.service';
 import { HttpErrorResponse } from '@angular/common/http';
 
 @Component({

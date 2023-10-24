@@ -3,8 +3,8 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { ActivatedRoute, Router } from '@angular/router'; // Importa el Router
-import { RegisterService } from 'src/app/services/register.service';
-import { UsersService } from 'src/app/services/users.service';
+import { RegisterService } from '../../../shared/services/register.service';
+import { UsersService } from '../../../shared/services/users.service';
 
 @Component({
   selector: 'app-login',

@@ -4,13 +4,13 @@
     "\\src",
     "\\src\\app",
     "\\src\\app\\pages",
-    "\\src\\app\\pages\\home",
-    "\\src\\app\\pages\\navbar",
-    "\\src\\app\\pages\\profile",
-    "\\src\\app\\pages\\users",
-    "\\src\\app\\pages\\users\\add-edit-users",
-    "\\src\\app\\pages\\users\\list-users"
+    "\\src\\app\\pages\\adm",
+    "\\src\\app\\pages\\adm\\adm-rooms",
+    "\\src\\app\\pages\\home\\index",
+    "\\src\\app\\pages\\reserves\\bookings",
+    "\\src\\app\\pages\\reserves\\editar-reserva",
+    "\\src\\app\\pages\\users"
   ],
-  "SelectedNode": "\\src\\app\\pages\\home\\home.component.html",
+  "SelectedNode": "\\src\\app\\pages\\adm\\adm-rooms\\countries\\countries.module.ts",
   "PreviewInSolutionExplorer": false
 }

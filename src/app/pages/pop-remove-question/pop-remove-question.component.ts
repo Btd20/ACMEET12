@@ -1,12 +1,12 @@
 import { Component ,  Inject} from '@angular/core';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 import { MatSnackBar } from '@angular/material/snack-bar';
-import { BookingService } from 'src/app/services/booking.service';
-import { CityService } from 'src/app/services/city.service';
-import { CountryService } from 'src/app/services/country.service';
-import { MeetingRoomService } from 'src/app/services/meeting-room.service';
-import { OfficeService } from 'src/app/services/office.service';
-import { UsersService } from 'src/app/services/users.service';
+import { BookingService } from '../../shared/services/booking.service';
+import { CityService } from '../../shared/services/city.service';
+import { CountryService } from '../../shared/services/country.service';
+import { MeetingRoomService } from '../../shared/services/meeting-room.service';
+import { OfficeService } from '../../shared/services/office.service';
+import { UsersService } from '../../shared/services/users.service';
 
 @Component({
   selector: 'app-pop-remove-question',
