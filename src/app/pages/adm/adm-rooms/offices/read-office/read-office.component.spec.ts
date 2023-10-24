@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ListaOfficeComponent } from './lista-office.component';
+import { ListaOfficeComponent } from './read-office.component';
 
 describe('ListaOfficeComponent', () => {
   let component: ListaOfficeComponent;

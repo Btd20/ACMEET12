@@ -9,9 +9,9 @@ import { MatDialog } from '@angular/material/dialog';
 import { PopRemoveQuestionComponent } from 'src/app/pages/pop-remove-question/pop-remove-question.component';
 
 @Component({
-  selector: 'app-lista-office',
-  templateUrl: './lista-office.component.html',
-  styleUrls: ['./lista-office.component.css']
+  selector: 'app-read-office',
+  templateUrl: './read-office.component.html',
+  styleUrls: ['./read-office.component.css']
 })
 export class ListaOfficeComponent {
   mostrarElemento?:boolean;
