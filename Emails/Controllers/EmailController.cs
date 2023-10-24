@@ -1,40 +1,45 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Mjml.Net;
 
-public class EmailController : Controller
+namespace Emails.Controllers
 {
-    private readonly EmailService _emailService;
-
-    public EmailController(EmailService emailService)
+    [Route("api/[controller]")]
+    [ApiController]
+    public class EmailController : ControllerBase
     {
-        _emailService = emailService;
-    }
+        private readonly EmailService _emailService;
 
-    [HttpPost]
-    public IActionResult ConfirmarReserva(string userEmail, string nomSala, DateTime dataReserva, TimeSpan horaInici, TimeSpan horaFi)
-    {
-        var mjmlRenderer = new MjmlRenderer();
-        var correu = System.IO.File.ReadAllText("./Emails/confirmacio_reserva.mjml");
-
-        correu = correu.Replace("{NomSala}", nomSala);
-        correu = correu.Replace("{DataReserva}", dataReserva.ToShortDateString());
-        correu = correu.Replace("{HoraInici}", horaInici.ToString());
-        correu = correu.Replace("{HoraFi}", horaFi.ToString());
-
-        var options = new MjmlOptions
+        public EmailController(EmailService emailService)
         {
-            Beautify = false
-        };
+            _emailService = emailService;
+        }
 
-        var (html, errors) = mjmlRenderer.Render(correu, options);
+        [HttpPost]
+        public IActionResult ConfirmarReserva(string userEmail, string nomSala, DateTime dataReserva, TimeSpan horaInici, TimeSpan horaFi)
+        {
+            var mjmlRenderer = new MjmlRenderer();
+            var correu = System.IO.File.ReadAllText("./Emails/confirmacio_reserva.mjml");
 
-        _emailService.SendEmail(userEmail, "Confirmació de reserva", html);
+            correu = correu.Replace("{NomSala}", nomSala);
+            correu = correu.Replace("{DataReserva}", dataReserva.ToShortDateString());
+            correu = correu.Replace("{HoraInici}", horaInici.ToString());
+            correu = correu.Replace("{HoraFi}", horaFi.ToString());
 
-        return RedirectToAction("ReservaConfirmada");
-    }
+            var options = new MjmlOptions
+            {
+                Beautify = false
+            };
 
-    public IActionResult ReservaConfirmada()
-    {
-        return View();
+            var (html, errors) = mjmlRenderer.Render(correu, options);
+
+            _emailService.SendEmail(userEmail, "Confirmació de reserva", html);
+
+            return RedirectToAction("ReservaConfirmada");
+        }
+
+        //public IActionResult ReservaConfirmada()
+        //{
+        //    return View();
+        //}
     }
 }

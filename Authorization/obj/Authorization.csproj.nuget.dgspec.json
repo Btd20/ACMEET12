@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yeray.lorenzo\\source\\repos\\ACMEET12\\Authorization\\Authorization.csproj": {}
+    "C:\\Users\\jay.paragas.ext\\Documents\\Proyectos\\ACME\\ACMEET12\\Backend\\ACMEET12\\Authorization\\Authorization.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yeray.lorenzo\\source\\repos\\ACMEET12\\Authorization\\Authorization.csproj": {
+    "C:\\Users\\jay.paragas.ext\\Documents\\Proyectos\\ACME\\ACMEET12\\Backend\\ACMEET12\\Authorization\\Authorization.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yeray.lorenzo\\source\\repos\\ACMEET12\\Authorization\\Authorization.csproj",
+        "projectUniqueName": "C:\\Users\\jay.paragas.ext\\Documents\\Proyectos\\ACME\\ACMEET12\\Backend\\ACMEET12\\Authorization\\Authorization.csproj",
         "projectName": "Authorization",
-        "projectPath": "C:\\Users\\yeray.lorenzo\\source\\repos\\ACMEET12\\Authorization\\Authorization.csproj",
-        "packagesPath": "C:\\Users\\yeray.lorenzo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yeray.lorenzo\\source\\repos\\ACMEET12\\Authorization\\obj\\",
+        "projectPath": "C:\\Users\\jay.paragas.ext\\Documents\\Proyectos\\ACME\\ACMEET12\\Backend\\ACMEET12\\Authorization\\Authorization.csproj",
+        "packagesPath": "C:\\Users\\jay.paragas.ext\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jay.paragas.ext\\Documents\\Proyectos\\ACME\\ACMEET12\\Backend\\ACMEET12\\Authorization\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\yeray.lorenzo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jay.paragas.ext\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -77,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
