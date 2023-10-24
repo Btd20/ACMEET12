@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { AdmReservasRoutingModule } from './adm-reservas-routing.module';
 import { ListReservasComponent } from './list-reservas/list-reservas.component';
-import { EditReservasComponent } from './edit-reservas/edit-reservas.component';
+import { EditReservasComponent } from './edit-booking/edit-reservas.component';
 import { SharedModule } from '../../../shared/shared.module';
 
 

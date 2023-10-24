@@ -6,11 +6,9 @@
     "\\src\\app\\pages",
     "\\src\\app\\pages\\adm",
     "\\src\\app\\pages\\adm\\adm-rooms",
-    "\\src\\app\\pages\\home\\index",
-    "\\src\\app\\pages\\reserves\\bookings",
-    "\\src\\app\\pages\\reserves\\editar-reserva",
+    "\\src\\app\\pages\\adm\\adm-rooms\\cities",
     "\\src\\app\\pages\\users"
   ],
-  "SelectedNode": "\\src\\app\\pages\\adm\\adm-rooms\\countries\\countries.module.ts",
+  "SelectedNode": "\\src\\app\\pages\\adm\\adm-rooms\\cities\\cities-routing.module.ts",
   "PreviewInSolutionExplorer": false
 }

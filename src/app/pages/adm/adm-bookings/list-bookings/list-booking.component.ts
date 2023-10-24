@@ -6,7 +6,7 @@ import { BookingService } from '../../../../shared/services/booking.service';
 import { map } from 'rxjs/operators';
 import { MatTableDataSource } from '@angular/material/table';
 import { Booking } from '../../../../shared/interfaces/booking';
-import { EditReservasComponent } from '../edit-reservas/edit-reservas.component';
+import { EditReservasComponent } from '../edit-booking/edit-reservas.component';
 import { MatDialog } from '@angular/material/dialog';
 import { PopRemoveQuestionComponent } from '../../../pop-remove-question/pop-remove-question.component';
 import { FormReserveComponent } from '../../../reserves/form-reserve/form-reserve.component';
