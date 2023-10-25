@@ -8,6 +8,8 @@ import { CityService } from '../../../../../shared/services/city.service';
 import { MAT_DIALOG_DATA, MatDialog } from '@angular/material/dialog';
 import { PopRemoveQuestionComponent } from '../../../../alerts/alert.component';
 import { AgregarEditarCityComponent } from '../../../adm-rooms/cities/update-cities/update-city.component';
+import { FormControl } from '@angular/forms';
+import fuzzysearch from "fuzzysearch-ts";
 
 @Component({
   selector: 'app-list-city',
@@ -19,13 +21,23 @@ export class ListCityComponent {
   displayedColumns: string[] = ['cityId', 'cityName', 'countryName', 'Acciones'];
   dataSource = new MatTableDataSource<City>();
   loading: boolean = false;
+  filteredCity: any[] = [];
+  cities: any[]= [];
+  citiesControl = new FormControl();
 
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
 
   //Pop up y lista offices
   constructor(
-    private _snackBar: MatSnackBar, private _cityService: CityService, private dialog: MatDialog) { }
+    private _snackBar: MatSnackBar, private _cityService: CityService, private dialog: MatDialog) {
+      
+      this.filteredCity = this.cities.slice();
+      this.citiesControl = new FormControl;
+      this.citiesControl.valueChanges.subscribe(value => {
+        this.filterSales(value);
+      });
+     }
 
   ngOnInit(): void {
     const userRole = sessionStorage.getItem('userRole');
@@ -53,11 +65,12 @@ export class ListCityComponent {
     }
   }
 
-  obtenerCity() {
+  obtenerCity(): void  {
     this.loading = true;
     this._cityService.getCitys().subscribe(data => {
       this.loading = false;
       this.dataSource.data = data;
+      this.filteredCity = this.cities.slice();
     });
   }
 
@@ -78,6 +91,16 @@ export class ListCityComponent {
     this._snackBar.open('La oficina fue eliminada con éxito', '', {
       duration: 4000,
       horizontalPosition: 'right'
+    });
+  }
+  filterSales(value: string) {
+    const valueLowerCase = value.trim().toLowerCase();
+ 
+    this.filteredCity = this.cities.filter(cities => {
+      const nameCityLowerCase = cities.cityName.toLowerCase();
+      const trimmedCityName = nameCityLowerCase.replace('sala ', '').trim();
+ 
+      return fuzzysearch(valueLowerCase, trimmedCityName);
     });
   }
 }

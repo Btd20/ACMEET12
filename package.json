@@ -29,6 +29,7 @@
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.2.3",
     "dayjs": "^1.11.9",
+    "fuzzy-search": "^3.2.1",
     "igniteui-angular": "^16.0.13",
     "jsonwebtoken": "^9.0.1",
     "jwt-decode": "^3.1.2",
