@@ -252,7 +252,6 @@ export class FormReserveComponent {
         this.mensajeErrorExito(error.error);
       });
     } else {
-      // Aquí puedes manejar el caso en el que userEmail sea null
       console.error('El userEmail es null');
     }
   }  
