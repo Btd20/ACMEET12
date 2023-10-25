@@ -10,8 +10,8 @@ import { PopRemoveQuestionComponent } from 'src/app/pages/pop-remove-question/po
 
 @Component({
   selector: 'app-list-rooms',
-  templateUrl: './list-rooms.component.html',
-  styleUrls: ['./list-rooms.component.css']
+  templateUrl: './read-rooms.component.html',
+  styleUrls: ['./read-rooms.component.css']
 })
 export class ListRoomsComponent {
   mostrarElemento?:boolean;

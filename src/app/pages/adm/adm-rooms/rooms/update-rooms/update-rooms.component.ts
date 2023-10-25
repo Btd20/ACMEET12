@@ -7,8 +7,8 @@ import { MeetingRoomService } from '../../../../../shared/services/meeting-room.
 
 @Component({
   selector: 'app-agregar-editar-rooms',
-  templateUrl: './agregar-editar-rooms.component.html',
-  styleUrls: ['./agregar-editar-rooms.component.css']
+  templateUrl: './update-rooms.component.html',
+  styleUrls: ['./update-rooms.component.css']
 })
 export class AgregarEditarRoomsComponent {
   loading: boolean = false;

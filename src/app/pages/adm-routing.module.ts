@@ -13,11 +13,11 @@ const routes: Routes = [
       },
       {
         path: 'bookings',
-        loadChildren: () => import('./reserves/bookings/bookings.module').then(m => m.BookingsModule)
+        loadChildren: () => import('./bookings/booking/bookings.module').then(m => m.BookingsModule)
       },
       {
         path: 'meetingRoom',
-        loadChildren: () => import('./reserves/meeting-room/meeting-room.module').then(m => m. MeetingRoomModule)
+        loadChildren: () => import('./bookings/meeting-room/meeting-room.module').then(m => m. MeetingRoomModule)
       },
       {
         path: 'users',
@@ -33,7 +33,7 @@ const routes: Routes = [
       },
       {
         path: 'formReserve',
-        loadChildren: () => import('./reserves/form-reserve/form-reserve.module').then(m => m.formReserveModule)
+        loadChildren: () => import('./bookings/form-booking/form-reserve.module').then(m => m.formReserveModule)
       },
       {
         path: 'editarPerfil',
@@ -48,11 +48,11 @@ const routes: Routes = [
         loadChildren: () => import('./pop-remove-question/pop-remove-question.module').then(m =>m.PopRemoveQuestionModule)
       },
       {
-        path: 'editarReserve/:reserveId', loadChildren: () => import('./reserves/editar-reserva/editar-reserva.module').then(m => m.EditarReservaModule)
+        path: 'editarReserve/:reserveId', loadChildren: () => import('./bookings/edit-booking/editar-reserva.module').then(m => m.EditarReservaModule)
       },
       {
         path: 'admReservas',
-        loadChildren: () => import('./adm/adm-reservas/adm-reservas.module').then(m => m.AdmReservasModule)
+        loadChildren: () => import('./adm/adm-bookings/adm-bookings.module').then(m => m.AdmReservasModule)
       },
 
       {

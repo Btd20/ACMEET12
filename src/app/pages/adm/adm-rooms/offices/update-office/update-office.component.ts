@@ -7,8 +7,8 @@ import { Office } from '../../../../../shared/interfaces/office';
 
 @Component({
   selector: 'app-agregar-editar-office',
-  templateUrl: './agregar-editar-office.component.html',
-  styleUrls: ['./agregar-editar-office.component.css']
+  templateUrl: './update-office.component.html',
+  styleUrls: ['./update-office.component.css']
 })
 export class AgregarEditarOfficeComponent {
   loading: boolean = false;

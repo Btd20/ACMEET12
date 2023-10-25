@@ -3,8 +3,8 @@ import { CommonModule } from '@angular/common';
 
 import { RoomsRoutingModule } from './rooms-routing.module';
 import { SharedModule } from '../../../../shared/shared.module';
-import { ListRoomsComponent } from './read-rooms/list-rooms.component';
-import { AgregarEditarRoomsComponent } from './update-rooms/agregar-editar-rooms.component';
+import { ListRoomsComponent } from './read-rooms/read-rooms.component';
+import { AgregarEditarRoomsComponent } from './update-rooms/update-rooms.component';
 
 
 @NgModule({

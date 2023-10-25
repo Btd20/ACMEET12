@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AgregarEditarRoomsComponent } from './agregar-editar-rooms.component';
+import { AgregarEditarRoomsComponent } from './update-rooms.component';
 
 describe('AgregarEditarCityComponent', () => {
   let component: AgregarEditarRoomsComponent;
