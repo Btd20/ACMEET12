@@ -8,8 +8,8 @@ import { map } from 'rxjs';
 import { Booking } from '../../../shared/interfaces/booking';
 import { BookingService } from '../../../shared/services/booking.service';
 import { PopRemoveQuestionComponent } from '../../pop-remove-question/pop-remove-question.component';
-import { EditarReservaComponent } from '../editar-reserva/EditarReservaComponent';
-import { FormReserveComponent } from '../form-reserve/form-reserve.component';
+import { EditarReservaComponent } from '../edit-booking/EditarReservaComponent';
+import { FormReserveComponent } from '../form-booking/form-reserve.component';
 
 
 @Component({

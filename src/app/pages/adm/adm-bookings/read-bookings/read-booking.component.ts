@@ -9,7 +9,7 @@ import { Booking } from '../../../../shared/interfaces/booking';
 import { EditReservasComponent } from '../edit-bookings/edit-booking.component';
 import { MatDialog } from '@angular/material/dialog';
 import { PopRemoveQuestionComponent } from '../../../pop-remove-question/pop-remove-question.component';
-import { FormReserveComponent } from '../../../bookings/form-booking/form-booking.component';
+import { FormReserveComponent } from '../../../bookings/form-booking/form-reserve.component';
 
 @Component({
   selector: 'app-read-booking',

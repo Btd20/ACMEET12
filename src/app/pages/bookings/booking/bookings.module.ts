@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { SharedModule } from '../../../shared/shared.module';
 import { BookingsRoutingModule } from './bookings-routing.module';
 import { BookingComponent } from './bookings.component';
-import { formReserveModule } from '../form-reserve/form-reserve.module';
+import { formReserveModule } from '../form-booking/form-reserve.module';
 
 
 
