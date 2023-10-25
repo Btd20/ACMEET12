@@ -3,40 +3,37 @@ import { MatPaginator } from '@angular/material/paginator';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
-import { City } from '../../../../../shared/interfaces/city';
-import { CityService } from '../../../../../shared/services/city.service';
-import { MAT_DIALOG_DATA, MatDialog } from '@angular/material/dialog';
-<<<<<<< HEAD:src/app/pages/adm/adm-rooms/cities/list-city/list-city.component.ts
-import { PopRemoveQuestionComponent } from '../../../../alerts/alert.component';
-import { AgregarEditarCityComponent } from '../agregar-editar-city/agregar-editar-city.component';
-=======
-import { PopRemoveQuestionComponent } from '../../../../../pages/pop-remove-question/pop-remove-question.component';
-import { AgregarEditarCityComponent } from '../update-cities/update-city.component';
->>>>>>> f877470fe2cb36aaa176a456db2824af01cf8565:src/app/pages/adm/adm-rooms/cities/read-cities/read-city.component.ts
+import { MeetingRoom } from '../../../../../shared/interfaces/meetingRoom';
+import { MeetingRoomService } from '../../../../../shared/services/meeting-room.service';
+import { MatDialog } from '@angular/material/dialog';
+import { PopRemoveQuestionComponent } from 'src/app/pages/alerts/alert.component';
+
 @Component({
-  selector: 'app-list-city',
-  templateUrl: './read-city.component.html',
-  styleUrls: ['./read-city.component.css']
+  selector: 'app-list-rooms',
+  templateUrl: './list-rooms.component.html',
+  styleUrls: ['./list-rooms.component.css']
 })
-export class ListCityComponent {
+export class ListRoomsComponent {
   mostrarElemento?:boolean;
-  displayedColumns: string[] = ['cityId', 'cityName', 'countryName', 'Acciones'];
-  dataSource = new MatTableDataSource<City>();
+  displayedColumns: string[] = ['meetingRoomId', 'meetingRoomName', 'nameOffice', 'capacity','Acciones'];
+  dataSource = new MatTableDataSource<MeetingRoom>();
   loading: boolean = false;
+
 
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
 
   //Pop up y lista offices
-  constructor(
-    private _snackBar: MatSnackBar, private _cityService: CityService, private dialog: MatDialog) { }
+  constructor(private _snackBar: MatSnackBar, private _meetingRoomService: MeetingRoomService, private dialog: MatDialog) { }
 
   ngOnInit(): void {
     const userRole = sessionStorage.getItem('userRole');
     if(userRole=="Administrador"){
       this.mostrarElemento= true;
     }
-    this.obtenerCity();
+    this.obtenerRoom();
+
+
   }
   //Paginaciones y ordenar
   ngAfterViewInit() {
@@ -57,25 +54,18 @@ export class ListCityComponent {
     }
   }
 
-  obtenerCity() {
+  obtenerRoom() {
     this.loading = true;
-    this._cityService.getCitys().subscribe(data => {
+    this._meetingRoomService.getMeetingRooms().subscribe(data => {
       this.loading = false;
       this.dataSource.data = data;
     });
   }
 
+
   openDialog(identification: number){
     let pathname = window.location.pathname;
     const dialogRef = this.dialog.open(PopRemoveQuestionComponent, {data: {identification, pathname}});
-  }
-
-  editarCity(identification: number, city: City){
-    const dialogRefPassword = this.dialog.open(AgregarEditarCityComponent, {data: {identification, city}});
-  }
-
-  agregarCity(){
-    const dialogRefPassword = this.dialog.open(AgregarEditarCityComponent, {data: {}});
   }
 
   mensajeExito() {

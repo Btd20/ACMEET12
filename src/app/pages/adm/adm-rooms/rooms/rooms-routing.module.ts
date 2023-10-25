@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AgregarEditarRoomsComponent } from './agregar-editar-rooms/agregar-editar-rooms.component';
-import { ListRoomsComponent } from './list-rooms/list-rooms.component';
+import { AgregarEditarRoomsComponent } from './update-rooms/agregar-editar-rooms.component';
+import { ListRoomsComponent } from './read-rooms/list-rooms.component';
 
 
 const routes: Routes = [

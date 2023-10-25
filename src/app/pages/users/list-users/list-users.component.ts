@@ -7,7 +7,7 @@ import { users } from '../../../shared/interfaces/users';
 import { UsersService } from '../../../shared/services/users.service';
 import { EditarUsuariosComponent } from '../../users/editar-usuarios/editar-usuarios.component';
 import { MatDialog } from '@angular/material/dialog';
-import { PopRemoveQuestionComponent } from '../../pop-remove-question/pop-remove-question.component';
+import { PopRemoveQuestionComponent } from '../../alerts/alert.component';
 import { RolsService } from '../../../shared/services/rols.service';
 import { ProfileService } from '../../../shared/services/profile.service';
 import { profile } from '../../../shared/interfaces/profile';

@@ -13,7 +13,7 @@ const routes: Routes = [
       },
       {
         path: 'bookings',
-        loadChildren: () => import('./reserves/bookings/bookings.module').then(m => m.BookingsModule)
+        loadChildren: () => import('./reserves/booking/booking.module').then(m => m.BookingsModule)
       },
       {
         path: 'meetingRoom',
@@ -33,7 +33,7 @@ const routes: Routes = [
       },
       {
         path: 'formReserve',
-        loadChildren: () => import('./reserves/form-reserve/form-reserve.module').then(m => m.formReserveModule)
+        loadChildren: () => import('./reserves/form-booking/form-booking.module').then(m => m.formReserveModule)
       },
       {
         path: 'editarPerfil',
@@ -45,10 +45,10 @@ const routes: Routes = [
       },
       {
         path: 'popRemove',
-        loadChildren: () => import('./pop-remove-question/pop-remove-question.module').then(m =>m.PopRemoveQuestionModule)
+        loadChildren: () => import('./alerts/alert.module').then(m =>m.PopRemoveQuestionModule)
       },
       {
-        path: 'editarReserve/:reserveId', loadChildren: () => import('./reserves/editar-reserva/editar-reserva.module').then(m => m.EditarReservaModule)
+        path: 'editarReserve/:reserveId', loadChildren: () => import('./reserves/edit-booking/edit-booking.module').then(m => m.EditarReservaModule)
       },
       {
         path: 'admReservas',

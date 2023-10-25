@@ -8,8 +8,13 @@ import { MatTableDataSource } from '@angular/material/table';
 import { Booking } from '../../../../shared/interfaces/booking';
 import { EditReservasComponent } from '../edit-bookings/edit-booking.component';
 import { MatDialog } from '@angular/material/dialog';
+<<<<<<< HEAD:src/app/pages/adm/adm-reservas/list-reservas/list-reservas.component.ts
+import { PopRemoveQuestionComponent } from '../../../alerts/alert.component';
+import { FormReserveComponent } from '../../../reserves/form-booking/form-booking.component';
+=======
 import { PopRemoveQuestionComponent } from '../../../pop-remove-question/pop-remove-question.component';
 import { FormReserveComponent } from '../../../bookings/form-booking/form-booking.component';
+>>>>>>> f877470fe2cb36aaa176a456db2824af01cf8565:src/app/pages/adm/adm-bookings/read-bookings/read-booking.component.ts
 
 @Component({
   selector: 'app-read-booking',
