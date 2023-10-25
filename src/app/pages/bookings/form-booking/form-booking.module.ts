@@ -14,4 +14,4 @@ import { SharedModule } from "../../../shared/shared.module";
     ],
     exports:[FormReserveComponent]
 })
-export class formReserveModule{}
+export class formBookingModule{}

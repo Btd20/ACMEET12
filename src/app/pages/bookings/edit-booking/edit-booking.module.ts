@@ -15,4 +15,4 @@ import { EditarReservaComponent } from './edit-booking.component';
   ],
   exports:[EditarReservaComponent]
 })
-export class EditarReservaModule { }
+export class EditarBookingModule { }

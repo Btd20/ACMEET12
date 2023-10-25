@@ -6,15 +6,9 @@ import { MatTableDataSource } from '@angular/material/table';
 import { Country } from '../../../../../shared/interfaces/country';
 import { CountryService } from '../../../../../shared/services/country.service';
 import { MatDialog } from '@angular/material/dialog';
-<<<<<<< HEAD:src/app/pages/adm/adm-rooms/countries/lista-country/lista-country.component.ts
 import { PopRemoveQuestionComponent } from 'src/app/pages/alerts/alert.component';
-import { AgregarEditarCountryComponent } from '../agregar-editar-country/agregar-editar-country.component';
-import { AgregarCountryComponent } from '../agregar-country/agregar-country.component';
-=======
-import { PopRemoveQuestionComponent } from 'src/app/pages/pop-remove-question/pop-remove-question.component';
-import { AgregarEditarCountryComponent } from '../update-country/update-country.component';
-import { AgregarCountryComponent } from '../add-country/add-country.component';
->>>>>>> f877470fe2cb36aaa176a456db2824af01cf8565:src/app/pages/adm/adm-rooms/countries/read-country/read-country.component.ts
+import { AgregarEditarCountryComponent } from '../../countries/update-country/update-country.component';
+import { AgregarCountryComponent } from '../../countries/add-country/add-country.component';
 
 @Component({
   selector: 'app-read-country',

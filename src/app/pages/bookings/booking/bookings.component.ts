@@ -14,8 +14,8 @@ import { FormReserveComponent } from '../form-booking/form-booking.component';
 
 @Component({
   selector: 'app-booking',
-  templateUrl: './booking.component.html',
-  styleUrls: ['./booking.component.css'],
+  templateUrl: './bookings.component.html',
+  styleUrls: ['./bookings.component.css'],
 })export class BookingComponent {
   displayedColumns: string[] = ['reserveId', 'meetingRoomName', 'reserveDate', 'startTime', 'endTime', 'hours', 'Acciones'];
   dataSource = new MatTableDataSource<Booking>();
