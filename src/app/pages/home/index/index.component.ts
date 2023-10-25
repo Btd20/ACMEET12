@@ -25,6 +25,7 @@ export class HomeComponent {
       const userId =  dataUser.id;
       if(userId){
         sessionStorage.setItem('userId',userId);
+        sessionStorage.setItem('userEmail',dataUser.email);
       }
     });
   }
