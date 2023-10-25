@@ -24,9 +24,9 @@ interface Food {
 }
 
 @Component({
-  selector: 'app-form-reserve',
-  templateUrl: './form-reserve.component.html',
-  styleUrls: ['./form-reserve.component.css']
+  selector: 'app-form-booking',
+  templateUrl: './form-booking.component.html',
+  styleUrls: ['./form-booking.component.css']
 })
 export class FormReserveComponent {
   horasSeleccionada?: string;

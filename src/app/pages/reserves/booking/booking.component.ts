@@ -7,15 +7,15 @@ import { MatTableDataSource } from '@angular/material/table';
 import { map } from 'rxjs';
 import { Booking } from '../../../shared/interfaces/booking';
 import { BookingService } from '../../../shared/services/booking.service';
-import { PopRemoveQuestionComponent } from '../../pop-remove-question/pop-remove-question.component';
-import { EditarReservaComponent } from '../editar-reserva/EditarReservaComponent';
-import { FormReserveComponent } from '../form-reserve/form-reserve.component';
+import { PopRemoveQuestionComponent } from '../../alerts/alert.component';
+import { EditarReservaComponent } from '../edit-booking/edit-booking.component';
+import { FormReserveComponent } from '../form-booking/form-booking.component';
 
 
 @Component({
   selector: 'app-booking',
-  templateUrl: './bookings.component.html',
-  styleUrls: ['./bookings.component.css'],
+  templateUrl: './booking.component.html',
+  styleUrls: ['./booking.component.css'],
 })export class BookingComponent {
   displayedColumns: string[] = ['reserveId', 'meetingRoomName', 'reserveDate', 'startTime', 'endTime', 'hours', 'Acciones'];
   dataSource = new MatTableDataSource<Booking>();

@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { FormReserveComponent } from './form-reserve.component';
+import { FormReserveComponent } from './form-booking.component';
 
 describe('FormReserveComponent', () => {
   let component: FormReserveComponent;

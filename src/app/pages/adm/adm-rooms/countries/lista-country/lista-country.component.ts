@@ -6,7 +6,7 @@ import { MatTableDataSource } from '@angular/material/table';
 import { Country } from '../../../../../shared/interfaces/country';
 import { CountryService } from '../../../../../shared/services/country.service';
 import { MatDialog } from '@angular/material/dialog';
-import { PopRemoveQuestionComponent } from 'src/app/pages/pop-remove-question/pop-remove-question.component';
+import { PopRemoveQuestionComponent } from 'src/app/pages/alerts/alert.component';
 import { AgregarEditarCountryComponent } from '../agregar-editar-country/agregar-editar-country.component';
 import { AgregarCountryComponent } from '../agregar-country/agregar-country.component';
 

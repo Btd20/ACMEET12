@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { EditarReservaRoutingModule } from './editar-reserva-routing.module';
+import { EditarReservaRoutingModule } from './edit-booking-routing.module';
 import { SharedModule } from '../../../shared/shared.module';
-import { EditarReservaComponent } from './EditarReservaComponent';
+import { EditarReservaComponent } from './edit-booking.component';
 
 
 @NgModule({

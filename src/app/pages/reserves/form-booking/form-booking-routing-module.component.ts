@@ -1,5 +1,5 @@
 import { RouterModule, Routes } from "@angular/router";
-import { FormReserveComponent } from "./form-reserve.component";
+import { FormReserveComponent } from "./form-booking.component";
 import { NgModule } from "@angular/core";
 
 const routes : Routes = [

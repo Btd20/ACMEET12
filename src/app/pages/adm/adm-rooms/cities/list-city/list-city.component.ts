@@ -6,7 +6,7 @@ import { MatTableDataSource } from '@angular/material/table';
 import { City } from '../../../../../shared/interfaces/city';
 import { CityService } from '../../../../../shared/services/city.service';
 import { MAT_DIALOG_DATA, MatDialog } from '@angular/material/dialog';
-import { PopRemoveQuestionComponent } from '../../../../../pages/pop-remove-question/pop-remove-question.component';
+import { PopRemoveQuestionComponent } from '../../../../alerts/alert.component';
 import { AgregarEditarCityComponent } from '../agregar-editar-city/agregar-editar-city.component';
 @Component({
   selector: 'app-list-city',

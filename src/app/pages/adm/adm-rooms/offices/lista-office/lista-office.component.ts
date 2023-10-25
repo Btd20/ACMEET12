@@ -6,7 +6,7 @@ import { MatTableDataSource } from '@angular/material/table';
 import { Office } from '../../../../../shared/interfaces/office';
 import { OfficeService } from '../../../../../shared/services/office.service';
 import { MatDialog } from '@angular/material/dialog';
-import { PopRemoveQuestionComponent } from 'src/app/pages/pop-remove-question/pop-remove-question.component';
+import { PopRemoveQuestionComponent } from 'src/app/pages/alerts/alert.component';
 
 @Component({
   selector: 'app-lista-office',

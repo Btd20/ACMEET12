@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { EditarReservaComponent } from './EditarReservaComponent';
+import { EditarReservaComponent } from './edit-booking.component';
 
 describe('EditarReservaComponent', () => {
   let component: EditarReservaComponent;

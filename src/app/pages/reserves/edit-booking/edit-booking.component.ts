@@ -13,9 +13,9 @@ import { DateFilterFn } from '@angular/material/datepicker';
 
 
 @Component({
-  selector: 'app-editar-reserva',
-  templateUrl: './editar-reserva.component.html',
-  styleUrls: ['./editar-reserva.component.css']
+  selector: 'app-edit-booking',
+  templateUrl: './edit-booking.component.html',
+  styleUrls: ['./edit-booking.component.css']
 })
 export class EditarReservaComponent {
   horas: string[] = ["10:00", "10:15" , "10:30", "10:45", "11:00", "11:15", "11:45", 

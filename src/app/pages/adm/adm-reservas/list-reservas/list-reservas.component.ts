@@ -8,8 +8,8 @@ import { MatTableDataSource } from '@angular/material/table';
 import { Booking } from '../../../../shared/interfaces/booking';
 import { EditReservasComponent } from '../edit-reservas/edit-reservas.component';
 import { MatDialog } from '@angular/material/dialog';
-import { PopRemoveQuestionComponent } from '../../../pop-remove-question/pop-remove-question.component';
-import { FormReserveComponent } from '../../../reserves/form-reserve/form-reserve.component';
+import { PopRemoveQuestionComponent } from '../../../alerts/alert.component';
+import { FormReserveComponent } from '../../../reserves/form-booking/form-booking.component';
 
 @Component({
   selector: 'app-list-reservas',
