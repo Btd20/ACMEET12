@@ -2,19 +2,18 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { CountriesRoutingModule } from './countries-routing.module';
-import { AgregarEditarCountryComponent } from './agregar-editar-country/agregar-editar-country.component';
-import { ListaCountryComponent } from './lista-country/lista-country.component';
-import { VerCountryComponent } from './ver-country/ver-country.component';
+import { AgregarEditarCountryComponent } from './update-country/update-country.component';
+import { ListaCountryComponent } from './read-country/read-country.component';
 import { SharedModule } from '../../../../shared/shared.module';
-import { AgregarCountryComponent } from './agregar-country/agregar-country.component';
+import { AgregarCountryComponent } from './add-country/add-country.component';
 
 
 @NgModule({
   declarations: [
     AgregarEditarCountryComponent,
     ListaCountryComponent,
-    VerCountryComponent,
-    AgregarCountryComponent],
+    AgregarCountryComponent
+  ],
   imports: [
     CommonModule,
     CountriesRoutingModule,

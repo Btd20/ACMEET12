@@ -1,0 +1,87 @@
+import { Component, ViewChild } from '@angular/core';
+import { MatPaginator } from '@angular/material/paginator';
+import { MatSnackBar } from '@angular/material/snack-bar';
+import { MatSort } from '@angular/material/sort';
+import { MatTableDataSource } from '@angular/material/table';
+import { City } from '../../../../../shared/interfaces/city';
+import { CityService } from '../../../../../shared/services/city.service';
+import { MAT_DIALOG_DATA, MatDialog } from '@angular/material/dialog';
+<<<<<<< HEAD:src/app/pages/adm/adm-rooms/cities/list-city/list-city.component.ts
+import { PopRemoveQuestionComponent } from '../../../../alerts/alert.component';
+import { AgregarEditarCityComponent } from '../agregar-editar-city/agregar-editar-city.component';
+=======
+import { PopRemoveQuestionComponent } from '../../../../../pages/pop-remove-question/pop-remove-question.component';
+import { AgregarEditarCityComponent } from '../update-cities/update-city.component';
+>>>>>>> f877470fe2cb36aaa176a456db2824af01cf8565:src/app/pages/adm/adm-rooms/cities/read-cities/read-city.component.ts
+@Component({
+  selector: 'app-list-city',
+  templateUrl: './read-city.component.html',
+  styleUrls: ['./read-city.component.css']
+})
+export class ListCityComponent {
+  mostrarElemento?:boolean;
+  displayedColumns: string[] = ['cityId', 'cityName', 'countryName', 'Acciones'];
+  dataSource = new MatTableDataSource<City>();
+  loading: boolean = false;
+
+  @ViewChild(MatPaginator) paginator!: MatPaginator;
+  @ViewChild(MatSort) sort!: MatSort;
+
+  //Pop up y lista offices
+  constructor(
+    private _snackBar: MatSnackBar, private _cityService: CityService, private dialog: MatDialog) { }
+
+  ngOnInit(): void {
+    const userRole = sessionStorage.getItem('userRole');
+    if(userRole=="Administrador"){
+      this.mostrarElemento= true;
+    }
+    this.obtenerCity();
+  }
+  //Paginaciones y ordenar
+  ngAfterViewInit() {
+    this.dataSource.paginator = this.paginator;
+    this.dataSource.sort = this.sort;
+    if (this.dataSource.data.length > 0) {
+      this.paginator._intl.itemsPerPageLabel = 'Items por página'
+    }
+  }
+
+  //Filtro
+  applyFilter(event: Event) {
+    const filterValue = (event.target as HTMLInputElement).value;
+    this.dataSource.filter = filterValue.trim().toLowerCase();
+
+    if (this.dataSource.paginator) {
+      this.dataSource.paginator.firstPage();
+    }
+  }
+
+  obtenerCity() {
+    this.loading = true;
+    this._cityService.getCitys().subscribe(data => {
+      this.loading = false;
+      this.dataSource.data = data;
+    });
+  }
+
+  openDialog(identification: number){
+    let pathname = window.location.pathname;
+    const dialogRef = this.dialog.open(PopRemoveQuestionComponent, {data: {identification, pathname}});
+  }
+
+  editarCity(identification: number, city: City){
+    const dialogRefPassword = this.dialog.open(AgregarEditarCityComponent, {data: {identification, city}});
+  }
+
+  agregarCity(){
+    const dialogRefPassword = this.dialog.open(AgregarEditarCityComponent, {data: {}});
+  }
+
+  mensajeExito() {
+    this._snackBar.open('La oficina fue eliminada con éxito', '', {
+      duration: 4000,
+      horizontalPosition: 'right'
+    });
+  }
+}

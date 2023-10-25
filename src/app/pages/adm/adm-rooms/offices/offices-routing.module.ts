@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AgregarEditarOfficeComponent } from './agregar-editar-office/agregar-editar-office.component';
-import { ListaOfficeComponent } from './lista-office/lista-office.component';
+import { AgregarEditarOfficeComponent } from './update-office/update-office.component';
+import { ListaOfficeComponent } from './read-office/lista-office.component';
 import { VerOfficeComponent } from './ver-office/ver-office.component';
 
 const routes: Routes = [

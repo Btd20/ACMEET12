@@ -1,0 +1,103 @@
+<div  >
+    <form  [formGroup]="form" (ngSubmit)="reservarSala()">
+        <div class="row" >
+          <div *ngIf="mostrarElemento" class="col">
+            <mat-form-field id="input">
+                <mat-label>User</mat-label>
+                <mat-select [formControl]="userFormControl">
+                  <mat-option *ngFor="let user of listUsers" [value]="user">{{user}}</mat-option>
+                </mat-select>
+                <mat-icon matSuffix>person</mat-icon>
+              </mat-form-field>
+        </div>
+            <div class="col">
+                <mat-form-field id="input">
+                    <mat-label>Country</mat-label>
+                    <mat-select [formControl]="countryFormControl">
+                      <mat-option *ngFor="let country of countries" [value]="country">{{country.countryName}}</mat-option>
+                    </mat-select>
+                    <mat-icon matSuffix>public</mat-icon>
+                  </mat-form-field>
+            </div>
+            <div class="col">
+                <mat-form-field id="input">
+                    <mat-label>City</mat-label>
+                    <mat-select [formControl]="cityFormControl">
+                      <mat-option *ngFor="let city of cities" [value]="city">{{city.cityName}}</mat-option>
+                    </mat-select>
+                    <mat-icon matSuffix>location_city</mat-icon>
+                  </mat-form-field>
+            </div>
+            <div class="col">
+                <mat-form-field id="input">
+                    <mat-label>Office</mat-label>
+                    <mat-select    [formControl]="officeFormControl" >
+                        <mat-option *ngFor="let office of offices" [value]="office">{{office.nameOffice}}</mat-option>
+                    </mat-select>
+                    <mat-icon matSuffix>work</mat-icon>
+                  </mat-form-field>
+            </div>
+        </div>
+        <div class="row">
+            <mat-form-field id="meetingRoomInput">
+                <mat-label>Meeting Rooms</mat-label>
+                <mat-select  [formControl]="meetingRoomFormControl" >
+                    <mat-option *ngFor="let meetingRoom of meetingRooms" [value]="meetingRoom">{{meetingRoom.meetingRoomName}}</mat-option>
+                </mat-select>
+                <mat-icon matSuffix>meeting_room</mat-icon>
+              </mat-form-field>
+        </div>
+        <div class="row" >
+            <div class="col">
+                <mat-form-field id="input">
+                    <mat-label>Choose a date</mat-label>
+                    <input formControlName="ReserveDate" matInput [matDatepicker]="picker" [matDatepickerFilter]="disablePastDates">
+                    <mat-hint>MM/DD/YYYY</mat-hint>
+                    <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+                    <mat-datepicker #picker></mat-datepicker>
+                </mat-form-field>
+    
+            </div>
+            <div class="col">
+              <mat-form-field id="input">
+                  <mat-label>Hours on the room</mat-label>
+                  <mat-select matInput  formControlName="hours" placeholder="Hours">
+                    <mat-option *ngFor="let hora of horaRoom"  [value]="hora">
+                      {{ hora }}
+                    </mat-option>
+                  </mat-select>
+                  <mat-icon matSuffix>access_time</mat-icon>
+              </mat-form-field>
+          </div>
+            <div class="col">
+                <mat-form-field id="input" appearance="fill">
+                    <mat-label>Start Hour</mat-label>
+                        <mat-select matInput  formControlName="startHour" placeholder="Start Hour" (ngModelChange)="seleccionarEndTime()">
+                          <mat-option *ngFor="let hora of horas"  [value]="hora">
+                            {{ hora }}
+                          </mat-option>
+                        </mat-select>
+                    <mat-icon matSuffix>access_time</mat-icon>
+                </mat-form-field>
+            </div>
+            <div class="col">
+                <mat-form-field id="input" appearance="fill">
+                    <mat-label>End Hour</mat-label>
+                    <mat-select matInput  formControlName="endHour" placeholder="End Hour">
+                      <mat-option *ngFor="let hora of horas"  [value]="hora">
+                        {{ hora }}
+                      </mat-option>
+                    </mat-select>
+                    <mat-icon matSuffix>access_time</mat-icon>
+                  </mat-form-field>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col"></div>
+            <div class="col">
+                <button type="submit" class="btnAceptar" mat-raised-button color="primary">Reserve</button>
+            </div>
+            <div class="col"></div>
+        </div>
+    </form>
+</div>
