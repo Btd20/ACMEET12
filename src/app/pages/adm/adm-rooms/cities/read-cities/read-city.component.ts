@@ -6,8 +6,13 @@ import { MatTableDataSource } from '@angular/material/table';
 import { City } from '../../../../../shared/interfaces/city';
 import { CityService } from '../../../../../shared/services/city.service';
 import { MAT_DIALOG_DATA, MatDialog } from '@angular/material/dialog';
+<<<<<<< HEAD:src/app/pages/adm/adm-rooms/cities/list-city/list-city.component.ts
+import { PopRemoveQuestionComponent } from '../../../../alerts/alert.component';
+import { AgregarEditarCityComponent } from '../agregar-editar-city/agregar-editar-city.component';
+=======
 import { PopRemoveQuestionComponent } from '../../../../../pages/pop-remove-question/pop-remove-question.component';
 import { AgregarEditarCityComponent } from '../update-cities/update-city.component';
+>>>>>>> f877470fe2cb36aaa176a456db2824af01cf8565:src/app/pages/adm/adm-rooms/cities/read-cities/read-city.component.ts
 @Component({
   selector: 'app-list-city',
   templateUrl: './read-city.component.html',

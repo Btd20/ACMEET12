@@ -6,7 +6,7 @@ import { MatTableDataSource } from '@angular/material/table';
 import { MeetingRoom } from '../../../../../shared/interfaces/meetingRoom';
 import { MeetingRoomService } from '../../../../../shared/services/meeting-room.service';
 import { MatDialog } from '@angular/material/dialog';
-import { PopRemoveQuestionComponent } from 'src/app/pages/pop-remove-question/pop-remove-question.component';
+import { PopRemoveQuestionComponent } from 'src/app/pages/alerts/alert.component';
 
 @Component({
   selector: 'app-list-rooms',

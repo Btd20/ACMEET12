@@ -1,0 +1,95 @@
+/* Estilos generales para la página */
+body {
+  background-color: #f2f2f2;
+}
+.no-scroll {
+  overflow-x: hidden !important;
+}
+.containerTabla {
+  padding: 50px;
+  margin: 20px auto 10px; /* Margen vertical de 20px arriba, 80px abajo y centrado horizontalmente */
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.container {
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 8px;
+  padding: 20px;
+}
+
+/* Estilos para la tabla */
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  background-color: #f2f2f2;
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Estilos para los botones de acciones */
+.buttonAceptar {
+  display: inline-flex;
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 12px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+/* .buttonAceptar:hover {
+  display: inline-flex;
+  background-color: #0558b1;
+  color: #ffffff;
+  padding: 12px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-right: 10px;
+
+} */
+
+
+.delete {
+  color: #E15639;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.edit {
+  color: #187889;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+/* Estilos para cada reserva */
+.card {
+  margin: 20px 0;
+  background-color: #f7f7f7;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+}
+
+/* Estilos para el paginador */
+.mat-paginator {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}

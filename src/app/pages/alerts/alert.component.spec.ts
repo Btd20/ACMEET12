@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PopRemoveQuestionComponent } from './pop-remove-question.component';
+import { PopRemoveQuestionComponent } from './alert.component';
 
 describe('PopRemoveQuestionComponent', () => {
   let component: PopRemoveQuestionComponent;

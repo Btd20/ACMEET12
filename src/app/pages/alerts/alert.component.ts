@@ -9,9 +9,9 @@ import { OfficeService } from '../../shared/services/office.service';
 import { UsersService } from '../../shared/services/users.service';
 
 @Component({
-  selector: 'app-pop-remove-question',
-  templateUrl: './pop-remove-question.component.html',
-  styleUrls: ['./pop-remove-question.component.css']
+  selector: 'app-alert',
+  templateUrl: './alert.component.html',
+  styleUrls: ['./alert.component.css']
 })
 export class PopRemoveQuestionComponent {
   identification: number;
