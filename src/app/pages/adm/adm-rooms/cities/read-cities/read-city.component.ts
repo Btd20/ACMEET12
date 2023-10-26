@@ -57,13 +57,40 @@ export class ListCityComponent {
   }
 
   //Filtro
-  applyFilter(event: Event) {
-    const filterValue = (event.target as HTMLInputElement).value;
-    this.dataSource.filter = filterValue.trim().toLowerCase();
+  // applyFilter(event: Event) {
+  //   const filterValue = (event.target as HTMLInputElement).value;
+  //   this.dataSource.filter = filterValue.trim().toLowerCase();
 
+  //   if (this.dataSource.paginator) {
+  //     this.dataSource.paginator.firstPage();
+  //   }
+  // }
+  
+  
+  applyFilter(event: Event) {
+    const filterValue = (event.target as HTMLInputElement).value.toLowerCase();
+ 
+    // Filtrar el mat-autocomplete
+    this.filteredCity = this.cities.filter(city =>
+      city.cityName.toLowerCase().includes(filterValue)
+    );
+ 
+    // Aplicar el filtro al mat-table
+    this.dataSource.filter = filterValue.trim();
+ 
     if (this.dataSource.paginator) {
       this.dataSource.paginator.firstPage();
     }
+   
+    /*
+    const filterValue = (event.target as HTMLInputElement).value;
+    this.dataSource.filter = filterValue.trim().toLowerCase();
+ 
+   
+    if (this.dataSource.paginator) {
+      this.dataSource.paginator.firstPage();
+    }
+    */
   }
 
   obtenerCity(): void  {
@@ -99,7 +126,7 @@ export class ListCityComponent {
  
     this.filteredCity = this.cities.filter(cities => {
       const nameCityLowerCase = cities.cityName.toLowerCase();
-      const trimmedCityName = nameCityLowerCase.replace('sala ', '').trim();
+      const trimmedCityName = nameCityLowerCase.replace('city ', '').trim();
  
       return fuzzysearch(valueLowerCase, trimmedCityName);
     });
