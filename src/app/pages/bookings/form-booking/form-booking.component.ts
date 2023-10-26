@@ -10,6 +10,7 @@ import { CountryService } from '../../../shared/services/country.service';
 import { CityService } from '../../../shared/services/city.service';
 import { OfficeService } from '../../../shared/services/office.service';
 import { MeetingRoom } from '../../../shared/interfaces/meetingRoom';
+import { EmailService } from 'src/app/shared/services/email.service';
 import { Booking } from '../../../shared/interfaces/booking';
 import { ProfileService } from '../../../shared/services/profile.service';
 import { BookingService } from '../../../shared/services/booking.service';
@@ -86,6 +87,7 @@ export class FormReserveComponent {
     private _countryService: CountryService,
     private _cityService : CityService,
     private _officeService: OfficeService,
+    private _emailService: EmailService,
     private fb: FormBuilder,
     private _snackBar: MatSnackBar){
     this.form = this.fb.group({
@@ -191,6 +193,7 @@ export class FormReserveComponent {
     const date = dayjs(this.ReserveString).format('YYYY-MM-DD');
 
     this.bookingUser.meetingRoomId = this.meetingRoomSelected.meetingRoomId;
+    this.bookingUser.meetingRoomName = this.meetingRoomSelected.meetingRoomName;
     this.bookingUser.reserveDate = date;
     if(this.startTimeSeleccionada){
       this.bookingUser.startTime = this.startTimeSeleccionada;
@@ -235,17 +238,34 @@ export class FormReserveComponent {
   }
 
   hacerReserva(reserva: Booking){
-    this._bookingService.createBooking(reserva).subscribe(succes =>  {
-      if(this.pathName == "/home/admReservas/listReservas" ){
-        window.location.href = "/home/admReservas/listReservas"
-      }else{
-        window.location.href = "/home/bookings"
-        this.mensajeErrorExito("Se ha reservado en exito");
-      }
-    }, error => {
-      this.mensajeErrorExito(error.error);
-    });
+    const userEmail = sessionStorage.getItem('userEmail');
+    
+    if (userEmail !== null) {
+      this._bookingService.createBooking(reserva).subscribe(
+        success => {
+          this._emailService.sendConfirmationEmail(reserva).subscribe(
+            response => {
+              if (this.pathName == "/home/admReservas/listReservas") {
+                window.location.href = "/home/admReservas/listReservas";
+              } else {
+                window.location.href = "/home/bookings";
+                this.mensajeErrorExito("Se ha reservado con éxito");
+              }
+            },
+            error => {
+              console.error('Error al enviar el correo', error);
+            }
+          );
+        },
+        error => {
+          this.mensajeErrorExito(error.error);
+        }
+      );
+    } else {
+      console.error('El userEmail es null');
+    }
   }
+  
 
   
   ObtenerAllUsers() {
