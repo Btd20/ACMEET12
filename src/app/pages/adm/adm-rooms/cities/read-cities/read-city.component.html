@@ -12,10 +12,10 @@
     <input matInput (keyup)="applyFilter($event)" placeholder="Ex. Barcelona" #input>
   </mat-form-field> -->
   <mat-form-field class="flex-grow-1 custom-input">
-    <input matInput placeholder="Buscar sala per nom" [formControl]="salesControl">
-    <mat-autocomplete #auto="matAutocomplete" class="custom-autocomplete">
-      <mat-option class="custom-option" *ngFor="let sales of filteredSales" [value]="Cities.cityName">
-        {{ Cities.cityName }} 
+    <input matInput placeholder="Buscar sala per nom" [formControl]="citiesControl">
+      <mat-autocomplete #auto="matAutocomplete" class="custom-autocomplete">
+      <mat-option class="custom-option" *ngFor="let ciutats of filteredCity" [value]="nameCity">
+        {{ nameCity }} 
       </mat-option>
     </mat-autocomplete>
   </mat-form-field>

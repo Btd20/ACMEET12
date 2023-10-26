@@ -23,6 +23,7 @@ export class ListCityComponent {
   loading: boolean = false;
   filteredCity: any[] = [];
   cities: any[]= [];
+  nameCity: string ='';
   citiesControl = new FormControl();
 
   @ViewChild(MatPaginator) paginator!: MatPaginator;
@@ -35,7 +36,7 @@ export class ListCityComponent {
       this.filteredCity = this.cities.slice();
       this.citiesControl = new FormControl;
       this.citiesControl.valueChanges.subscribe(value => {
-        this.filterSales(value);
+        this.filterCities(value);
       });
      }
 
@@ -93,7 +94,7 @@ export class ListCityComponent {
       horizontalPosition: 'right'
     });
   }
-  filterSales(value: string) {
+  filterCities(value: string) {
     const valueLowerCase = value.trim().toLowerCase();
  
     this.filteredCity = this.cities.filter(cities => {
