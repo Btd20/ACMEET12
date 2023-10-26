@@ -25,6 +25,10 @@ export class CityService {
     return this.http.get<City[]>(this.myAppUrl + this.myApiUrl+"CitiesWithCountries", { headers: this.headers });
   }
 
+  getAllCities(): Observable<City[]> {
+    return this.http.get<City[]>(this.myAppUrl + this.myApiUrl, { headers: this.headers });
+  }  
+
   //Obtener la officina dada la id
   getCity(Cityid: number): Observable<City> {
     return this.http.get<City>(this.myAppUrl + this.myApiUrl + Cityid, { headers: this.headers });

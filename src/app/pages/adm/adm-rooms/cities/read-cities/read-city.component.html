@@ -59,8 +59,11 @@
 
     <ng-container matColumnDef="countryName">
       <th mat-header-cell *matHeaderCellDef mat-sort-header>Country Name</th>
-      <td mat-cell *matCellDef="let element"> {{element.countryName}} </td>
+      <td mat-cell *matCellDef="let element">
+        {{ getCountryName(element.countryId) }}
+      </td>
     </ng-container>
+    
 
     <!-- Acciones Column -->
     <ng-container matColumnDef="Acciones">
@@ -92,6 +95,5 @@
 </div>
 </div>
 
-<div *ngIf="!mostrarElemento" class="containerTabla">
-  <strong><h1>No tienes permisos</h1></strong>
+<div *ngIf="!mostrarElemento" class="containerTabla">  <strong><h1>No tienes permisos</h1></strong>
 </div>

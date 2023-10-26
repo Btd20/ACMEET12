@@ -5,6 +5,7 @@ import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
 import { City } from '../../../../../shared/interfaces/city';
 import { CityService } from '../../../../../shared/services/city.service';
+import { CountryService } from '../../../../../shared/services/country.service';
 import { MAT_DIALOG_DATA, MatDialog } from '@angular/material/dialog';
 import { PopRemoveQuestionComponent } from '../../../../alerts/alert.component';
 import { AgregarEditarCityComponent } from '../../../adm-rooms/cities/update-cities/update-city.component';
@@ -23,6 +24,7 @@ export class ListCityComponent {
   loading: boolean = false;
   filteredCity: any[] = [];
   cities: any[]= [];
+  countries: any[]= [];
   nameCity: string ='';
   citiesControl = new FormControl();
 
@@ -31,7 +33,7 @@ export class ListCityComponent {
 
   //Pop up y lista offices
   constructor(
-    private _snackBar: MatSnackBar, private _cityService: CityService, private dialog: MatDialog) {
+    private _snackBar: MatSnackBar, private _cityService: CityService, private _countryService: CountryService, private dialog: MatDialog) {
       
       this.filteredCity = this.cities.slice();
       this.citiesControl = new FormControl;
@@ -46,6 +48,7 @@ export class ListCityComponent {
       this.mostrarElemento= true;
     }
     this.obtenerCity();
+    this.obtenerCountry();
   }
   //Paginaciones y ordenar
   ngAfterViewInit() {
@@ -95,12 +98,27 @@ export class ListCityComponent {
 
   obtenerCity(): void  {
     this.loading = true;
-    this._cityService.getCitys().subscribe(data => {
+    this._cityService.getAllCities().subscribe(data => {
       this.loading = false;
       this.dataSource.data = data;
       this.filteredCity = this.cities.slice();
     });
   }
+
+  obtenerCountry(): void  {
+    this.loading = true;
+    this._countryService.getCountries().subscribe(data => {
+      this.loading = false;
+      this.countries = data;
+    });
+  }
+
+  getCountryName(countryId: number): string {
+    const country = this.countries.find(c => c.countryId === countryId);
+    return country ? country.countryName : '';
+  }
+  
+  
 
   openDialog(identification: number){
     let pathname = window.location.pathname;
