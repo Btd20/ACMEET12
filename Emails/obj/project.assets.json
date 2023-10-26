@@ -261,7 +261,7 @@
           }
         }
       },
-      "Mjml.Net/3.3.0": {
+      "Mjml.Net/3.1.0": {
         "type": "package",
         "dependencies": {
           "AngleSharp": "1.0.1",
@@ -988,10 +988,10 @@
         "microsoft.openapi.nuspec"
       ]
     },
-    "Mjml.Net/3.3.0": {
-      "sha512": "Lp3nUFV5YlgfB0+0yw1+KMYlIVTnSzusz52cotRRpO59foQGjNS/R7ntb08NldTQSFnR6PX0QOssxgUQ9v+sdw==",
+    "Mjml.Net/3.1.0": {
+      "sha512": "eS+Jt2qviorzJVPXFhcEdvIowsq72Ry7hXzUDUbEkrK0A1a5XDK76pwpbsGoZWpWGckpuWyBjcYro2Kqmo1UJA==",
       "type": "package",
-      "path": "mjml.net/3.3.0",
+      "path": "mjml.net/3.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1001,7 +1001,7 @@
         "lib/net6.0/Mjml.Net.xml",
         "lib/net7.0/Mjml.Net.dll",
         "lib/net7.0/Mjml.Net.xml",
-        "mjml.net.3.3.0.nupkg.sha512",
+        "mjml.net.3.1.0.nupkg.sha512",
         "mjml.net.nuspec"
       ]
     },
@@ -1167,24 +1167,24 @@
   "projectFileDependencyGroups": {
     "net7.0": [
       "Microsoft.EntityFrameworkCore >= 7.0.12",
-      "Mjml.Net >= 3.3.0",
+      "Mjml.Net >= 3.1.0",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jay.paragas.ext\\.nuget\\packages\\": {}
+    "C:\\Users\\yeray.lorenzo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jay.paragas.ext\\Documents\\Proyectos\\ACME\\ACMEET12\\Backend\\ACMEET12\\Emails\\Emails.csproj",
+      "projectUniqueName": "C:\\Users\\yeray.lorenzo\\source\\repos\\ACMEET12\\Emails\\Emails.csproj",
       "projectName": "Emails",
-      "projectPath": "C:\\Users\\jay.paragas.ext\\Documents\\Proyectos\\ACME\\ACMEET12\\Backend\\ACMEET12\\Emails\\Emails.csproj",
-      "packagesPath": "C:\\Users\\jay.paragas.ext\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jay.paragas.ext\\Documents\\Proyectos\\ACME\\ACMEET12\\Backend\\ACMEET12\\Emails\\obj\\",
+      "projectPath": "C:\\Users\\yeray.lorenzo\\source\\repos\\ACMEET12\\Emails\\Emails.csproj",
+      "packagesPath": "C:\\Users\\yeray.lorenzo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\yeray.lorenzo\\source\\repos\\ACMEET12\\Emails\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jay.paragas.ext\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\yeray.lorenzo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1192,7 +1192,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1217,7 +1217,7 @@
           },
           "Mjml.Net": {
             "target": "Package",
-            "version": "[3.3.0, )"
+            "version": "[3.1.0, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
@@ -1243,7 +1243,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }

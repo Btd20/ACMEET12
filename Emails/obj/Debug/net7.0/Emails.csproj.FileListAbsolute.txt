@@ -65,3 +65,10 @@ C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\ACMEET12\Backend\ACMEET12\Emai
 C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\ACMEET12\Backend\ACMEET12\Emails\obj\Debug\net7.0\Emails.pdb
 C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\ACMEET12\Backend\ACMEET12\Emails\obj\Debug\net7.0\Emails.genruntimeconfig.cache
 C:\Users\jay.paragas.ext\Documents\Proyectos\ACME\ACMEET12\Backend\ACMEET12\Emails\obj\Debug\net7.0\ref\Emails.dll
+C:\Users\yeray.lorenzo\source\repos\ACMEET12\Emails\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\yeray.lorenzo\source\repos\ACMEET12\Emails\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\yeray.lorenzo\source\repos\ACMEET12\Emails\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\yeray.lorenzo\source\repos\ACMEET12\Emails\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\yeray.lorenzo\source\repos\ACMEET12\Emails\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\yeray.lorenzo\source\repos\ACMEET12\Emails\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\yeray.lorenzo\source\repos\ACMEET12\Emails\obj\Debug\net7.0\Emails.MvcApplicationPartsAssemblyInfo.cs

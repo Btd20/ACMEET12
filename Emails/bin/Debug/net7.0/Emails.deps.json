@@ -9,7 +9,7 @@
       "Emails/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.12",
-          "Mjml.Net": "3.3.0",
+          "Mjml.Net": "3.1.0",
           "Swashbuckle.AspNetCore": "6.5.0"
         },
         "runtime": {
@@ -106,7 +106,7 @@
           }
         }
       },
-      "Mjml.Net/3.3.0": {
+      "Mjml.Net/3.1.0": {
         "dependencies": {
           "AngleSharp": "1.0.1",
           "HtmlPerformanceKit": "0.8.0",
@@ -114,8 +114,8 @@
         },
         "runtime": {
           "lib/net7.0/Mjml.Net.dll": {
-            "assemblyVersion": "3.3.0.0",
-            "fileVersion": "3.3.0.0"
+            "assemblyVersion": "3.1.0.0",
+            "fileVersion": "3.1.0.0"
           }
         }
       },
@@ -279,12 +279,12 @@
       "path": "microsoft.openapi/1.2.3",
       "hashPath": "microsoft.openapi.1.2.3.nupkg.sha512"
     },
-    "Mjml.Net/3.3.0": {
+    "Mjml.Net/3.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Lp3nUFV5YlgfB0+0yw1+KMYlIVTnSzusz52cotRRpO59foQGjNS/R7ntb08NldTQSFnR6PX0QOssxgUQ9v+sdw==",
-      "path": "mjml.net/3.3.0",
-      "hashPath": "mjml.net.3.3.0.nupkg.sha512"
+      "sha512": "sha512-eS+Jt2qviorzJVPXFhcEdvIowsq72Ry7hXzUDUbEkrK0A1a5XDK76pwpbsGoZWpWGckpuWyBjcYro2Kqmo1UJA==",
+      "path": "mjml.net/3.1.0",
+      "hashPath": "mjml.net.3.1.0.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore/6.5.0": {
       "type": "package",

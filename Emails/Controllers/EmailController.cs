@@ -1,5 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Emails.Models;
+using Microsoft.AspNetCore.Mvc;
 using Mjml.Net;
+using System.IO;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace Emails.Controllers
 {
@@ -14,16 +17,16 @@ namespace Emails.Controllers
             _emailService = emailService;
         }
 
-        [HttpPost]
-        public IActionResult ConfirmarReserva(string userEmail, string nomSala, DateTime dataReserva, TimeSpan horaInici, TimeSpan horaFi)
+        [HttpPost("ConfirmarReserva/{userEmail}")]
+        public async Task <IActionResult> ConfirmarReserva(string userEmail, Reserve reserve)
         {
             var mjmlRenderer = new MjmlRenderer();
             var correu = System.IO.File.ReadAllText("./Emails/confirmacio_reserva.mjml");
 
-            correu = correu.Replace("{NomSala}", nomSala);
-            correu = correu.Replace("{DataReserva}", dataReserva.ToShortDateString());
-            correu = correu.Replace("{HoraInici}", horaInici.ToString());
-            correu = correu.Replace("{HoraFi}", horaFi.ToString());
+            correu = correu.Replace("{NomSala}", reserve.MeetingRoomName);
+            correu = correu.Replace("{DataReserva}", reserve.ReserveDate.ToShortDateString());
+            correu = correu.Replace("{HoraInici}", reserve.StartTime);
+            correu = correu.Replace("{HoraFi}", reserve.EndTime);
 
             var options = new MjmlOptions
             {
@@ -34,12 +37,7 @@ namespace Emails.Controllers
 
             _emailService.SendEmail(userEmail, "Confirmació de reserva", html);
 
-            return RedirectToAction("ReservaConfirmada");
+            return Ok();
         }
-
-        //public IActionResult ReservaConfirmada()
-        //{
-        //    return View();
-        //}
     }
 }

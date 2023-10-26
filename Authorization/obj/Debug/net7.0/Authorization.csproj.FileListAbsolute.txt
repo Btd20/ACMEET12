@@ -120,3 +120,6 @@ C:\Users\yeray.lorenzo\source\repos\ACMEET12\Authorization\obj\Debug\net7.0\refi
 C:\Users\yeray.lorenzo\source\repos\ACMEET12\Authorization\obj\Debug\net7.0\Authorization.pdb
 C:\Users\yeray.lorenzo\source\repos\ACMEET12\Authorization\obj\Debug\net7.0\Authorization.genruntimeconfig.cache
 C:\Users\yeray.lorenzo\source\repos\ACMEET12\Authorization\obj\Debug\net7.0\ref\Authorization.dll
+C:\Users\yeray.lorenzo\source\repos\ACMEET12\Authorization\bin\Debug\net7.0\AngleSharp.dll
+C:\Users\yeray.lorenzo\source\repos\ACMEET12\Authorization\bin\Debug\net7.0\HtmlPerformanceKit.dll
+C:\Users\yeray.lorenzo\source\repos\ACMEET12\Authorization\bin\Debug\net7.0\Mjml.Net.dll

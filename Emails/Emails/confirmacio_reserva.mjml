@@ -67,6 +67,8 @@
 						<b> ➢ Hora de Fi: </b>{HoraFi}
 					</mj-text>
 				</mj-column>
+				<mj-column align="center">
+				</mj-column>
 			</mj-section>
 			<mj-section>
 				<mj-column>
