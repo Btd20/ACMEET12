@@ -5,6 +5,7 @@ import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
 import { MeetingRoom } from '../../../../../shared/interfaces/meetingRoom';
 import { MeetingRoomService } from '../../../../../shared/services/meeting-room.service';
+import { OfficeService } from '../../../../../shared/services/office.service';
 import { MatDialog } from '@angular/material/dialog';
 import { PopRemoveQuestionComponent } from 'src/app/pages/alerts/alert.component';
 
@@ -18,13 +19,14 @@ export class ListRoomsComponent {
   displayedColumns: string[] = ['meetingRoomId', 'meetingRoomName', 'nameOffice', 'capacity','Acciones'];
   dataSource = new MatTableDataSource<MeetingRoom>();
   loading: boolean = false;
+  offices: any[]= [];
 
 
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
 
   //Pop up y lista offices
-  constructor(private _snackBar: MatSnackBar, private _meetingRoomService: MeetingRoomService, private dialog: MatDialog) { }
+  constructor(private _snackBar: MatSnackBar, private _meetingRoomService: MeetingRoomService, private _officeService: OfficeService, private dialog: MatDialog) { }
 
   ngOnInit(): void {
     const userRole = sessionStorage.getItem('userRole');
@@ -32,7 +34,7 @@ export class ListRoomsComponent {
       this.mostrarElemento= true;
     }
     this.obtenerRoom();
-
+    this.obtenerOffices();
 
   }
   //Paginaciones y ordenar
@@ -56,12 +58,24 @@ export class ListRoomsComponent {
 
   obtenerRoom() {
     this.loading = true;
-    this._meetingRoomService.getMeetingRooms().subscribe(data => {
+    this._meetingRoomService.getAllMeetingRooms().subscribe(data => {
       this.loading = false;
       this.dataSource.data = data;
     });
   }
 
+  obtenerOffices(): void  {
+    this.loading = true;
+    this._officeService.getAllOffices().subscribe(data => {
+      this.loading = false;
+      this.offices = data;
+    });
+  }
+
+  getOfficeName(officeId: number): string {
+    const office = this.offices.find(o => o.officeId === officeId);
+    return office ? office.nameOffice : '';
+  }
 
   openDialog(identification: number){
     let pathname = window.location.pathname;

@@ -27,8 +27,10 @@
     </ng-container>
 
     <ng-container matColumnDef="nameOffice">
-      <th mat-header-cell *matHeaderCellDef mat-sort-header>Office Id</th>
-      <td mat-cell *matCellDef="let element"> {{element.nameOffice}} </td>
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Office Name</th>
+      <td mat-cell *matCellDef="let element">
+        {{ getOfficeName(element.officeId) }}
+      </td>
     </ng-container>
 
     <ng-container matColumnDef="capacity">

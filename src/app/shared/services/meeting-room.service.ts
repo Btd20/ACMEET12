@@ -23,6 +23,10 @@ export class MeetingRoomService {
   getMeetingRooms(): Observable <MeetingRoom[]>{
       return this.http.get<MeetingRoom[]>(this.myAppUrl+this.myApiUrl+"RoomsWithOffices", { headers: this.headers });
   }
+
+  getAllMeetingRooms(): Observable <MeetingRoom[]>{
+    return this.http.get<MeetingRoom[]>(this.myAppUrl+this.myApiUrl, { headers: this.headers });
+}
       //Obtener la officina dada la id
       getRoom(meetingRoomId: number): Observable<MeetingRoom> {
         return this.http.get<MeetingRoom>(this.myAppUrl + this.myApiUrl + meetingRoomId, { headers: this.headers });
