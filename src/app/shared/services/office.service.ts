@@ -30,6 +30,10 @@ export class OfficeService {
     return this.http.get<Office>(this.myAppUrl + this.myApiUrl + Officeid, { headers: this.headers });
   }
 
+  getAllOffices(): Observable<Office[]> {
+    return this.http.get<Office[]>(this.myAppUrl + this.myApiUrl, { headers: this.headers });
+  }  
+
   getOfficesByCityId(cityId: number): Observable<Office[]>{
     return this.http.get<Office[]>(this.myAppUrl + this.myApiUrl + "city/"+ cityId, { headers: this.headers });
   }

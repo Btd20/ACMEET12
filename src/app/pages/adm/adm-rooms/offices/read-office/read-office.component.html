@@ -28,7 +28,9 @@
 
     <ng-container matColumnDef="cityName">
       <th mat-header-cell *matHeaderCellDef mat-sort-header>City Name</th>
-      <td mat-cell *matCellDef="let element"> {{element.cityName}} </td>
+      <td mat-cell *matCellDef="let element">
+        {{ getCityName(element.cityId) }}
+      </td>
     </ng-container>
 
     <!-- Acciones Column -->

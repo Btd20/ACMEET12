@@ -4,6 +4,7 @@ import { MatSnackBar } from '@angular/material/snack-bar';
 import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
 import { Office } from '../../../../../shared/interfaces/office';
+import { CityService } from '../../../../../shared/services/city.service';
 import { OfficeService } from '../../../../../shared/services/office.service';
 import { MatDialog } from '@angular/material/dialog';
 import { PopRemoveQuestionComponent } from 'src/app/pages/alerts/alert.component';
@@ -18,6 +19,7 @@ export class ListaOfficeComponent {
   displayedColumns: string[] = ['officeId', 'nameOffice', 'cityName', 'Acciones'];
   dataSource = new MatTableDataSource<Office>();
   loading: boolean = false;
+  cities: any[]= [];
 
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
@@ -25,6 +27,7 @@ export class ListaOfficeComponent {
   //Pop up y lista offices
   constructor(private _snackBar: MatSnackBar,
     private _officeService: OfficeService,
+    private _cityService: CityService,
     private dialog: MatDialog) { }
 
   ngOnInit(): void {
@@ -33,6 +36,7 @@ export class ListaOfficeComponent {
       this.mostrarElemento= true;
     }
     this.obtenerOffices();
+    this.obtenerCities();
   }
   //Paginaciones y ordenar
   ngAfterViewInit() {
@@ -55,12 +59,24 @@ export class ListaOfficeComponent {
 
   obtenerOffices() {
     this.loading = true;
-    this._officeService.getOffices().subscribe(data => {
+    this._officeService.getAllOffices().subscribe(data => {
       this.loading = false;
       this.dataSource.data = data;
     });
   }
 
+  obtenerCities(): void  {
+    this.loading = true;
+    this._cityService.getAllCities().subscribe(data => {
+      this.loading = false;
+      this.cities = data;
+    });
+  }
+
+  getCityName(cityId: number): string {
+    const city = this.cities.find(c => c.cityId === cityId);
+    return city ? city.cityName : '';
+  }
 
   openDialog(identification: number){
     let pathname = window.location.pathname;
