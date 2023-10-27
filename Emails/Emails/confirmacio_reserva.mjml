@@ -2,10 +2,12 @@
 	<mj-head>
 		<mj-attributes>
 			<mj-all font-family="Bebas Neue, Arial, sans-serif"></mj-all>
-			<mj-text font-weight="400" font-size="16px" color="#202067" line-height="24px"></mj-text>
-			<mj-section padding="0px"></mj-section>
+			<mj-text font-weight="400" font-size="16px" color="#202067" line-height="100%"></mj-text>
+			<mj-section></mj-section>
 		</mj-attributes>
 		<mj-style>
+			@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.css";
+
 			.body {
 			font-family: Arial, sans-serif;
 			color: #202067;
@@ -27,11 +29,14 @@
 			.content {
 			margin-top: 20px;
 			text-align: left;
+			margin:auto;
+			padding:25px;
+			width:380px;
 			}
 			.content h3 {
 			margin: 10px 0;
 			font-size: 18px;
-			color: #202067;
+			color: #000;
 			}
 			.footer img {
 			max-width: 100%;
@@ -39,35 +44,35 @@
 			display: block;
 			margin: 20px auto 0;
 			}
-			h2 {
-			color: green;
-			}
 		</mj-style>
 	</mj-head>
 	<mj-body class="body">
 		<mj-container class="container">
 			<mj-section>
 				<mj-column>
-					<mj-image src="https://i.imgur.com/U6hSDAJ.png" alt="Portada" width="600%" />
-					<mj-text align="center" font-size="20px" color="#202067">La teva reserva s'ha fet amb èxit!</mj-text>
+					<!--https://i.imgur.com/U6hSDAJ.png-->
+					<mj-image src="https://i.imgur.com/OB3EmT8.jpg" alt="Portada" width="600%" />
+					<mj-text align="center" font-size="25px" color="#000">La teva reserva s'ha realitzat amb èxit!</mj-text>
 				</mj-column>
 			</mj-section>
 			<mj-section class="content">
-				<mj-column align="center">
+				<mj-column>
 					<mj-text margin="0" line-height="normal">
-						<b> ➢ Sala: </b>{NomSala}
+						<i class="fa-solid fa-earth-europe" style='font-size:20px;color:#583989;'></i>
+						<b>Sala:</b> {NomSala}
 					</mj-text>
 					<mj-text margin="0" line-height="normal">
-						<b> ➢ Data de Reserva: </b>{DataReserva}
+						<i class="fa-regular fa-calendar-days" style='font-size:20px;color:#583989;'></i>
+						<b color="#000"> Data de Reserva: </b> {DataReserva}
 					</mj-text>
 					<mj-text margin="0" line-height="normal">
-						<b> ➢ Hora d'Inici: </b>{HoraInici}
+						<i class="fa-regular fa-clock" style='font-size:20px; color:#583989;'></i>
+						<b> Hora d'Inici: </b>{HoraInici}
 					</mj-text>
 					<mj-text line-height="normal">
-						<b> ➢ Hora de Fi: </b>{HoraFi}
+						<i class="fa-regular fa-clock" style='font-size:20px; color:#583989;'></i>
+						<b>Hora de Fi: </b>{HoraFi}
 					</mj-text>
-				</mj-column>
-				<mj-column align="center">
 				</mj-column>
 			</mj-section>
 			<mj-section>
