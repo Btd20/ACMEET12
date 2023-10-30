@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yeray.lorenzo\\source\\repos\\ACMEET12\\Emails\\Emails.csproj": {}
+    "C:\\Users\\mustapha.bouleili\\Documents\\Projectes\\acme12\\Back\\ACMEET12\\Emails\\Emails.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yeray.lorenzo\\source\\repos\\ACMEET12\\Emails\\Emails.csproj": {
+    "C:\\Users\\mustapha.bouleili\\Documents\\Projectes\\acme12\\Back\\ACMEET12\\Emails\\Emails.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yeray.lorenzo\\source\\repos\\ACMEET12\\Emails\\Emails.csproj",
+        "projectUniqueName": "C:\\Users\\mustapha.bouleili\\Documents\\Projectes\\acme12\\Back\\ACMEET12\\Emails\\Emails.csproj",
         "projectName": "Emails",
-        "projectPath": "C:\\Users\\yeray.lorenzo\\source\\repos\\ACMEET12\\Emails\\Emails.csproj",
-        "packagesPath": "C:\\Users\\yeray.lorenzo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yeray.lorenzo\\source\\repos\\ACMEET12\\Emails\\obj\\",
+        "projectPath": "C:\\Users\\mustapha.bouleili\\Documents\\Projectes\\acme12\\Back\\ACMEET12\\Emails\\Emails.csproj",
+        "packagesPath": "C:\\Users\\mustapha.bouleili\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mustapha.bouleili\\Documents\\Projectes\\acme12\\Back\\ACMEET12\\Emails\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\yeray.lorenzo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mustapha.bouleili\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.308\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -73,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.308\\RuntimeIdentifierGraph.json"
         }
       }
     }
