@@ -119,6 +119,10 @@ h1 {
   animation-duration: 1s;
 }
 
+.listRoom{
+  margin-left:10px;
+}
+
 @media (max-width: 576px) {
   .container-fluid {
     justify-content: left;
