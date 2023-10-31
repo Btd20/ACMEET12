@@ -17,7 +17,7 @@ body {
   margin: 20px auto 10px; /* Margen vertical de 20px arriba, 80px abajo y centrado horizontalmente */
   border-radius: 20px;
   animation: fadeIn 1s ease-in-out forwards;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /*--box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);--*/
 }
 
 h1 {
@@ -30,7 +30,7 @@ h1 {
 
 .container {
   background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /*--box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);--*/
   padding: 20px;
   border-radius: 5px;
 }
@@ -77,4 +77,9 @@ tr:nth-child(even) {
   margin-top: 20px;
   display: flex;
   justify-content: center;
+}
+
+.mat-mdc-form-field {
+  font-size: 14px;
+  width: 100%;
 }
