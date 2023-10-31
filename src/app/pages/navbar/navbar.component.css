@@ -82,30 +82,44 @@ li > a {
   li > a.nav-link:hover {
     color: #6723d5;
     border-radius: 10px;
-    font-size: 25px;
+    font-size: 1.8rem;
     transition: color 0.3s ease, font-size 0.3s ease;
   }
 
-
-@media (max-width: 768px) {
-
-  .navbar-brand {
-    font-size: 25px;
-  }
-
-    .navbar-brand:hover {
-      color: #512da8;
-      font-size: 30px;
+  /* responsive things */
+  
+  @media (max-width: 990px) {
+    #nav {
+      height: auto;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .navbar-brand {
+      font-size: 1.5rem;
     }
 
-  .nav-link {
-    transition: color 0.3s ease, background-color 0.3s ease;
-  }
+      .navbar-brand:hover {
+        font-size: 1.8rem;
+      }
 
-  li > a.nav-link:hover {
-    color: #6723d5;
-    border-radius: 10px;
-    font-size: 25px;
-    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    .navbar-nav .nav-link {
+      font-size: 1.3rem;
+      transition: color 0.3s ease, font-size 0.3s ease;
+    }
+    
+    .mat-menu-panel {
+      width: 100%;
+    }
+
+    li > a {
+      font-size: 1.3rem;
+    }
+    
+      li > a.nav-link:hover {
+        font-size: 1.6rem;
+        transition: color 0.3s ease, font-size 0.3s ease;
+      }
   }
-}
+  
+  
