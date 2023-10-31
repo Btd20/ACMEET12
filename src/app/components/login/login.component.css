@@ -338,10 +338,18 @@ h2.active {
 }
 
 .custom-button {
-  background-color: #bc13fe;
+  background-color: #9a56ff;
   height: 50px;
   width: 180px;
   border: none;
+}
+
+.custom-button:active {
+  background-color: #9a56ff;
+}
+
+.custom-button:hover {
+  background-color: #9a56ff;
 }
 
 .eslogan {

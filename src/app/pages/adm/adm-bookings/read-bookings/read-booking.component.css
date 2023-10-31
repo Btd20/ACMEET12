@@ -55,29 +55,6 @@ body {
     background-color: #f2f2f2;
   }
   
-  /* Estilos para los botones de acciones */
-  .buttonAceptar {
-    display: inline-flex;
-    background-color: #007bff;
-    color: #ffffff;
-    padding: 12px 16px;
-    border-radius: 4px;
-    text-decoration: none;
-    margin-right: 10px;
-  }
-  
-  /* .buttonAceptar:hover {
-    display: inline-flex;
-    background-color: #0558b1;
-    color: #ffffff;
-    padding: 12px 16px;
-    border-radius: 4px;
-    text-decoration: none;
-    margin-right: 10px;
-  
-  } */
-  
-  
   .delete {
     color: #E15639;
     margin-right: 5px;

@@ -382,4 +382,12 @@ input[type=password] {
   border:none;
 }
 
+.custom-button:active{
+  background-color:  #9a56ff;
+}
+
+.custom-button:hover{
+  background-color:  #9a56ff;
+  
+}
 
