@@ -32,7 +32,7 @@ export class ProfileComponent implements OnInit {
   }
 
 
-  ngOnInit() {
+  ngOnInit():void {
     this.profilepictureId  = this.imageService.getImage();
     if(this.profilepictureId == undefined){
       this.profilepictureId == this.default_url;
@@ -57,14 +57,33 @@ export class ProfileComponent implements OnInit {
       (error) => {
       }
     );
-
-
-
-    
-
   }
 
+  /*
+  loadProfileImage() {
+    this.http.get(`https://localhost:7240/api/ApplicationUsers/GetProfileImage/${this.username}`, { responseType: 'arraybuffer' })
+      .subscribe(
+        (imageData: ArrayBuffer) => {
+          // Convierte los datos binarios (ArrayBuffer) en una URL de imagen válida
+          const base64String = this.arrayBufferToBase64(imageData);
+          this.profileImageUrl = 'data:image/jpeg;base64,' + base64String;
+        },
+        (error) => {
+          console.error(error);
+        }
+      );
+  }
 
+  // Método para convertir ArrayBuffer a base64
+  arrayBufferToBase64(buffer: ArrayBuffer): string {
+    let binary = '';
+    const bytes = new Uint8Array(buffer);
+    const len = bytes.byteLength;
+    for (let i = 0; i < len; i++) {
+      binary += String.fromCharCode(bytes[i]);
+    }
+    return window.btoa(binary);
+  }*/
 
   changePassword(): void{
     const dialogRefPassword = this.dialog.open(ChangePasswordComponent, {});
