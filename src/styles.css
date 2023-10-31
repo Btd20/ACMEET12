@@ -11,10 +11,9 @@ body {
   background: -webkit-linear-gradient(to top,#ADA996,#F2F2F2, #DBDBDB, #EAEAEA); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to top,#ADA996,#F2F2F2, #DBDBDB, #EAEAEA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-image: url('assets/img/background.jpg');
-  background-size: 100%; /* Tamaño */
-  background-position: fixed;
-  background-position:absolute;
-  background-repeat: repeat;
+  background-size: 150%; /* Tamaño */
+  background-position:center;
+  background-repeat: repeat-y;
 
 }
 .mat-mdc-snack-bar-container {
