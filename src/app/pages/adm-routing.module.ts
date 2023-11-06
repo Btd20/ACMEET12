@@ -58,6 +58,10 @@ const routes: Routes = [
         path: 'admReservas',
         loadChildren: () => import('./adm/adm-bookings/adm-bookings.module').then(m => m.AdmReservasModule)
       },
+      {
+        path: 'admHelp',
+        loadChildren: () => import('./adm/adm-help/adm-help.module').then(m => m.HelpModule)
+      },
 
       {
         path: 'help',
