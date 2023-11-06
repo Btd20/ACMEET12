@@ -36,6 +36,10 @@ const routes: Routes = [
         loadChildren: () => import('./bookings/form-booking/form-booking.module').then(m => m.formBookingModule)
       },
       {
+        path: 'makeReserve',
+        loadChildren: () => import('./bookings/make-booking/make-booking.module').then(m => m.makeBookingModule)
+      },
+      {
         path: 'editarPerfil',
         loadChildren: () => import('./users/profile/editar-profile/editar-profile.module').then(m =>m.ProfileModule)
       },

@@ -1,15 +1,6 @@
 <div>
     <form  [formGroup]="form" (ngSubmit)="reservarSala()">
-        <div class="row" >
-          <div *ngIf="mostrarElemento" class="col">
-            <mat-form-field id="input">
-                <mat-label>User</mat-label>
-                <mat-select [formControl]="userFormControl">
-                  <mat-option *ngFor="let user of listUsers" [value]="user">{{user}}</mat-option>
-                </mat-select>
-                <mat-icon matSuffix>person</mat-icon>
-              </mat-form-field>
-        </div>
+        <div class="row">
             <div class="col">
                 <mat-form-field id="input">
                     <mat-label>Country</mat-label>
