@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { ProfileService } from '../../../shared/services/profile.service';
-import { MakeReserveComponent } from '../../bookings/make-booking/make-booking.component';
+import { AdmHelpAnswComponent } from '../adm-helpansw/adm-helpansw.component';
 import { MatDialog } from '@angular/material/dialog';
 
 @Component({
@@ -14,6 +14,6 @@ export class admHelpComponent {
 
   openDialogAgregarReserva(){
     let pathname = window.location.pathname;
-    const dialogRef = this.dialog.open(MakeReserveComponent, {data: { pathname },  panelClass: 'no-scroll' });
+    const dialogRef = this.dialog.open(AdmHelpAnswComponent, {data: { pathname },  panelClass: 'no-scroll' });
   }
 }

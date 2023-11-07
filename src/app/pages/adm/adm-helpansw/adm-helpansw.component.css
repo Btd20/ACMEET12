@@ -1,0 +1,59 @@
+.containerTabla {
+  width: 80%;
+  background-color: white;
+  position: relative;
+  padding: 50px;
+  margin: 20px auto 10px; /* Margen vertical de 20px arriba, 80px abajo y centrado horizontalmente */
+  border-radius: 20px;
+  animation: fadeIn 1s ease-in-out forwards;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.no-scroll {
+    overflow-x: hidden !important;
+  }
+.row >div{
+    text-align: center;
+}
+#input{
+    width: 95%;
+}
+#meetingRoomInput{
+    width: 98%;
+    margin: auto;
+}
+button{
+    width: 500px;
+}
+
+.col{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+h1{
+    text-align: center;
+    font-weight: 500;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.containerMakeBookings {
+    padding: 5px;
+    overflow: hidden!important;
+}
+
+::ng-deep ngx-material-timepicker-content{
+    --body-background-color: #fff;
+    --primary-font-family: 'Roboto',sans-serif;
+    --button-color: #6723d5 !important;
+    --dial-active-color: #fff;
+    --dial-inactive-color: rgba(255, 255, 255, .5);
+    --dial-background-color: #6723d5 !important;
+    --dial-editable-active-color: #6723d5 !important;
+    --dial-editable-background-color: #fff;
+    --clock-face-time-active-color: #fff;
+    --clock-face-time-inactive-color: #6c6c6c;
+    --clock-face-inner-time-inactive-color: #929292;
+    --clock-face-time-disabled-color: #c5c5c5;
+    --clock-face-background-color: #f0f0f0;
+    --clock-hand-color: #6723d5 !important;
+  }

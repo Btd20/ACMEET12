@@ -62,7 +62,10 @@ const routes: Routes = [
         path: 'admHelp',
         loadChildren: () => import('./adm/adm-help/adm-help.module').then(m => m.HelpModule)
       },
-
+      {
+        path: 'admHelpAnsw',
+        loadChildren: () => import('./adm/adm-helpansw/adm-helpansw.module').then(m => m.admHelpAnswModule)
+      },
       {
         path: 'help',
         loadChildren: () => import('./help/help.module').then(m => m.HelpModule)
