@@ -268,3 +268,22 @@ input::placeholder {
   color: #cccccc;
   margin: 10px;
 }
+
+.mat-mdc-card-title-group {
+  display: flex;
+  align-items: center;
+}
+
+.card-txt-btns{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px;
+}
+
+.btn-answ{
+  width: calc(250px - 10%);
+}

@@ -35,6 +35,12 @@ h1{
     font-weight: 500;
     font-family: Roboto, "Helvetica Neue", sans-serif;
 }
+
+.containerMakeBookings {
+    padding: 5px;
+    overflow: hidden!important;
+}
+
 ::ng-deep ngx-material-timepicker-content{
     --body-background-color: #fff;
     --primary-font-family: 'Roboto',sans-serif;

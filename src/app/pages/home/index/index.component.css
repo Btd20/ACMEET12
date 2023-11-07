@@ -123,6 +123,10 @@ h1 {
   margin-left:10px;
 }
 
+.no-scroll{
+  overflow: hidden!important;
+}
+
 @media (max-width: 576px) {
   .container-fluid {
     justify-content: left;
