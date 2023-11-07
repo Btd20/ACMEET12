@@ -2,17 +2,14 @@
     <form  [formGroup]="form" (ngSubmit)="reservarSala()">
         <div class="row">
             <mat-form-field id="meetingRoomInput">
-                <mat-label>Meeting Rooms</mat-label>
-                <mat-select  [formControl]="meetingRoomFormControl" >
-                    <mat-option *ngFor="let meetingRoom of meetingRooms" [value]="meetingRoom">{{meetingRoom.meetingRoomName}}</mat-option>
-                </mat-select>
-                <mat-icon matSuffix>meeting_room</mat-icon>
+                <mat-label>Textarea</mat-label>
+                <textarea matInput></textarea>
               </mat-form-field>
         </div>
         <div class="row">
             <div class="col"></div>
             <div class="col">
-                <button type="submit" class="btnAceptar" mat-raised-button color="primary">Reserve</button>
+                <button type="submit" class="btnAceptar" mat-raised-button color="primary">Submit</button>
             </div>
             <div class="col"></div>
         </div>
