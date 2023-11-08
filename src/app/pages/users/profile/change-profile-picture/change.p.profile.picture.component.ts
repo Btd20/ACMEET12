@@ -16,25 +16,42 @@ export class ChangePProfilePictureComponent implements OnInit {
     private _snackBar: MatSnackBar,
     private dialogRef: MatDialogRef<ChangePProfilePictureComponent>,
     private snackBar: MatSnackBar) {}
+    private userId = sessionStorage.getItem('userId');
 
 
     ngOnInit() {
-    this.url= this.imageService.getImage();
+      if (this.userId) {
+        this.imageService.getImage(this.userId);
+      } else {
+        console.error('No es troba el teu ID.');
+      }
     }
 
     onNoClick(): void {
       this.dialogRef.close();
     }
 
-    onselectedFile(e: any) {
-      if (e.target.files) {
-        var reader = new FileReader();
-        reader.readAsDataURL(e.target.files[0]);
-        reader.onload = (event: any) => {
-          this.url = event.target.result;
-          this.imageService.setImage(this.url); // Guarda la URL en el servicio
+    onselectedFile(event: Event) {
+      const inputElement = event.target as HTMLInputElement;
+      const file = inputElement?.files?.[0];
+    
+      if (file) {
+        const formData = new FormData();
+        formData.append('file', file);
+    
+        if (this.userId) {
+          this.imageService.uploadImage(this.userId, formData).subscribe(
+            (response) => {
+              console.log('Imagen subida con éxito', response);
+            },
+            (error) => {
+              console.error('Error al subir la imagen', error);
+            }
+          );
+        } else {
+          console.error('No se encontró el ID.');
         }
       }
     }
-    
+         
 }

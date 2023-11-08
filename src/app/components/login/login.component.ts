@@ -67,6 +67,7 @@ export class LoginComponent implements OnInit {
         this.form.reset();
       }
     );
+      sessionStorage.setItem('userId', this.form.value.user.id)
       sessionStorage.setItem('user', this.form.value.user);
   }
 
