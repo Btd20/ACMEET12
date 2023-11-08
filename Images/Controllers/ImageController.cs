@@ -5,7 +5,6 @@ using System.IO;
 
 namespace Images.Controllers
 {
-    //POST: api/ApplicationUsers/{username}/UploadProfileImage
     [Route("api/images")]
     [ApiController]
     public class ImageController : ControllerBase
@@ -30,7 +29,7 @@ namespace Images.Controllers
             return File(image.ProfileImage, "image/jpeg");
         }
 
-        [HttpPost]
+        [HttpPost("{id}")]
         public async Task<ActionResult<ImageModel>> UploadImage(string id, IFormFile file)
         {
             byte[] imageData;
@@ -40,16 +39,27 @@ namespace Images.Controllers
                 imageData = binaryReader.ReadBytes((int)file.Length);
             }
 
-            var imageModel = new ImageModel
-            {
-                Id = id,
-                ProfileImage = imageData
-            };
+            var existingImage = await _context.Images.FindAsync(id);
 
-            _context.Images.Add(imageModel);
+            if (existingImage != null)
+            {
+                // Si la imagen ya existe, actualiza los datos de la imagen.
+                existingImage.ProfileImage = imageData;
+            }
+            else
+            {
+                // Si no existe, crea un nuevo registro.
+                var imageModel = new ImageModel
+                {
+                    Id = id,
+                    ProfileImage = imageData
+                };
+                _context.Images.Add(imageModel);
+            }
+
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction(nameof(GetImage), new { id = imageModel.Id }, imageModel);
+            return CreatedAtAction(nameof(GetImage), new { id = id }, null);
         }
     }
 }
