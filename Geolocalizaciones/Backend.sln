@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reservas", "..\Reservas\Res
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authorization", "..\Authorization\Authorization.csproj", "{3166F82C-E8B9-4244-B6BB-A05723D6AD62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emails", "..\Emails\Emails.csproj", "{59FAD32B-D4AA-4241-B3D1-0BCF355B0A75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Emails", "..\Emails\Emails.csproj", "{59FAD32B-D4AA-4241-B3D1-0BCF355B0A75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Images", "..\Images\Images.csproj", "{5A1170F6-CDA4-4188-9546-83E76E1611D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{59FAD32B-D4AA-4241-B3D1-0BCF355B0A75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59FAD32B-D4AA-4241-B3D1-0BCF355B0A75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59FAD32B-D4AA-4241-B3D1-0BCF355B0A75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A1170F6-CDA4-4188-9546-83E76E1611D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A1170F6-CDA4-4188-9546-83E76E1611D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A1170F6-CDA4-4188-9546-83E76E1611D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A1170F6-CDA4-4188-9546-83E76E1611D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
