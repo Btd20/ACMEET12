@@ -37,4 +37,5 @@ export class HomeComponent {
     const dialogRef = this.dialog.open(MakeReserveComponent, {data: { pathname },  panelClass: 'no-scroll' });
   }
 
+  
 }

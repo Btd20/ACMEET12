@@ -1,0 +1,16 @@
+<div class="containerMakeBookings">
+    <h1>Respon:</h1>
+    <form  [formGroup]="form" (ngSubmit)="reservarSala()">
+        <div class="row">
+            <mat-form-field id="meetingRoomInput">
+                <mat-label>Textarea</mat-label>
+                <textarea matInput></textarea>
+              </mat-form-field>
+        </div>
+        <div class="row">
+            <div class="col">
+                <button type="submit" class="btnAceptar" mat-raised-button color="primary">Submit</button>
+            </div>
+        </div>
+    </form>
+</div>
