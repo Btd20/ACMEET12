@@ -4,9 +4,9 @@
     <div class="row">
       <div class="col-4">
         <div class="user-img">
-          <img [src]="profilepictureId" >
+          <img [src]="profilepictureId" width="250" height="250">
           <mat-card class="button">
-            <button style="color: white;" class="underlineHover" (click)="changeProfilePicture()" mat-button>Change Profile Image</button>
+            <button class="btn-profile" (click)="changeProfilePicture()" mat-button>Change Profile Image</button>
           </mat-card>     
         </div>
       </div>
@@ -25,7 +25,7 @@
               <h1>Phone: {{ phone }}</h1>
             </strong>
             <mat-card class="button">
-              <button style="color: white;" class="underlineHover" (click)="changePassword()" mat-button>Change Password</button>
+              <button class="btn-profile" (click)="changePassword()" mat-button>Change Password</button>
             </mat-card>
           </mat-card>
         </div>
