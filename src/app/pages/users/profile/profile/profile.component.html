@@ -5,8 +5,10 @@
       <div class="col-4">
         <div class="user-img">
           <img [src]="profilepictureId" width="250" height="250">
-          <mat-card class="button">
-            <button class="btn-profile" (click)="changeProfilePicture()" mat-button>Change Profile Image</button>
+          <mat-card class="button btn-change">
+            <button class="btn-profile" id="img" (click)="changeProfilePicture()" mat-button>
+              <mat-icon>image_search</mat-icon>
+            </button>
           </mat-card>     
         </div>
       </div>
