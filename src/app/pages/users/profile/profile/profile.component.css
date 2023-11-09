@@ -13,9 +13,15 @@
 }
 
 .user-img {
-  width: 50%;
-  padding: 10px;
+  width:auto;
+  padding: 15px;
   margin:auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .user-img > img{
@@ -86,25 +92,23 @@ div .img {
 }
 
 #img{
-  width: 20px;
   height: 50px;
 }
 
 .btn-change{
-  width: 29%;
+  width: 35%;
   overflow:hidden;
 }
 
 .mat-mdc-button>.mat-icon {
   margin-left: 0;
-  margin-right: 8px;
-  display: inline-block;
+  display: flex;
   position: relative;
-  vertical-align: top;
-  font-size: 2rem;
   height: 100%;
   width: 100%;
-  margin-top: 50%;
   font-size: 25px;
   left: 5%;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
