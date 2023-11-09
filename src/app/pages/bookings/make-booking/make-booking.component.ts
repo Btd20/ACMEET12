@@ -205,6 +205,7 @@ export class MakeReserveComponent {
     this.bookingUser.hours = this.horasSeleccionada;
   
     this.hacerReserva(this.bookingUser);
+    this.mensajeErrorExito("Se ha reservado con éxito");
   }
 
   ObtenerCountries(){
