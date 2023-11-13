@@ -70,23 +70,22 @@ ngOnInit(){
         changePassword: this.NewPasswordUser
        }
        this._changePasswordService.changePassword(updatePassword).subscribe(data => {
-        this.mensajeErrorExito("Your password is already updated", 'app-notification-success');
+        this.mensajeErrorExito("Your password is already updated");
         this.onNoClick();
        }, error => {
-        this.mensajeErrorExito("Current password is incorrect", 'app-notification-error');
+        this.mensajeErrorExito("Current password is incorrect");
        });;
      }else{
-      this.mensajeErrorExito("The passwords do not match.", 'app-notification-error');
+      this.mensajeErrorExito("The passwords do not match.");
      }
     
 
   }
 
-  mensajeErrorExito(texto: string, type: string) {
+  mensajeErrorExito(texto: string) {
     this._snackBar.open(`${texto}`, '', {
       duration: 4000,
-      verticalPosition: 'bottom',
-      panelClass:type
+      verticalPosition: 'bottom'
     });
   }
 

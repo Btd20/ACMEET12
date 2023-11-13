@@ -1,3 +1,4 @@
+import { MatDialogRef } from '@angular/material/dialog';
 import { Component, Inject } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { MeetingRoomService } from '../../../shared/services/meeting-room.service';
@@ -79,6 +80,8 @@ export class MakeReserveComponent {
   loading: boolean = false;
 
   constructor(
+    private dialogRef: MatDialogRef<MakeReserveComponent>,
+
     private formBuilder: FormBuilder,
     @Inject(MAT_DIALOG_DATA) private data: any,
     private _bookingService: BookingService,
@@ -282,9 +285,14 @@ export class MakeReserveComponent {
 
   mensajeErrorExito(texto: string) {
     this._snackBar.open(`${texto}`, '', {
-      duration: 4000,
+      duration: 700,
       verticalPosition: 'bottom'
     });
+  
+    // Espera un breve momento y luego cierra el diálogo
+    setTimeout(() => {
+      this.dialogRef.close();
+    }, 1300); // Ajusta el tiempo según sea necesario
   }
 }
 
