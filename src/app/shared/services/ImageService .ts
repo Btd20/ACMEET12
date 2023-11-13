@@ -11,7 +11,7 @@ export class ImageService {
 
   uploadImage(id: string, formData: FormData) {
     return this.http.post(`${this.apiUrl}/${id}`, formData);
-  }  
+  }   
 
   getImage(id: string) {
     return this.http.get(`${this.apiUrl}/${id}`, { responseType: 'arraybuffer' });

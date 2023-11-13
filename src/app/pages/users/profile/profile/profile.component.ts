@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
 import { ProfileService } from '../../../../shared/services/profile.service';
 import { EditarProfileComponent } from '../editar-profile/editar-profile.component';
 import { MatDialog } from '@angular/material/dialog';
@@ -19,6 +19,7 @@ export class ProfileComponent implements OnInit {
   phone: string | undefined;
   profilepictureId: SafeUrl | undefined;
   localUser: string="";
+  fileToUpload: File | null = null;
   userId: string | null = sessionStorage.getItem('userId');
   default_url: string = "https://imgs.search.brave.com/GrTMprW4fg05XTsfzacsNofnbaMJuXlbLIXZqUAn9vg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzAwLzY0LzY3LzI3/LzM2MF9GXzY0Njcy/NzM2X1U1a3BkR3M5/a2VVbGw4Q1JRM3Az/WWFFdjJNNnFrVlk1/LmpwZw";
   constructor(
@@ -26,7 +27,8 @@ export class ProfileComponent implements OnInit {
     public dialog: MatDialog,
     private imageService: ImageService,
     private sanitizer: DomSanitizer,
-    private http: HttpClient
+    private http: HttpClient,
+    private cdr: ChangeDetectorRef
   ) {}
 
   openDialog(): void {
@@ -34,22 +36,7 @@ export class ProfileComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    if (this.userId) {
-      this.imageService.getImage(this.userId).subscribe(
-        (response: any) => {
-          const blob = new Blob([response], { type: 'image/jpeg' });
-          const url = window.URL.createObjectURL(blob);
-          this.profilepictureId = this.sanitizer.bypassSecurityTrustUrl(url);
-        },
-        (error) => {
-          console.error('Error al obtener la imagen', error);
-          this.profilepictureId = this.default_url;
-        }
-      );
-    } else {
-      this.profilepictureId = this.default_url;
-    }
-       
+    this.fetchAndUpdateProfilePicture();
 
     const nombreEmail = sessionStorage.getItem('user');
     if(nombreEmail != null){
@@ -61,7 +48,7 @@ export class ProfileComponent implements OnInit {
         this.user = profileData.userName;
         this.email = profileData.email;
         this.phone = profileData.phoneNumber;
-        this.profilepictureId = profileData.profilepictureId;
+        //this.profilepictureId = profileData.profilepictureId;
       },
       (error) => {
         console.error('Error al obtener el perfil', error);
@@ -83,7 +70,49 @@ export class ProfileComponent implements OnInit {
     const dialogRefPassword = this.dialog.open(ChangePasswordComponent, {});
   }
 
-  changeProfilePicture(): void{
+  changeProfilePicture(): void {
     const dialogRefPassword = this.dialog.open(ChangePProfilePictureComponent, {});
-  }
+    
+    dialogRefPassword.afterClosed().subscribe((result) => {
+      if (result) {
+        if (!this.fileToUpload) {
+          alert("Selecciona una imagen antes de subirla.");
+          return;
+        }
+  
+        const formData = new FormData();
+        formData.append("file", this.fileToUpload);
+  
+        this.imageService.uploadImage(this.userId!, formData)
+          .subscribe(
+            () => {
+              console.log('Imagen subida con éxito');
+              this.fileToUpload = null;
+              this.cdr.detectChanges();
+              this.fetchAndUpdateProfilePicture();
+            },
+            (error) => {
+              console.error('Error al subir la imagen', error);
+              alert("Error al subir la imagen.");
+            }
+          );
+      }
+      this.fetchAndUpdateProfilePicture();
+    });
+  }  
+
+  fetchAndUpdateProfilePicture(): void {
+    this.imageService.getImage(this.userId!)
+      .subscribe(
+        (imageData: ArrayBuffer) => {
+          console.log('Imagen obtenida correctamente');
+          const base64String = this.arrayBufferToBase64(imageData);
+          this.profilepictureId = 'data:image/jpeg;base64,' + base64String;
+        },
+        (error) => {
+          console.error('Error al obtener la imagen', error);
+          this.profilepictureId = this.default_url;
+        }
+      );
+  }  
 }
