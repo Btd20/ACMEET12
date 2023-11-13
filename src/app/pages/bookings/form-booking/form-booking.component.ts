@@ -205,6 +205,7 @@ export class FormReserveComponent {
     this.bookingUser.hours = this.horasSeleccionada;
   
     this.hacerReserva(this.bookingUser);
+    this.mensajeErrorExito("Se ha reservado con éxito");
   }
 
   ObtenerCountries(){
@@ -249,7 +250,6 @@ export class FormReserveComponent {
                 window.location.href = "/home/admReservas/listReservas";
               } else {
                 window.location.href = "/home/bookings";
-                this.mensajeErrorExito("Se ha reservado con éxito");
               }
             },
             error => {
