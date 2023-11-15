@@ -8,6 +8,9 @@ import { CityService } from '../../../../../shared/services/city.service';
 import { OfficeService } from '../../../../../shared/services/office.service';
 import { MatDialog } from '@angular/material/dialog';
 import { PopRemoveQuestionComponent } from 'src/app/pages/alerts/alert.component';
+import { AgregarEditarOfficeComponent } from '../update-office/update-office.component';
+import { FormControl } from '@angular/forms';
+import fuzzysearch from "fuzzysearch-ts";
 
 @Component({
   selector: 'app-read-office',
@@ -15,39 +18,48 @@ import { PopRemoveQuestionComponent } from 'src/app/pages/alerts/alert.component
   styleUrls: ['./read-office.component.css']
 })
 export class ListaOfficeComponent {
-  mostrarElemento?:boolean;
+  mostrarElemento?: boolean;
   displayedColumns: string[] = ['officeId', 'nameOffice', 'cityName', 'Acciones'];
   dataSource = new MatTableDataSource<Office>();
   loading: boolean = false;
-  cities: any[]= [];
+  cities: any[] = [];
+  filteredOffice: any[] = [];
+  nameOffice: string = '';
+  officeControl = new FormControl();
 
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
 
-  //Pop up y lista offices
-  constructor(private _snackBar: MatSnackBar,
+  constructor(
+    private _snackBar: MatSnackBar,
     private _officeService: OfficeService,
     private _cityService: CityService,
-    private dialog: MatDialog) { }
+    private dialog: MatDialog
+  ) {
+    this.filteredOffice = this.dataSource.data.slice();
+    this.officeControl = new FormControl();
+    this.officeControl.valueChanges.subscribe(value => {
+      this.filterOffices(value);
+    });
+  }
 
   ngOnInit(): void {
     const userRole = sessionStorage.getItem('userRole');
-    if(userRole=="Administrador"){
-      this.mostrarElemento= true;
+    if (userRole == 'Administrador') {
+      this.mostrarElemento = true;
     }
     this.obtenerOffices();
     this.obtenerCities();
   }
-  //Paginaciones y ordenar
+
   ngAfterViewInit() {
     this.dataSource.paginator = this.paginator;
     this.dataSource.sort = this.sort;
     if (this.dataSource.data.length > 0) {
-      this.paginator._intl.itemsPerPageLabel = 'Items por página'
+      this.paginator._intl.itemsPerPageLabel = 'Items por página';
     }
   }
 
-  //Filtro
   applyFilter(event: Event) {
     const filterValue = (event.target as HTMLInputElement).value;
     this.dataSource.filter = filterValue.trim().toLowerCase();
@@ -62,10 +74,11 @@ export class ListaOfficeComponent {
     this._officeService.getAllOffices().subscribe(data => {
       this.loading = false;
       this.dataSource.data = data;
+      this.filteredOffice = this.dataSource.data.slice();
     });
   }
 
-  obtenerCities(): void  {
+  obtenerCities(): void {
     this.loading = true;
     this._cityService.getAllCities().subscribe(data => {
       this.loading = false;
@@ -78,9 +91,17 @@ export class ListaOfficeComponent {
     return city ? city.cityName : '';
   }
 
-  openDialog(identification: number){
+  openDialog(identification: number) {
     let pathname = window.location.pathname;
-    const dialogRef = this.dialog.open(PopRemoveQuestionComponent, {data: {identification, pathname}});
+    const dialogRef = this.dialog.open(PopRemoveQuestionComponent, { data: { identification, pathname } });
+  }
+
+  editarOffice(identification: number, office: Office) {
+    const dialogRefPassword = this.dialog.open(AgregarEditarOfficeComponent, { data: { identification, office } });
+  }
+
+  agregarOffice() {
+    const dialogRefPassword = this.dialog.open(AgregarEditarOfficeComponent, { data: {} });
   }
 
   mensajeExito() {
@@ -88,5 +109,13 @@ export class ListaOfficeComponent {
       duration: 4000,
       horizontalPosition: 'right'
     });
+  }
+
+  filterOffices(value: string) {
+    const valueLowerCase = value.trim().toLowerCase();
+
+    this.filteredOffice = this.dataSource.data.filter(office =>
+      fuzzysearch(valueLowerCase, office.nameOffice.toLowerCase())
+    );
   }
 }

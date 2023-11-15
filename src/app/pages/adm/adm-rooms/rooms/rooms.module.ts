@@ -5,6 +5,7 @@ import { RoomsRoutingModule } from './rooms-routing.module';
 import { SharedModule } from '../../../../shared/shared.module';
 import { ListRoomsComponent } from './read-rooms/read-rooms.component';
 import { AgregarEditarRoomsComponent } from './update-rooms/update-rooms.component';
+import { MatAutocompleteModule } from '@angular/material/autocomplete';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { AgregarEditarRoomsComponent } from './update-rooms/update-rooms.compone
   ],
   imports: [
     CommonModule,
+    MatAutocompleteModule,
     RoomsRoutingModule,
     SharedModule
   ],

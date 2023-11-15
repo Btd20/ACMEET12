@@ -1,33 +1,35 @@
-<div class="containerTabla">
-  <h1>{{ Operacion }} Room</h1>
-<app-spinner *ngIf="loading"></app-spinner>
-    <form [formGroup]="form" (ngSubmit)="agregarEditarRoom()">
-      <mat-grid-list cols="2" rowHeight="80px">
-        <mat-grid-tile [colspan]="2">
-          <mat-form-field class="input" appearance="outline">
-            <mat-label>Room Name</mat-label>
-            <input formControlName="meetingRoomName" matInput>
-          </mat-form-field>
-        </mat-grid-tile>
-
-        <mat-grid-tile [colspan]="2">
-          <mat-form-field class="input" appearance="outline">
-            <mat-label>Office Id</mat-label>
-            <input formControlName="officeId" matInput>
-          </mat-form-field>
-        </mat-grid-tile>
-
-        <mat-grid-tile [colspan]="2">
-          <mat-form-field class="input" appearance="outline">
-            <mat-label>Capacity</mat-label>
-            <input formControlName="capacity" matInput>
-          </mat-form-field>
-        </mat-grid-tile>
-        
-        <mat-grid-tile [colspan]="2">
-          <button [disabled]="form.invalid" type="submit" class="btnAceptar" mat-raised-button color="primary">Aceptar</button>
-          <button mat-raised-button routerLink="/home/admRooms/rooms/listaRoom">Volver</button>
-        </mat-grid-tile>
-      </mat-grid-list>
-    </form>
+<div mat-dialog-content >
+  <form [formGroup]="form"  >
+    <mat-grid-list cols="3" rowHeight="80px" >
+      <mat-grid-tile [colspan]="2">
+        <mat-form-field class="input" appearance="outline">
+          <mat-label>Room Name</mat-label> 
+          <input formControlName="meetingRoomName" matInput mat-cell value="meetingRoomName">
+        </mat-form-field>
+      </mat-grid-tile>
+      <mat-grid-tile [colspan]="2">
+        <mat-form-field class="input" appearance="outline" >
+          <mat-label>Office</mat-label>
+          <mat-select formControlName="officeId">
+            <mat-option *ngFor="let office of offices" [value]="office.officeId">
+              {{ office.nameOffice }}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+      </mat-grid-tile>
+      <mat-grid-tile [colspan]="2">
+        <mat-form-field class="input" appearance="outline">
+          <mat-label>Capacity</mat-label> 
+          <input formControlName="capacity" matInput mat-cell value="capacity">
+        </mat-form-field>
+      </mat-grid-tile>
+    </mat-grid-list>
+  </form>
+  <button  (click)="onNoClick()"  mat-raised-button >Back</button>
+  <button (click)="agregarEditarRoom()" mat-raised-button color="primary">Save</button>
 </div>
+
+
+
+
+
