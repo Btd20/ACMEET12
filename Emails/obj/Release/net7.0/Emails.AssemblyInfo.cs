@@ -11,13 +11,13 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("1fc19316-5dc5-41a8-ab61-17cd55655fd2")]
-[assembly: System.Reflection.AssemblyCompanyAttribute("Geolocalizaciones")]
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("9b56db82-8d10-46e8-b741-35443d84f2a3")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Emails")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("Geolocalizaciones")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Geolocalizaciones")]
+[assembly: System.Reflection.AssemblyProductAttribute("Emails")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Emails")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.

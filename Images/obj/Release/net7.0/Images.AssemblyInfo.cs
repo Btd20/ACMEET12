@@ -11,13 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("1fc19316-5dc5-41a8-ab61-17cd55655fd2")]
-[assembly: System.Reflection.AssemblyCompanyAttribute("Geolocalizaciones")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Images")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("Geolocalizaciones")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Geolocalizaciones")]
+[assembly: System.Reflection.AssemblyProductAttribute("Images")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Images")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
