@@ -1,9 +1,12 @@
-import { Component } from '@angular/core';
+import { Component, Inject } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { ActivatedRoute, Router } from '@angular/router';
 import { MeetingRoom } from '../../../../../shared/interfaces/meetingRoom';
 import { MeetingRoomService } from '../../../../../shared/services/meeting-room.service';
+import { Office } from 'src/app/shared/interfaces/office';
+import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
+import { OfficeService } from 'src/app/shared/services/office.service';
 
 @Component({
   selector: 'app-agregar-editar-rooms',
@@ -15,20 +18,26 @@ export class AgregarEditarRoomsComponent {
   form: FormGroup
   meetingRoomId: number;
   Operacion: string = 'Add';
- 
+  offices?: Office[];
 
-  constructor(private _meetingRoomService: MeetingRoomService,
+  constructor(
+    @Inject(MAT_DIALOG_DATA) private data: any,
+    private dialogRef: MatDialogRef<AgregarEditarRoomsComponent>,
+    private _meetingRoomService: MeetingRoomService,
     private fb: FormBuilder,
     private _snackBar: MatSnackBar,
     private router: Router,
-    private aRoute: ActivatedRoute) {
+    private _officeService: OfficeService,
+    private aRoute: ActivatedRoute
+    ) {
+
+    this.meetingRoomId = data.identification;
     this.form = this.fb.group({
       meetingRoomName: ['', Validators.required], ////Campo requerido
       officeId: ['', Validators.required],
       capacity: ['', Validators.required]
     })
 
-    this.meetingRoomId = Number(this.aRoute.snapshot.paramMap.get('meetingRoomId'));
   }
 
 
@@ -37,14 +46,14 @@ export class AgregarEditarRoomsComponent {
       this.Operacion = 'Editar';
       this.obtenerRoom(this.meetingRoomId);
     }
-
+    this._officeService.getOffices().subscribe(data => (this.offices = data));
 
   }
 
   obtenerRoom(meetingRoomId: number) {
     this.loading = true;
     this._meetingRoomService.getRoom(this.meetingRoomId).subscribe(data => {
-      this.form.setValue({
+      this.form.patchValue({
         meetingRoomName: data.meetingRoomName,
         officeId: data.officeId,
         capacity: data.capacity
@@ -57,7 +66,11 @@ export class AgregarEditarRoomsComponent {
 
   //Metodos
   agregarEditarRoom() {
-
+    if (this.form.invalid) {
+      // Formulario inválido, muestra una alerta al navegador
+      alert('Por favor, complete todos los campos obligatorios.');
+      return;
+    }
     //Definir el objeto
     const meetingRoom: MeetingRoom = {
       meetingRoomName: this.form.value.meetingRoomName,
@@ -65,13 +78,20 @@ export class AgregarEditarRoomsComponent {
       meetingRoomId: 0,
       capacity: this.form.value.capacity,
     }
-
-    if (this.meetingRoomId != 0) {
+    if (this.meetingRoomId) {
       meetingRoom.meetingRoomId = this.meetingRoomId;
       this.editarRoom(this.meetingRoomId, meetingRoom);
+      this.onNoClick();
     } else {
       this.agregarRoom(meetingRoom);
+      this.onNoClick();
     }
+    // if (this.meetingRoomId != 0) {
+    //   meetingRoom.meetingRoomId = this.meetingRoomId;
+    //   this.editarRoom(this.meetingRoomId, meetingRoom);
+    // } else {
+    //   this.agregarRoom(meetingRoom);
+    // }
   }
 
   editarRoom(meetingRoomId: number, meetingRoom: MeetingRoom) {
@@ -96,6 +116,9 @@ export class AgregarEditarRoomsComponent {
       duration: 4000,
       horizontalPosition: 'right'
     });
+  }
+  onNoClick(): void {
+    this.dialogRef.close();
   }
 
 }

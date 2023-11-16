@@ -43,12 +43,12 @@
     <!-- Acciones Column -->
     <ng-container matColumnDef="Acciones" >
       <th mat-header-cell *matHeaderCellDef mat-sort-header>
-        <button routerLink="/home/admRooms/rooms/agregarRoom" class="buttonAceptar" mat-raised-button color="primary">Agregar Room</button>
+        <button (click)="agregarRoom()" class="buttonAceptar" mat-raised-button color="primary">Agregar Room</button>
       </th>
       <td mat-cell *matCellDef="let element">
         <!-- <mat-icon routerLink="/verCity/{{ element.cityId }}" class="visibility" matTooltip="Ver" fontIcon="visibility"></mat-icon> -->
         <mat-icon fontIcon=""></mat-icon>
-        <mat-icon routerLink="/home/admRooms/rooms/editarRoom/{{ element.meetingRoomId }}" class="edit" matTooltip="Editar" fontIcon="edit"></mat-icon>
+        <mat-icon (click)="editarRoom(element.meetingRoomId, element)" class="edit" matTooltip="Editar" fontIcon="edit"></mat-icon>
         <mat-icon fontIcon=""></mat-icon>
         <mat-icon (click)="openDialog(element.meetingRoomId)" class="delete" matTooltip="Eliminar" fontIcon="delete"></mat-icon>
       </td>

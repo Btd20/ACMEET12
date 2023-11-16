@@ -8,6 +8,7 @@ import { MeetingRoomService } from '../../../../../shared/services/meeting-room.
 import { OfficeService } from '../../../../../shared/services/office.service';
 import { MatDialog } from '@angular/material/dialog';
 import { PopRemoveQuestionComponent } from 'src/app/pages/alerts/alert.component';
+import { AgregarEditarRoomsComponent } from '../update-rooms/update-rooms.component';
 
 @Component({
   selector: 'app-list-rooms',
@@ -86,7 +87,13 @@ export class ListRoomsComponent {
       this.obtenerRoom();
   });
   }
+  editarRoom(identification: number, room: MeetingRoom) {
+    const dialogRefPassword = this.dialog.open(AgregarEditarRoomsComponent, { data: { identification, room } });
+  }
 
+  agregarRoom() {
+    const dialogRefPassword = this.dialog.open(AgregarEditarRoomsComponent, { data: {} });
+  }
   mensajeExito() {
     this._snackBar.open('La oficina fue eliminada con éxito', '', {
       duration: 4000,
