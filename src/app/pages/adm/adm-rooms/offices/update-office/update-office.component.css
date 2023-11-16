@@ -1,6 +1,13 @@
 /* Mejora los estilos del contenido de la ventana de diálogo */
 .my-dialog-content {
-  width: 300px;
+  width: 250px;
+  padding:5px;
+  margin: 0 auto;
+}
+
+.window{
+  width: 250px;
+  padding:50px;
   margin: 0 auto;
 }
 
@@ -31,4 +38,10 @@ h1 {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
   text-align: center;
   margin-bottom: 10px;
+}
+
+.btn-generals{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }

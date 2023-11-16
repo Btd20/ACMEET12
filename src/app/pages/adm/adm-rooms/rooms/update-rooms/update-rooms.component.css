@@ -4,6 +4,19 @@
   margin: 0 auto;
 }
 
+.window{
+  width: 250px;
+  padding:30px;
+  margin: 0 auto;
+  overflow-y: hidden;
+}
+
+.btn-generals{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
 /* Mejora los estilos del campo de formulario */
 .my-input {
   width: 100%;
