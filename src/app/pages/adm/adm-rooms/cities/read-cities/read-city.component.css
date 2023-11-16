@@ -38,7 +38,13 @@ h1 {
 
 .edit {
   cursor: pointer;
-  color: #187889;
+  color:var(--black);
+  transition: var(--trans);
+}
+
+.edit:hover{
+  color:var(--cl1);
+  transition: var(--trans);
 }
 
 .visibility {

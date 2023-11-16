@@ -11,6 +11,23 @@ h1 {
   font-weight: 900;
   font-size: 40px;
   text-align: left;
+  font-family: var(--txtRoboto);
+  color:var(--black);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 25px;
+  text-align: left;
+  font-family: var(--txtOverpass);
+  text-transform: uppercase;
+  letter-spacing: -.5px;
+  color:var(--black);
+  border-left:5px solid var(--cl5);
+  padding-left:5px;
+  padding-top:2px;
 }
 
 .titulo-container {
@@ -21,9 +38,14 @@ h1 {
 
 .title {
   float:left;
-  text-align: left;
+  text-align: center;
   margin-right:80px;
   margin-bottom:20px;
+  font-family: var(--txtOverpass);
+  font-size:40px;
+  line-height: 125%;
+  font-weight: 900;
+  letter-spacing: -.8px;
 }
 
 .container-fluid {
@@ -53,19 +75,20 @@ h1 {
 }
 
 .bienvenida {
-  font-size: larger;
-  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-family: var(--txtRoboto);
   text-align: justify;
-  line-height: 2;
+  line-height: 180%;
 }
 
 .botones {
   margin-top: 30px;
 }
-  .botones > button:first-child {
-    margin-bottom: 10px;
-    margin-right: 3px;
-  }
+
+.botones > button:first-child {
+  margin-bottom: 10px;
+  margin-right: 3px;
+}
 
 .botonesReserve {
   display: flex;
@@ -73,7 +96,6 @@ h1 {
   justify-content: center;
   margin-right: 80px;
 }
-
 
 .row1 {
   margin-top: 50px;
@@ -83,7 +105,7 @@ h1 {
 
 .consultaReserva {
   margin-top:10px;
-  font-family: Roboto, sans-serif;
+  font-family: var(--txtRoboto);
   font-size: 40px;
   font-weight: 900;
 }

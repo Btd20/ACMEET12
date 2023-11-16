@@ -33,7 +33,9 @@ mat-grid-list {
 
 
 button:hover {
-  background-color: #0056b3; /* Color de fondo azul más oscuro en el hover */
+  background-color: var(--cl2); /* Color de fondo azul más oscuro en el hover */
+  color:var(--white2);
+  transition: var(--trans);
 }
 
 button {

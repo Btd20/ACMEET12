@@ -15,11 +15,12 @@
 
 /* Estilos para el enlace del nombre del equipo */
 .footer-container .team-name {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--txtRoboto);
+  text-transform: uppercase;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 600;
   text-decoration: none;
-  color: #333;
+  color: var(--black);
   margin-right: 20px;
   position: relative;
 }
@@ -28,9 +29,9 @@
   content: '';
   position: absolute;
   left: 0;
-  bottom: -2px;
+  bottom: -5px;
   width: 0;
-  height: 2px;
+  height: 3px;
   background-color: #6723d5;
   transition: width 0.2s;
 }
@@ -48,7 +49,7 @@
 }
 
 .footer-container .member h3 {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--txtRoboto);
   font-weight: bold;
   font-size: 18px;
   margin-top: 5px;
@@ -61,7 +62,7 @@
 }
 
 .footer-container .social-icons a {
-  color: #333;
+  color: var(--black);
   text-decoration: none;
   margin-left: 10px;
   font-size: 20px;
