@@ -10,6 +10,7 @@ import { BookingService } from '../../../shared/services/booking.service';
 import { PopRemoveQuestionComponent } from '../../alerts/alert.component';
 import { EditarReservaComponent } from '../edit-booking/edit-booking.component';
 import { FormReserveComponent } from '../form-booking/form-booking.component';
+import { throwDialogContentAlreadyAttachedError } from '@angular/cdk/dialog';
 
 
 @Component({
@@ -94,10 +95,17 @@ import { FormReserveComponent } from '../form-booking/form-booking.component';
     });
   }
 
-  openDialogEliminarReserva(identification: number){
+  openDialogEliminarReserva(identification: number) {
     let pathname = window.location.pathname;
     const dialogRef = this.dialog.open(PopRemoveQuestionComponent, {data: {identification, pathname}});
-  }
+
+    dialogRef.afterClosed().subscribe(result => {
+      const userId = sessionStorage.getItem('userId');
+      if (userId != null) {
+        this.obtenerBookings(userId)
+      }
+    });
+  }  
 
   openDialogAgregarReserva(){
     let pathname = window.location.pathname;
