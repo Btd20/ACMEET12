@@ -73,43 +73,43 @@ export class PopRemoveQuestionComponent {
     case "/home/bookings":
       this._bookingService.cancelBooking(this.identification).subscribe(() => {
         this.mensajeExito();
-        this.refreshWindow();
+        this.dialogRef.close();
       });
       break;
     case "/home/admRooms/countries/listaCountries":
         this._countryService.deleteCountry(this.identification).subscribe(() => {
           this.mensajeExito();
-          this.refreshWindow();
+          this.dialogRef.close();
         });
       break;
     case "/home/admRooms/cities/listaCity":
         this._cityService.deleteCity(this.identification).subscribe(() => {
           this.mensajeExito();
-          this.refreshWindow();
+          this.dialogRef.close();
         });
       break;
     case "/home/admRooms/offices/listaOffices":
         this._officeService.deleteOffice(this.identification).subscribe(() => {
           this.mensajeExito();
-          this.refreshWindow();
+          this.dialogRef.close();
         });
       break;
     case "/home/admRooms/rooms/listaRoom":
         this._roomService.deleteRoom(this.identification).subscribe(() => {
           this.mensajeExito();
-          this.refreshWindow();
+          this.dialogRef.close();
         });
       break;
     case "/home/users/listUser":
         this._userService.deleteuser(this.identificationUser).subscribe(() => {
           this.mensajeExito();
-          this.refreshWindow();
+          this.dialogRef.close();
         });
       break;
     case "/home/admReservas/listReservas":
         this._reserveService.cancelBooking(this.identification).subscribe(() => {
           this.mensajeExito();
-          this.refreshWindow();
+          this.dialogRef.close();
         });
       break;
   }  

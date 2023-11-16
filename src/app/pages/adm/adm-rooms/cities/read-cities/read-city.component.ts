@@ -123,6 +123,11 @@ export class ListCityComponent {
   openDialog(identification: number){
     let pathname = window.location.pathname;
     const dialogRef = this.dialog.open(PopRemoveQuestionComponent, {data: {identification, pathname}});
+
+    dialogRef.afterClosed().subscribe(result => {
+      this.obtenerCountry();
+      this.obtenerCity();
+  });
   }
 
   editarCity(identification: number, city: City){
