@@ -123,7 +123,7 @@ onNoClick(): void {
 mensajeExito() {
   switch(this.pathName){
     case "/home/bookings":
-      this.popup("Your reserve is already canceled");
+      this.popup("Your booking is already canceled");
       break;
     case "/home/admRooms/countries/listaCountries":
       this.popup("Your removed the country in the database");
@@ -141,7 +141,7 @@ mensajeExito() {
       this.popup("Your removed the user in the database");
       break;
     case "/home/admReservas/listReservas":
-      this.popup("Your removed the reserve in the database");
+      this.popup("Your removed the booking in the database");
       break;
   }  
  
