@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yeray.lorenzo\\source\\repos\\ACMEET12\\Images\\Images.csproj": {}
+    "C:\\Users\\eric.ramos\\source\\repos\\ACMEET\\BACK\\ACMEET12\\Images\\Images.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yeray.lorenzo\\source\\repos\\ACMEET12\\Images\\Images.csproj": {
+    "C:\\Users\\eric.ramos\\source\\repos\\ACMEET\\BACK\\ACMEET12\\Images\\Images.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yeray.lorenzo\\source\\repos\\ACMEET12\\Images\\Images.csproj",
+        "projectUniqueName": "C:\\Users\\eric.ramos\\source\\repos\\ACMEET\\BACK\\ACMEET12\\Images\\Images.csproj",
         "projectName": "Images",
-        "projectPath": "C:\\Users\\yeray.lorenzo\\source\\repos\\ACMEET12\\Images\\Images.csproj",
-        "packagesPath": "C:\\Users\\yeray.lorenzo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yeray.lorenzo\\source\\repos\\ACMEET12\\Images\\obj\\",
+        "projectPath": "C:\\Users\\eric.ramos\\source\\repos\\ACMEET\\BACK\\ACMEET12\\Images\\Images.csproj",
+        "packagesPath": "C:\\Users\\eric.ramos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eric.ramos\\source\\repos\\ACMEET\\BACK\\ACMEET12\\Images\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\yeray.lorenzo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\eric.ramos\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
