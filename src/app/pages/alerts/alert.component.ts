@@ -7,6 +7,7 @@ import { CountryService } from '../../shared/services/country.service';
 import { MeetingRoomService } from '../../shared/services/meeting-room.service';
 import { OfficeService } from '../../shared/services/office.service';
 import { UsersService } from '../../shared/services/users.service';
+import { TicketService } from 'src/app/shared/services/ticket.service';
 
 @Component({
   selector: 'app-alert',
@@ -29,6 +30,7 @@ export class PopRemoveQuestionComponent {
     private _snackBar: MatSnackBar,
     private dialogRef: MatDialogRef<PopRemoveQuestionComponent>
     ,private _bookingService: BookingService
+    ,private _ticketService: TicketService
     ,private _countryService: CountryService
     ,private _cityService: CityService
     ,private _officeService: OfficeService
@@ -108,6 +110,12 @@ export class PopRemoveQuestionComponent {
       break;
     case "/home/admReservas/listReservas":
         this._reserveService.cancelBooking(this.identification).subscribe(() => {
+          this.mensajeExito();
+          this.dialogRef.close();
+        });
+      break;
+      case "/home/admHelp":
+        this._ticketService.deleteTicket(this.identification).subscribe(() => {
           this.mensajeExito();
           this.dialogRef.close();
         });

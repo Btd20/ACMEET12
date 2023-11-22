@@ -1,19 +1,30 @@
-<div class="containerTabla row">
-  <div class="col" *ngFor="let ticket of tickets">
-    <mat-card class="example-card">
-      <mat-card-header>
-        <mat-card-title-group>
-          <mat-card-title>{{ ticket.title }}</mat-card-title>
-          <mat-card-subtitle>{{ ticket.status }}</mat-card-subtitle>
-          <img mat-card-sm-image [src]="ticket.image">
-        </mat-card-title-group>
-      </mat-card-header>
-      <mat-card-content>
-        {{ ticket.content }}
-      </mat-card-content>
-    </mat-card>
-    <br>
-  </div>
+<div class="containerTabla">
+  <mat-card *ngFor="let ticket of tickets" class="example-card">
+    <mat-card-header>
+      <mat-card-title-group>
+        <img mat-card-sm-image [src]="ticket.image">
+        <mat-card-title>{{ ticket.title }}</mat-card-title>
+        <mat-card-subtitle><b>User:</b> {{ ticket.userName }}</mat-card-subtitle>
+        <mat-card-subtitle><b>Status:</b> {{ ticket.status }}</mat-card-subtitle>
+      </mat-card-title-group>
+    </mat-card-header>
+    <mat-card-content>
+      <br>
+      <b>Problema: </b>{{ ticket.problem }}
+    </mat-card-content>
+    <mat-card-content *ngIf="ticket.answer !== null; else noAnswer">
+      <b>Respuesta: </b>{{ ticket.answer }}
+    </mat-card-content>
+    <ng-template #noAnswer>Sin respuesta</ng-template>
+    <div class="button-container">
+      <button (click)="openDialog(ticket.id)" mat-menu-item class="btn-answ">
+        <mat-icon>delete</mat-icon>
+        <span>Delete</span>
+      </button>
+      <button (click)="openDialogResponderTicket(ticket)" mat-menu-item class="btn-answ">
+        <mat-icon>edit</mat-icon>
+        <span>Answer</span>
+      </button>
+    </div>    
+  </mat-card>
 </div>
-
-

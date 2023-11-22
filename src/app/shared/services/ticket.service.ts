@@ -15,4 +15,14 @@ export class TicketService {
     const url = `${this.myAppUrl}${this.myApiUrl}`;
     return this.http.get<any[]>(url);
   }
+
+  deleteTicket(ticketId: number): Observable<any> {
+    const url = `${this.myAppUrl}${this.myApiUrl}/${ticketId}`;
+    return this.http.delete<any>(url);
+  }
+
+  updateTicket(ticketId: number, updatedTicket: any): Observable<any> {
+    const url = `${this.myAppUrl}${this.myApiUrl}/${ticketId}`;
+    return this.http.put<any>(url, updatedTicket);
+  }  
 }

@@ -5,6 +5,8 @@ import { MatDialog } from '@angular/material/dialog';
 import { TicketService } from 'src/app/shared/services/ticket.service';
 import { ImageService } from 'src/app/shared/services/ImageService ';
 import { SafeUrl } from '@angular/platform-browser';
+import { UsersService } from 'src/app/shared/services/users.service';
+import { PopRemoveQuestionComponent } from '../../alerts/alert.component';
 
 @Component({
   selector: 'app-help',
@@ -14,21 +16,24 @@ import { SafeUrl } from '@angular/platform-browser';
 export class admHelpComponent implements OnInit {
   tickets: any[] = []; // Asegúrate de que la estructura de tus tickets coincida con la recibida desde el backend
   userId: string | null = sessionStorage.getItem('userId');
+  default_url: string = "https://imgs.search.brave.com/GrTMprW4fg05XTsfzacsNofnbaMJuXlbLIXZqUAn9vg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzAwLzY0LzY3LzI3/LzM2MF9GXzY0Njcy/NzM2X1U1a3BkR3M5/a2VVbGw4Q1JRM3Az/WWFFdjJNNnFrVlk1/LmpwZw";
+  dialogRef: any;
 
   constructor(
     private _userService: ProfileService, 
     private dialog: MatDialog,
     private _ticketService: TicketService,
-    private imageService: ImageService
+    private imageService: ImageService,
+    private usersService: UsersService
   ) {}
 
   ngOnInit() {
     this.getTickets(); // Llama a la función para obtener los tickets al inicializar el componente
   }
 
-  openDialogAgregarReserva() {
+  openDialogResponderTicket(ticket: any) {
     let pathname = window.location.pathname;
-    const dialogRef = this.dialog.open(AdmHelpAnswComponent, { data: { pathname }, panelClass: 'no-scroll' });
+    const dialogRef = this.dialog.open(AdmHelpAnswComponent, { data: { ticket, pathname }, panelClass: 'no-scroll' });
   }
 
   getTickets() {
@@ -38,6 +43,8 @@ export class admHelpComponent implements OnInit {
         this.tickets = response.map((ticket: any) => {
           // Agrega un campo de imagen a cada ticket antes de agregarlo al array
           ticket.image = null; // Puedes inicializarlo con un valor predeterminado si es necesario
+          ticket.userName = null;
+          this.getUserNameById(ticket.userId, ticket);
           this.fetchAndUpdateProfilePicture(ticket.userId, ticket); // Usa "userId" con la "u" minúscula
           return ticket;
         });
@@ -48,6 +55,20 @@ export class admHelpComponent implements OnInit {
     );
   }
 
+  getUserNameById(userId: string, ticket: any): void {
+    if (userId) {
+      this.usersService.getUserById(userId).subscribe(
+        (user: any) => {
+          ticket.userName = user.userName;
+        },
+        (error) => {
+          console.error('Error al obtener el usuario', error);
+        }
+      );
+    }
+  }
+  
+
   fetchAndUpdateProfilePicture(userId: string, ticket: any): void {
     if (userId) {
       this.imageService.getImage(userId)
@@ -55,13 +76,11 @@ export class admHelpComponent implements OnInit {
           (imageData: ArrayBuffer) => {
             console.log('Imagen obtenida correctamente');
             const base64String = this.arrayBufferToBase64(imageData);
-            // Asigna la imagen al campo image del ticket
             ticket.image = 'data:image/jpeg;base64,' + base64String;
           },
           (error) => {
             console.error('Error al obtener la imagen', error);
-            // Si hay un error, puedes asignar una imagen predeterminada
-            // o manejarlo según tus requisitos
+            ticket.image = this.default_url;
           }
         );
     } else {
@@ -77,5 +96,15 @@ export class admHelpComponent implements OnInit {
       binary += String.fromCharCode(bytes[i]);
     }
     return window.btoa(binary);
+  }
+
+  openDialog(identification: number){
+    let pathname = window.location.pathname;
+    const dialogRef = this.dialog.open(PopRemoveQuestionComponent, {data: {identification, pathname}});
+    
+    dialogRef.afterClosed().subscribe(result => {
+      this.getTickets();
+    });
+    
   }
 }
