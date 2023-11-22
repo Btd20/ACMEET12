@@ -1,4 +1,14 @@
+using Ticket.Models;
+using Microsoft.Extensions.Configuration;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddDbContext<TicketDbContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetSection("ConnectionStrings:DefaultConnection").Value);
+});
+
 
 // Add services to the container.
 

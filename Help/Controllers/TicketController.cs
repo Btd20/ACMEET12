@@ -1,51 +1,69 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Ticket.Models;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace Ticket.Controllers
 {
     [Route("api/tickets")]
-    public class TicketsController : ControllerBase
+    [ApiController]
+    public class TicketController : ControllerBase
     {
-        [HttpPost]
-        public ActionResult CreateTicket(TicketsController ticket)
+        private readonly TicketDbContext _context;
+
+        public TicketController(TicketDbContext context)
         {
-            _questionsRepository.Add(ticket);
-            _questionsRepository.SaveChanges();
-
-            return Ok();
+            _context = context;
         }
-    }
 
-    [Route("api/questions")]
-    public class QuestionsListController : ControllerBase
-    {
+        [HttpGet("{userId}")]
+        public async Task<ActionResult<IEnumerable<TicketModel>>> GetTicketsByUserId(string userId)
+        {
+            var tickets = await _context.Ticket.Where(t => t.UserId == userId).ToListAsync();
+
+            if (tickets == null || tickets.Count == 0)
+            {
+                return NotFound();
+            }
+
+            return Ok(tickets);
+        }
+
         [HttpGet]
-        public ActionResult GetQuestions()
+        public async Task<ActionResult<IEnumerable<TicketModel>>> GetAllTickets()
         {
-            return Ok(_questionsRepository.GetAll());
-        }
-    }
+            var tickets = await _context.Ticket.ToListAsync();
 
-    [Route("api/questions/{id}")]
-    public class QuestionController : ControllerBase
-    {
-        [HttpGet]
-        public ActionResult GetQuestion(int id)
-        {
-            return Ok(_questionsRepository.GetById(id));
-        }
-    }
+            if (tickets == null || tickets.Count == 0)
+            {
+                return NotFound();
+            }
 
-    [Route("api/questions/{id}/answer")]
-    public class AnswerController : ControllerBase
-    {
+            return Ok(tickets);
+        }
+
         [HttpPost]
-        public ActionResult CreateAnswer(int id, AnswerController answer)
+        public async Task<ActionResult<TicketModel>> CreateTicket(TicketModel ticket)
         {
-            var question = _questionsRepository.GetById(id);
-            question.Answers.Add(answer);
-            _questionsRepository.SaveChanges();
+            _context.Ticket.Add(ticket);
+            await _context.SaveChangesAsync();
 
-            return Ok();
+            return CreatedAtAction(nameof(GetTicket), new { id = ticket.Id }, ticket);
         }
+
+        [HttpGet("ticket/{id}")]
+public async Task<ActionResult<TicketModel>> GetTicket(int id)
+{
+    var ticket = await _context.Ticket.FindAsync(id);
+ 
+    if (ticket == null)
+    {
+        return NotFound();
+    }
+ 
+    return Ok(ticket);
+}
     }
 }
