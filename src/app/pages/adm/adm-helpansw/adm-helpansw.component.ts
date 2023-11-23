@@ -1,4 +1,4 @@
-import { Component, Inject } from '@angular/core';
+import { Component, EventEmitter, Inject, Output } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { MatSnackBar } from '@angular/material/snack-bar';
@@ -13,6 +13,7 @@ export class AdmHelpAnswComponent {
   form: FormGroup;
   ticket: any;
   dialogRef: any;
+  @Output() ticketEdited = new EventEmitter<void>();
 
   constructor(
     private formBuilder: FormBuilder,
@@ -42,12 +43,14 @@ export class AdmHelpAnswComponent {
         problem: this.ticket.problem,
         answer: answer,
         userId: this.ticket.userId,
+        admin: sessionStorage.getItem('user')
       };
 
       this.ticketService.updateTicket(ticketId, ticketData).subscribe(
         response => {
           console.log('Ticket editado con éxito:', response);
           this._snackBar.open('Ticket editado con éxito', 'Cerrar', { duration: 2000 });
+          this.ticketEdited.emit();
         },
         error => {
           console.error('Error al editar el ticket:', error);
