@@ -111,6 +111,7 @@ namespace Ticket.Controllers
             existingTicket.Status = updatedTicket.Status;
             existingTicket.Problem = updatedTicket.Problem;
             existingTicket.Answer = updatedTicket.Answer;
+            existingTicket.Admin = updatedTicket.Admin;
 
             try
             {
