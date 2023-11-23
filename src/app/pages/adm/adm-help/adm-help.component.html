@@ -1,50 +1,30 @@
-<div class="containerTabla row">
-  <div class="col">
-    <mat-card class="example-card">
-      <mat-card-header>
-        <mat-card-title-group>
-          <mat-card-title>Shiba Inu</mat-card-title>
-          <mat-card-subtitle>Dog</mat-card-subtitle>
-          <img mat-card-sm-image src="https://material.angular.io/assets/img/examples/shiba2.jpg">
-        </mat-card-title-group>
-      </mat-card-header>
-      <mat-card-content>
-        Guau Guau Guau Guau Guau GuauGuauGuau
-      </mat-card-content>
-    </mat-card> 
-    <br>   
-    <mat-card class="example-card">
-      <mat-card-header>
-        <mat-card-title-group>
-          <mat-card-title>Mustapha Bouleili</mat-card-title>
-          <mat-card-subtitle>Software</mat-card-subtitle>
-          <img mat-card-sm-image src="https://material.angular.io/assets/img/examples/shiba2.jpg">
-        </mat-card-title-group>
-      </mat-card-header>
-      <mat-card-content>
-        يمكنك تناول الطعام في الغرف واللعب بالكرة
-      </mat-card-content>
-    </mat-card>  
-    <br>   
-    <mat-card class="example-card">
-      <mat-card-header>
-        <mat-card-title-group>
-          <mat-card-title>Oscar Rovira</mat-card-title>
-          <mat-card-subtitle>Software Architect</mat-card-subtitle>
-          <img mat-card-sm-image src="https://material.angular.io/assets/img/examples/shiba2.jpg">
-        </mat-card-title-group>
-      </mat-card-header>
-      <mat-card-content>
-        <div class="card-txt-btns">
-          Puedo hacer muchas Reservas?
-          <button (click)="openDialogAgregarReserva()" mat-menu-item class="btn-answ">
-            <mat-icon>edit</mat-icon>
-            <span>Answer</span>
-          </button>
-        </div>
-      </mat-card-content>
-    </mat-card>  
-  </div>
+<div class="containerTabla">
+  <mat-card *ngFor="let ticket of tickets" class="example-card">
+    <mat-card-header>
+      <mat-card-title-group>
+        <img mat-card-sm-image [src]="ticket.image">
+        <mat-card-title>{{ ticket.title }}</mat-card-title>
+        <mat-card-subtitle><b>User:</b> {{ ticket.userName }}</mat-card-subtitle>
+        <mat-card-subtitle><b>Status:</b> {{ ticket.status }}</mat-card-subtitle>
+      </mat-card-title-group>
+    </mat-card-header>
+    <mat-card-content>
+      <br>
+      <b>Problema: </b>{{ ticket.problem }}
+    </mat-card-content>
+    <mat-card-content *ngIf="ticket.answer !== null; else noAnswer">
+      <b>Respuesta: </b>{{ ticket.answer }}
+    </mat-card-content>
+    <ng-template #noAnswer>Sin respuesta</ng-template>
+    <div class="button-container">
+      <button (click)="openDialog(ticket.id)" mat-menu-item class="btn-answ">
+        <mat-icon>delete</mat-icon>
+        <span>Delete</span>
+      </button>
+      <button (click)="openDialogResponderTicket(ticket)" mat-menu-item class="btn-answ">
+        <mat-icon>edit</mat-icon>
+        <span>Answer</span>
+      </button>
+    </div>    
+  </mat-card>
 </div>
-
-

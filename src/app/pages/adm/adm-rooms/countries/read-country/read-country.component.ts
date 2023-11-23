@@ -64,6 +64,10 @@ export class ListaCountryComponent {
   openDialog(identification: number){
     let pathname = window.location.pathname;
     const dialogRef = this.dialog.open(PopRemoveQuestionComponent, {data: {identification, pathname}});
+
+    dialogRef.afterClosed().subscribe(result => {
+        this.obtenerCountries();
+    });
   }
 
   editarCountry(identification: number, country: Country){

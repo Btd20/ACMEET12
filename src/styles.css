@@ -5,6 +5,30 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 html, body { height: 100%; }
 
+@import url('https://fonts.googleapis.com/css2?family=Overpass&family=Ubuntu+Mono&family=Source+Sans+Pro&family=Roboto&display=swap');
+
+
+:root{
+  /*--VARIABLES COLORS--*/
+  --cl1:#673ab7;
+  --cl2:#3c2f80;
+  --cl3:#ddd7ff;
+  --cl4:#bbafff;
+  --cl5:#9380FF;
+  --cl6:#371F61;
+
+
+  --white:#fff;
+  --white2:#EBEBEB;
+  --black:#262626;
+  --trans:0.3s ease-in-out all;
+
+  --txtSource:'Source Sans Pro', sans-serif;
+  --txtOverpass:'Overpass', sans-serif;
+  --txtRoboto:'Roboto', sans-serif;
+  --txtMono:'Ubuntu Mono', monospace;
+}
+
 
 body {
   background: #ADA996; /* fallback for old browsers */

@@ -5,6 +5,7 @@ import { OfficesRoutingModule } from './offices-routing.module';
 import { ListaOfficeComponent } from './read-office/read-office.component';
 import { AgregarEditarOfficeComponent } from './update-office/update-office.component';
 import { SharedModule } from '../../../../shared/shared.module';
+import { MatAutocompleteModule } from '@angular/material/autocomplete';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { SharedModule } from '../../../../shared/shared.module';
   ],
   imports: [
     CommonModule,
+    MatAutocompleteModule, 
     OfficesRoutingModule,
     SharedModule
   ],

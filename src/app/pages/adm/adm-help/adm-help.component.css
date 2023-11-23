@@ -25,6 +25,9 @@ h2 {
 
 /* STRUCTURE */
 .containerTabla {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   width: 80%;
   background-color: white;
   position: relative;
@@ -286,4 +289,19 @@ input::placeholder {
 
 .btn-answ{
   width: calc(250px - 10%);
+}
+
+.button-container {
+  display: flex;
+}
+
+.example-card {
+  width: calc(100% - 20px); /* Considera el margen entre las tarjetas */
+  margin-bottom: 20px;
+}
+
+.delete {
+  align-self: flex-end; /* Alinea el ícono a la derecha */
+  cursor: pointer;
+  margin: 10px;
 }

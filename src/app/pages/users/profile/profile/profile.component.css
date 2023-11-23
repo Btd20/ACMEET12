@@ -1,3 +1,7 @@
+.row{
+  align-items: center;
+}
+
 .containerTabla {
   width: 80%;
   background-color: white;
@@ -9,9 +13,22 @@
 }
 
 .user-img {
-  width: 50%;
-  padding: 10px;
+  width:auto;
+  padding: 15px;
+  margin:auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
   justify-content: center;
+  align-items: center;
+}
+
+.user-img > img{
+  overflow: hidden;
+  border-radius: 8%;
+  margin-bottom: 10px;
+  background-color:#dcdde1;
 }
 
 div .img {
@@ -71,3 +88,28 @@ div .img {
   color: gray; /* Cambiamos el color del texto al hacer hover en el botón */
 }
 
+.btn-profile{
+  color: white!important;
+}
+
+#img{
+  height: 50px;
+}
+
+.btn-change{
+  width: 35%;
+  overflow:hidden;
+}
+
+.mat-mdc-button>.mat-icon {
+  margin-left: 0;
+  display: flex;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  font-size: 25px;
+  left: 5%;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}

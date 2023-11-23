@@ -7,6 +7,7 @@ import { CountryService } from '../../shared/services/country.service';
 import { MeetingRoomService } from '../../shared/services/meeting-room.service';
 import { OfficeService } from '../../shared/services/office.service';
 import { UsersService } from '../../shared/services/users.service';
+import { TicketService } from 'src/app/shared/services/ticket.service';
 
 @Component({
   selector: 'app-alert',
@@ -29,6 +30,7 @@ export class PopRemoveQuestionComponent {
     private _snackBar: MatSnackBar,
     private dialogRef: MatDialogRef<PopRemoveQuestionComponent>
     ,private _bookingService: BookingService
+    ,private _ticketService: TicketService
     ,private _countryService: CountryService
     ,private _cityService: CityService
     ,private _officeService: OfficeService
@@ -73,43 +75,49 @@ export class PopRemoveQuestionComponent {
     case "/home/bookings":
       this._bookingService.cancelBooking(this.identification).subscribe(() => {
         this.mensajeExito();
-        this.refreshWindow();
+        this.dialogRef.close();
       });
       break;
     case "/home/admRooms/countries/listaCountries":
         this._countryService.deleteCountry(this.identification).subscribe(() => {
           this.mensajeExito();
-          this.refreshWindow();
+          this.dialogRef.close();
         });
       break;
     case "/home/admRooms/cities/listaCity":
         this._cityService.deleteCity(this.identification).subscribe(() => {
           this.mensajeExito();
-          this.refreshWindow();
+          this.dialogRef.close();
         });
       break;
     case "/home/admRooms/offices/listaOffices":
         this._officeService.deleteOffice(this.identification).subscribe(() => {
           this.mensajeExito();
-          this.refreshWindow();
+          this.dialogRef.close();
         });
       break;
     case "/home/admRooms/rooms/listaRoom":
         this._roomService.deleteRoom(this.identification).subscribe(() => {
           this.mensajeExito();
-          this.refreshWindow();
+          this.dialogRef.close();
         });
       break;
     case "/home/users/listUser":
         this._userService.deleteuser(this.identificationUser).subscribe(() => {
           this.mensajeExito();
-          this.refreshWindow();
+          this.dialogRef.close();
         });
       break;
     case "/home/admReservas/listReservas":
         this._reserveService.cancelBooking(this.identification).subscribe(() => {
           this.mensajeExito();
-          this.refreshWindow();
+          this.dialogRef.close();
+        });
+      break;
+      case "/home/admHelp":
+        this._ticketService.deleteTicket(this.identification).subscribe(() => {
+          this.mensajeExito();
+          this.dialogRef.close();
         });
       break;
   }  
@@ -123,7 +131,7 @@ onNoClick(): void {
 mensajeExito() {
   switch(this.pathName){
     case "/home/bookings":
-      this.popup("Your reserve is already canceled");
+      this.popup("Your booking is already canceled");
       break;
     case "/home/admRooms/countries/listaCountries":
       this.popup("Your removed the country in the database");
@@ -141,7 +149,7 @@ mensajeExito() {
       this.popup("Your removed the user in the database");
       break;
     case "/home/admReservas/listReservas":
-      this.popup("Your removed the reserve in the database");
+      this.popup("Your removed the booking in the database");
       break;
   }  
  

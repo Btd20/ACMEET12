@@ -18,7 +18,7 @@
       </ng-container>
 
       <ng-container matColumnDef="reserveId">
-        <th mat-header-cell *matHeaderCellDef mat-sort-header>Reserve Id</th>
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>Booking Id</th>
         <td mat-cell *matCellDef="let element">{{ element.reserveId }}</td>
       </ng-container>
 
@@ -28,7 +28,7 @@
       </ng-container>
 
       <ng-container matColumnDef="reserveDate">
-        <th mat-header-cell *matHeaderCellDef mat-sort-header>Reserve Date</th>
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>Booking Date</th>
         <td mat-cell *matCellDef="let element">{{ element.reserveDate }}</td>
       </ng-container>
 
@@ -44,7 +44,7 @@
 
       <ng-container matColumnDef="Acciones">
         <th mat-header-cell *matHeaderCellDef mat-sort-header>
-          <button  (click)=" openDialogAgregrarReserva()" class="buttonAceptar" mat-raised-button color="primary">Add Another Reserve</button>
+          <button  (click)=" openDialogAgregrarReserva()" class="buttonAceptar" mat-raised-button color="primary">Add Another Booking</button>
         </th>
         <td mat-cell *matCellDef="let element">
           <mat-icon fontIcon=""></mat-icon>
