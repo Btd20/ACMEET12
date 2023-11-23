@@ -2618,19 +2618,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\eric.ramos\\.nuget\\packages\\": {}
+    "C:\\Users\\yeray.lorenzo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\eric.ramos\\source\\repos\\ACMEET\\BACK\\ACMEET12\\Authorization\\Authorization.csproj",
+      "projectUniqueName": "C:\\Users\\yeray.lorenzo\\source\\repos\\ACMEET12\\Authorization\\Authorization.csproj",
       "projectName": "Authorization",
-      "projectPath": "C:\\Users\\eric.ramos\\source\\repos\\ACMEET\\BACK\\ACMEET12\\Authorization\\Authorization.csproj",
-      "packagesPath": "C:\\Users\\eric.ramos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\eric.ramos\\source\\repos\\ACMEET\\BACK\\ACMEET12\\Authorization\\obj\\",
+      "projectPath": "C:\\Users\\yeray.lorenzo\\source\\repos\\ACMEET12\\Authorization\\Authorization.csproj",
+      "packagesPath": "C:\\Users\\yeray.lorenzo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\yeray.lorenzo\\source\\repos\\ACMEET12\\Authorization\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\eric.ramos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\yeray.lorenzo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
