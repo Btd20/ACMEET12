@@ -25,6 +25,8 @@ export class PopRemoveQuestionComponent {
   rooms?: boolean;
   user?: boolean;
   reservation?: boolean;
+  admHelp?: boolean;
+  help?: boolean;
   constructor(
     @Inject(MAT_DIALOG_DATA) private data: any,
     private _snackBar: MatSnackBar,
@@ -64,6 +66,12 @@ export class PopRemoveQuestionComponent {
         break;
       case "/home/admReservas/listReservas":
         this.reservation = true;
+        break;
+      case "/home/help":
+        this.help = true;
+        break;
+      case "/home/admHelp":
+        this.admHelp = true;
         break;
     }  
   }
@@ -110,6 +118,12 @@ export class PopRemoveQuestionComponent {
       break;
     case "/home/admReservas/listReservas":
         this._reserveService.cancelBooking(this.identification).subscribe(() => {
+          this.mensajeExito();
+          this.dialogRef.close();
+        });
+      break;
+      case "/home/help":
+        this._ticketService.deleteTicket(this.identification).subscribe(() => {
           this.mensajeExito();
           this.dialogRef.close();
         });
