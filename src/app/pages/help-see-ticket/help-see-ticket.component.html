@@ -9,10 +9,10 @@
                 <p>Problem</p>
                 <p>{{ ticket.problem }}</p>
             </div>
-            <div class="left">
+            <div class="left" *ngIf="ticket.answer !== null">
                 <p>Answer</p>
                 <p>{{ ticket.answer }}</p>
-            </div>
+            </div>            
         </div>
         <div class="right">
             <img mat-card-sm-image class="imagen" [src]="profilepictureId">
@@ -24,13 +24,19 @@
         <p class="bold">Created by: </p><p class="params">You</p>
         <p class="bold">Answered by: </p>
         <p class="params" *ngIf="ticket.admin; else noAnswer">{{ ticket.admin }}</p>
-        <ng-template #noAnswer>No answer</ng-template>
+        <ng-template #noAnswer>
+            <p class="no-answer">No answer</p>
+        </ng-template>
     </div>
     
     <div class="footer" *ngIf="ticket.status === 'Open'">
         <p class="bold">Status: </p><p class="statusOpen"> {{ ticket.status }}</p>
         <p class="bold">Created by: </p><p class="params">You</p>
-        <p class="bold">Answered by: </p><p class="params">{{ ticket.admin }}</p>
+        <p class="bold">Answered by: </p>
+        <p class="params" *ngIf="ticket.admin; else noAnswer">{{ ticket.admin }}</p>
+        <ng-template #noAnswer>
+            <p class="no-answer">No answer</p>
+        </ng-template>
     </div>
 
     <div class="row">

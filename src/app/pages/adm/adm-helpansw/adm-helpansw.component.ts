@@ -2,6 +2,7 @@ import { Component, EventEmitter, Inject, Output } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { MatSnackBar } from '@angular/material/snack-bar';
+import { EmailService } from 'src/app/shared/services/email.service';
 import { TicketService } from 'src/app/shared/services/ticket.service';
 
 @Component({
@@ -20,10 +21,11 @@ export class AdmHelpAnswComponent {
     @Inject(MAT_DIALOG_DATA) private data: any,
     private ticketService: TicketService,
     private _snackBar: MatSnackBar,
+    private _emailService: EmailService
   ) {
     this.form = this.formBuilder.group({
       answer: [data.ticketAnswer || '', Validators.required],
-      title: [''], // Agregar campos ocultos o predeterminados para los campos requeridos
+      title: [''],
       problem: [''],
       userId: [''],
     });
@@ -35,7 +37,6 @@ export class AdmHelpAnswComponent {
       const ticketId = this.ticket.id;
       const answer = this.form.value.answer;
 
-      // Incluir otros campos requeridos en la solicitud
       const ticketData = {
         id: ticketId,
         title: this.ticket.title,
@@ -43,6 +44,7 @@ export class AdmHelpAnswComponent {
         problem: this.ticket.problem,
         answer: answer,
         userId: this.ticket.userId,
+        email: this.ticket.email,
         admin: sessionStorage.getItem('user')
       };
 
@@ -51,6 +53,8 @@ export class AdmHelpAnswComponent {
           console.log('Ticket editado con éxito:', response);
           this._snackBar.open('Ticket editado con éxito', 'Cerrar', { duration: 2000 });
           this.ticketEdited.emit();
+          this._emailService.sendTicketResponse(ticketData).subscribe(
+            );
         },
         error => {
           console.error('Error al editar el ticket:', error);

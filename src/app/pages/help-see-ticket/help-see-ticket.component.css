@@ -69,6 +69,12 @@
     font-weight: bold;
 }
 
+.no-answer {
+    color: #c90606;
+    display: inline;
+    font-weight: bold;
+}
+
 .statusClosed {
     color: #c90606;
     display: inline;

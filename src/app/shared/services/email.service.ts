@@ -10,6 +10,8 @@ import { Booking } from '../interfaces/booking';
 export class EmailService {
   private myAppUrl: string = environment.endpoint.emails;
   private myApiUrl: string = 'api/Email/ConfirmarReserva';
+  private myApiUrl2: string = 'api/Email/ConfirmarTicket';
+  private myApiUrl3: string = 'api/Email/RespostaTicket';
   private headers?: HttpHeaders;
 
   constructor(private http: HttpClient) {
@@ -22,5 +24,13 @@ export class EmailService {
 
   sendConfirmationEmail(reserva: Booking): Observable<any> {
     return this.http.post<any>(`${this.myAppUrl}${this.myApiUrl}/${sessionStorage.getItem('userEmail')}`, reserva);
+  }  
+
+  sendTicketConfirmationEmail(ticket: any): Observable<any> {
+    return this.http.post<any>(`${this.myAppUrl}${this.myApiUrl2}/${sessionStorage.getItem('userEmail')}`, ticket);
+  }  
+
+  sendTicketResponse(ticket: any): Observable<any> {
+    return this.http.post<any>(`${this.myAppUrl}${this.myApiUrl3}/${ticket.email}`, ticket);
   }  
 }

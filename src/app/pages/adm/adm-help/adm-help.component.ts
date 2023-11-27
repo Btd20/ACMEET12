@@ -108,6 +108,5 @@ export class admHelpComponent implements OnInit {
     dialogRef.afterClosed().subscribe(result => {
       this.getTickets();
     });
-    
   }
 }

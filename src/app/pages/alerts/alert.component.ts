@@ -125,7 +125,7 @@ export class PopRemoveQuestionComponent {
       case "/home/help":
         this._ticketService.deleteTicket(this.identification).subscribe(() => {
           this.mensajeExito();
-          this.dialogRef.close();
+          this.dialogRef.close('');
         });
       break;
       case "/home/admHelp":

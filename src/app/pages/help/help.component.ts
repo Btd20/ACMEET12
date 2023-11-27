@@ -6,6 +6,7 @@ import { TicketService } from 'src/app/shared/services/ticket.service';
 import { HelpSeeTicketComponent } from '../help-see-ticket/help-see-ticket.component';
 import { MatDialog } from '@angular/material/dialog';
 import { PopRemoveQuestionComponent } from '../alerts/alert.component';
+import { EmailService } from 'src/app/shared/services/email.service';
 
 @Component({
   selector: 'app-help',
@@ -21,7 +22,8 @@ export class helpComponent implements OnInit {
   constructor(private formBuilder: FormBuilder, 
               private ticketService: TicketService,
               private imageService: ImageService,
-              private dialog: MatDialog) {}
+              private dialog: MatDialog,
+              private _emailService: EmailService) {}
 
   ngOnInit() {
     const userId = sessionStorage.getItem('userId');
@@ -32,7 +34,6 @@ export class helpComponent implements OnInit {
     
     this.ticketForm = this.formBuilder.group({
       title: ['', Validators.required],
-      email: ['', [Validators.required, Validators.email]],
       message: ['', Validators.required],
     });
 
@@ -71,15 +72,15 @@ export class helpComponent implements OnInit {
       if (userId) {
         this.getTickets(userId);
       }
-    });
-
+    });  
   }
 
   createTicket() {
+    const userId = sessionStorage.getItem('userId');
     if (this.ticketForm && this.ticketForm.valid) {
       const newTicket = {
         title: this.ticketForm.value.title,
-        email: this.ticketForm.value.email,
+        email: sessionStorage.getItem('userEmail'),
         problem: this.ticketForm.value.message,
         userId: sessionStorage.getItem('userId'),
         status: 'Open'
@@ -89,6 +90,11 @@ export class helpComponent implements OnInit {
         response => {
           console.log('Ticket creado con éxito:', response);
           this.ticketForm.reset();
+          if (userId) {
+            this.getTickets(userId);
+          }
+          this._emailService.sendTicketConfirmationEmail(newTicket).subscribe(
+          );
         },
         error => {
           console.error('Error al crear el ticket:', error);

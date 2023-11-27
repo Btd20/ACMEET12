@@ -140,6 +140,15 @@ input::placeholder {
   margin-top: 5vh;
 }
 
+/* Agrega este código CSS para estilizar el mensaje "No tickets found" */
+.no-tickets-found {
+  text-align: center;
+  margin-top: 40vh;
+  font-size: 20px;
+  color: #cccccc;
+}
+
+
 .mat-card-title {
   margin-right: auto; /* Mueve el título hacia la izquierda para dejar espacio para la imagen */
 }
