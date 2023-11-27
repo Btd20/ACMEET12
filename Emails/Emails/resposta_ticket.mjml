@@ -1,0 +1,165 @@
+﻿<mjml>
+
+	<mj-head>
+
+		<mj-attributes>
+
+			<mj-all font-family="Bebas Neue, Arial, sans-serif"></mj-all>
+
+			<mj-text font-weight="400" font-size="16px" color="#202067" line-height="100%"></mj-text>
+
+			<mj-section></mj-section>
+
+		</mj-attributes>
+
+		<mj-style>
+
+			@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.css";
+
+			.body {
+
+			font-family: Arial, sans-serif;
+
+			color: #202067;
+
+			}
+
+			.container {
+
+			max-width: 600px;
+
+			margin: 0 auto;
+
+			padding: 20px;
+
+			background-color: #f9f9f9;
+
+			border-radius: 10px;
+
+			box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+			}
+
+			.header img {
+
+			max-width: 100%;
+
+			height: auto;
+
+			display: block;
+
+			margin: 0 auto;
+
+			}
+
+			.content {
+
+			margin-top: 20px;
+
+			text-align: left;
+
+			margin:auto;
+
+			padding:25px;
+
+			width:380px;
+
+			}
+
+			.content h3 {
+
+			margin: 10px 0;
+
+			font-size: 18px;
+
+			color: #000;
+
+			}
+
+			.footer img {
+
+			max-width: 100%;
+
+			height: auto;
+
+			display: block;
+
+			margin: 20px auto 0;
+
+			}
+
+		</mj-style>
+
+	</mj-head>
+
+	<mj-body class="body">
+
+		<mj-container class="container">
+
+			<mj-section>
+
+				<mj-column>
+
+					<mj-image src="https://i.imgur.com/bt99H6G.png" alt="Portada" width="600%" />
+
+					<mj-text align="center" font-size="25px" color="#000">Has rebut resposta al teu ticket!</mj-text>
+
+				</mj-column>
+
+			</mj-section>
+
+			<mj-section class="content">
+
+				<mj-column>
+
+					<mj-text margin="0" line-height="normal">
+
+						<i class="fa-solid fa-earth-europe" style='font-size:20px;color:#583989;'></i>
+
+						<b>Title:</b> {Title}
+
+					</mj-text>
+
+					<mj-text margin="0" line-height="normal">
+
+						<i class="fa-solid fa-earth-europe" style='font-size:20px;color:#583989;'></i>
+
+						<b>Problem:</b> {Problem}
+
+					</mj-text>
+
+					<mj-text margin="0" line-height="normal">
+
+						<i class="fa-solid fa-earth-europe" style='font-size:20px;color:#583989;'></i>
+
+						<b>Answer:</b> {Answer}
+
+					</mj-text>
+
+					<mj-text margin="0" line-height="normal">
+
+						<i class="fa-solid fa-earth-europe" style='font-size:20px;color:#583989;'></i>
+
+						<b>Answered by:</b> {Admin}
+
+					</mj-text>
+
+				</mj-column>
+
+			</mj-section>
+
+			<mj-section>
+
+				<mj-column>
+
+					<mj-image src="https://i.imgur.com/jHvvvYB.png" alt="Footer" width="600%" />
+
+				</mj-column>
+
+			</mj-section>
+
+		</mj-container>
+
+	</mj-body>
+
+</mjml>
