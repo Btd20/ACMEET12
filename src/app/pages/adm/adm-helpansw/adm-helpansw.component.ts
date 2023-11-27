@@ -65,5 +65,17 @@ export class AdmHelpAnswComponent {
       this.form.markAllAsTouched();
     }
   }
+
+  mensajeErrorExito(texto: string) {
+    this._snackBar.open(`${texto}`, '', {
+      duration: 700,
+      verticalPosition: 'bottom'
+    });
+  
+    // Espera un breve momento y luego cierra el diálogo
+    setTimeout(() => {
+      this.dialogRef.close();
+    }, 1300); // Ajusta el tiempo según sea necesario
+  }
 }
 
