@@ -1,0 +1,29 @@
+@model AuthorizationServer.ViewModels.LoginViewModel
+
+
+<div class="box derecha">
+    <form autocomplete="off" asp-route="Login">
+        <input type="hidden" asp-for="ReturnUrl" value="@ViewData["ReturnUrl"]" />
+
+        <h1>Log In</h1>
+        <label>Email</label>
+        <div>
+            <i class="textoDentro"></i>
+            <input type="text" asp-for="Username" autofocus placeholder="Please enter your user name">
+        </div>
+        <label>Password</label>
+        <div>
+            <i></i>
+            <input type="password" asp-for="Password" placeholder="Please enter your password">
+        </div>
+        <div class="botones">
+            <div class="registro">
+
+                <button type="button" disabled class="regi">Register</button>
+            </div>
+            <div class="log">
+                <button type="submit" class="logi">Login</button> <!--CAMBIAR routerLink-->
+            </div>
+        </div>
+    </form>
+</div>

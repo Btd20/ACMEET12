@@ -1,0 +1,197 @@
+:focus {
+    outline: 0 !important;
+}
+
+.input-validation-error {
+    border: 1px solid darkred;
+}
+
+form {
+    width: 100%;
+}
+
+.form-control {
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid lightgray;
+    font-size: 0.9rem;
+}
+
+    .form-control:focus {
+        border-bottom-color: lightgray;
+        box-shadow: none;
+    }
+
+    .form-control.form-control-last {
+        border-bottom: 0;
+    }
+
+    .form-control::placeholder {
+        opacity: 0.6;
+    }
+
+    .form-control.input-validation-error {
+        border: 1px solid darkred;
+    }
+
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
+/*
+    FONT-WEIGHT
+    titulo grande: 600;
+    texto normal: 300;
+    texto negrita: 500;
+
+    FONT SIZE
+    14px 16px 38px(titulo)
+    
+*/
+* {
+    font-family: 'Roboto', sans-serif; /*Tipografia general*/
+    font-weight: 300;
+    box-sizing: border-box;
+    line-height: 1;
+    padding: 0;
+    margin: 0;
+}
+
+.empresa { /*Tipografia LOGO*/
+    font-family: 'Caprasimo', cursive;
+    font-size: 80px;
+}
+
+.mainpage {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    gap: 10px 30px;
+    margin: 0px 10%;
+}
+
+.izquierda {
+    color: white;
+    max-width: 55%;
+}
+
+.derecha {
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    min-width: 45%;
+}
+
+
+/* caja registro/login */
+
+
+.box {
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    width: 375px;
+    max-width: 100%;
+    margin-top: 12%;
+}
+
+    .box h1 { /*título*/
+        font-size: 38px;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .box form label {
+        display: block;
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 7px;
+        padding-left: 25px;
+    }
+
+    .box form div {
+        display: flex;
+        align-items: center;
+    }
+
+        .box form div i {
+            font-size: 14px;
+            padding-left: 10px;
+            color: #b0b0b0;
+        }
+
+        .box form div input {
+            font-size: 14px;
+            padding: 10px;
+            min-width: 0;
+            flex: 1;
+            border: 1px solid;
+            border-radius: 20px;
+            margin-bottom: 20px;
+        }
+
+            .box form div input::placeholder {
+                opacity: 1;
+                color: #b0b0b0;
+                font-size: 14px;
+            }
+
+    .box form .forgot {
+        margin-top: 10px;
+        float: right;
+    }
+
+        .box form .forgot:hover {
+            color: #722F37;
+        }
+
+.regi {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: lightgray;
+    color: black;
+    border: none;
+    padding: 15px;
+    border-radius: 250px;
+    width: 15vw;
+    min-width: 15vw;
+    text-decoration: none;
+    text-align: center;
+}
+
+    .regi:hover {
+        color: white;
+    }
+
+.logi {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: #913831;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 250px;
+    width: 15vw;
+    min-width: auto;
+    text-decoration: none;
+    text-align: center;
+}
+
+    .logi:hover {
+        color: black;
+    }
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+body{
+    background-color: lightblue;
+}

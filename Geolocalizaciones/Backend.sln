@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Emails", "..\Emails\Emails.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Images", "..\Images\Images.csproj", "{5A1170F6-CDA4-4188-9546-83E76E1611D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticket", "..\Help\Ticket.csproj", "{D5059B35-D9F1-40C8-B78C-789FAA856BB6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ticket", "..\Help\Ticket.csproj", "{D5059B35-D9F1-40C8-B78C-789FAA856BB6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthorizationServer", "..\AuthorizationService\AuthorizationServer.csproj", "{B9390EF7-29E5-4799-B6FF-093DF578E9BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{D5059B35-D9F1-40C8-B78C-789FAA856BB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5059B35-D9F1-40C8-B78C-789FAA856BB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5059B35-D9F1-40C8-B78C-789FAA856BB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9390EF7-29E5-4799-B6FF-093DF578E9BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9390EF7-29E5-4799-B6FF-093DF578E9BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9390EF7-29E5-4799-B6FF-093DF578E9BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9390EF7-29E5-4799-B6FF-093DF578E9BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
