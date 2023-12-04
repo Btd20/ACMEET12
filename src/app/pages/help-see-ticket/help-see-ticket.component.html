@@ -1,0 +1,49 @@
+<div class="container">
+    <div class="header">
+        <h2>{{ticket.title}}</h2>
+    </div>
+    
+    <div class="content">
+        <div class="left-container">
+            <div class="left">
+                <p>Problem</p>
+                <p>{{ ticket.problem }}</p>
+            </div>
+            <div class="left" *ngIf="ticket.answer !== null">
+                <p>Answer</p>
+                <p>{{ ticket.answer }}</p>
+            </div>            
+        </div>
+        <div class="right">
+            <img mat-card-sm-image class="imagen" [src]="profilepictureId">
+        </div>
+    </div>    
+    
+    <div class="footer" *ngIf="ticket.status === 'Closed'">
+        <p class="bold">Status: </p><p class="statusClosed"> {{ ticket.status }}</p>
+        <p class="bold">Created by: </p><p class="params">You</p>
+        <p class="bold">Answered by: </p>
+        <p class="params" *ngIf="ticket.admin; else noAnswer">{{ ticket.admin }}</p>
+        <ng-template #noAnswer>
+            <p class="no-answer">No answer</p>
+        </ng-template>
+    </div>
+    
+    <div class="footer" *ngIf="ticket.status === 'Open'">
+        <p class="bold">Status: </p><p class="statusOpen"> {{ ticket.status }}</p>
+        <p class="bold">Created by: </p><p class="params">You</p>
+        <p class="bold">Answered by: </p>
+        <p class="params" *ngIf="ticket.admin; else noAnswer">{{ ticket.admin }}</p>
+        <ng-template #noAnswer>
+            <p class="no-answer">No answer</p>
+        </ng-template>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <button class="btn" (click)="cerrar()" mat-raised-button color="primary">Close</button>
+        </div>
+    </div>    
+</div>
+
+  

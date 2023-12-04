@@ -35,6 +35,12 @@ h2 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.mat-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .wrapper {
   display: flex;
   align-items: center;
@@ -61,6 +67,11 @@ h2 {
   padding: 25px;
   text-align: center;
   border-radius: 0 0 10px 10px;
+}
+
+.example-card {
+  margin-bottom: 10px;
+  width: 100%; /* Asegura que la tarjeta ocupe todo el ancho del contenedor */
 }
 
 /* FORM TYPOGRAPHY*/
@@ -129,6 +140,19 @@ input::placeholder {
   margin-top: 5vh;
 }
 
+/* Agrega este código CSS para estilizar el mensaje "No tickets found" */
+.no-tickets-found {
+  text-align: center;
+  margin-top: 40vh;
+  font-size: 20px;
+  color: #cccccc;
+}
+
+
+.mat-card-title {
+  margin-right: auto; /* Mueve el título hacia la izquierda para dejar espacio para la imagen */
+}
+
 .form-group {
   width: 100%;
 }
@@ -175,6 +199,16 @@ h2 {
   padding: 20px;
   box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
   text-align: center;
+}
+
+.statusOpen {
+  color: #067506;
+  font-weight: bold;
+}
+
+.statusClosed {
+  color: #c90606;
+  font-weight: bold;
 }
 
 #formContent {

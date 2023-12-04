@@ -12,6 +12,7 @@ import { LoginComponent } from './components/login/login.component';
 //Modulos Angular Material
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { OnlineStatusComponent } from './components/online-status/online-status.component';
+import { AuthConfigModule } from './auth/auth-config.module';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { OnlineStatusComponent } from './components/online-status/online-status.
     NgbModule,
     BrowserAnimationsModule,
     SharedModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    AuthConfigModule
 
   ],
   providers: [],

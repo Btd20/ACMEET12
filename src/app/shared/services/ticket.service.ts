@@ -25,4 +25,14 @@ export class TicketService {
     const url = `${this.myAppUrl}${this.myApiUrl}/${ticketId}`;
     return this.http.put<any>(url, updatedTicket);
   }  
+
+  createTicket(newTicket: any): Observable<any> {
+    const url = `${this.myAppUrl}${this.myApiUrl}`;
+    return this.http.post<any>(url, newTicket);
+  }
+
+  getTicketsByUserId(userId: string): Observable<any[]> {
+    const url = `${this.myAppUrl}${this.myApiUrl}/${userId}`;
+    return this.http.get<any[]>(url);
+  }
 }

@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { ConnectionStatusService } from './shared/services/connection-status.service';
 import { MatSnackBar } from '@angular/material/snack-bar';
+import { OidcSecurityService } from 'angular-auth-oidc-client';
 
 @Component({
   selector: 'app-root',
@@ -12,7 +13,8 @@ export class AppComponent {
   isOnline!: boolean;
   constructor(
               private _connectionService: ConnectionStatusService,
-              private _snackBar: MatSnackBar){}
+              private _snackBar: MatSnackBar,
+              private oidSecurityService: OidcSecurityService){}
   ngOnInit(){
     this._connectionService.isOnline().subscribe((online) => {
       this.isOnline = online;

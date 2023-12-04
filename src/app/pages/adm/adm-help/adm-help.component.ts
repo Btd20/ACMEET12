@@ -34,18 +34,21 @@ export class admHelpComponent implements OnInit {
   openDialogResponderTicket(ticket: any) {
     let pathname = window.location.pathname;
     const dialogRef = this.dialog.open(AdmHelpAnswComponent, { data: { ticket, pathname }, panelClass: 'no-scroll' });
+  
+    dialogRef.componentInstance.ticketEdited.subscribe(() => {
+      dialogRef.close();
+      this.getTickets();
+    });
   }
 
   getTickets() {
-    // Llama al servicio para obtener los tickets desde el backend
     this._ticketService.getTickets().subscribe(
       (response: any) => {
         this.tickets = response.map((ticket: any) => {
-          // Agrega un campo de imagen a cada ticket antes de agregarlo al array
-          ticket.image = null; // Puedes inicializarlo con un valor predeterminado si es necesario
+          ticket.image = null;
           ticket.userName = null;
           this.getUserNameById(ticket.userId, ticket);
-          this.fetchAndUpdateProfilePicture(ticket.userId, ticket); // Usa "userId" con la "u" minúscula
+          this.fetchAndUpdateProfilePicture(ticket.userId, ticket);
           return ticket;
         });
       },
@@ -105,6 +108,5 @@ export class admHelpComponent implements OnInit {
     dialogRef.afterClosed().subscribe(result => {
       this.getTickets();
     });
-    
   }
 }

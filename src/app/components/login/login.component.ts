@@ -6,6 +6,7 @@ import { LoginService } from '../../shared/services/login.service';
 import { login } from '../../shared/interfaces/login';
 import { tokenUser } from '../../shared/interfaces/token';
 import jwt_decode from 'jwt-decode';
+import { OidcSecurityService } from 'angular-auth-oidc-client';
 
 
 @Component({
@@ -22,7 +23,8 @@ export class LoginComponent implements OnInit {
     private fb: FormBuilder,
     private router: Router,
     private snackBar: MatSnackBar,
-    private loginService: LoginService
+    private loginService: LoginService,
+    private oidcSecurityService: OidcSecurityService
   ) {
     this.form = this.fb.group({
       user: ['', [Validators.required]],
@@ -32,6 +34,10 @@ export class LoginComponent implements OnInit {
 
 
   ngOnInit(): void {
+  }
+
+  redirect() {
+    this.oidcSecurityService.authorize();
   }
 
   submitForm(): void {

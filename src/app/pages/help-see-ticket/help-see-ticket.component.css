@@ -1,0 +1,115 @@
+/* help-see-ticket.component.css */
+
+.header {
+    background-color: #ddd; /* Color de fondo gris */
+    padding: 5px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto al centro */
+    margin: auto;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Agregar sombra */
+}
+
+  h2 {
+    margin-bottom: 0px;
+    font-weight: bold;
+  }
+  
+  .content {
+    display: flex; /* Contenedor flexible para alinear los elementos internos */
+    align-items: flex-start; /* Alinear los elementos en la parte superior */
+}
+
+.imagen {
+    width: 150px;
+    height: auto;
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 20px;
+}
+
+.left {
+    flex: 1;
+    padding: 20px;
+}
+
+.right {
+    margin-left: 10px;
+    padding: 20px;
+}
+
+
+  
+  .footer {
+    background-color: #f0f0f0; /* Color de fondo del footer */
+    padding: 10px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto al centro */
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1); /* Agregar sombra con desplazamiento negativo en Y */
+  }  
+  
+
+.left p {
+    font-family: 'Arial', sans-serif; /* Cambia la fuente según tu preferencia */
+    font-size: 18px; /* Tamaño del texto */
+    color: #333; /* Color del texto */
+    margin-bottom: 10px; /* Espaciado inferior entre párrafos */
+}
+
+.left p:first-child {
+    font-weight: bold; /* Hace que el primer párrafo tenga negrita */
+    color: #000000; /* Cambia el color del enunciado */
+    margin-bottom: 0px;
+}
+
+.statusOpen {
+    color: #067506;
+    display: inline;
+    font-weight: bold;
+}
+
+.no-answer {
+    color: #c90606;
+    display: inline;
+    font-weight: bold;
+}
+
+.statusClosed {
+    color: #c90606;
+    display: inline;
+    font-weight: bold;
+}
+
+.bold {
+    font-weight: bold;
+    display: inline;
+    padding-left: 15px;
+}
+
+.params {
+    display: inline;
+}
+
+.col{
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.row >div{
+    text-align: center;
+    background-color: #f0f0f0; /* Color de fondo del footer */
+}
+
+.container {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 800px;
+  }
+
+.btn {
+    margin-bottom: 10px;
+}
+  
+  
