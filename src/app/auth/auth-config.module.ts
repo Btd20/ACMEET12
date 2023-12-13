@@ -6,7 +6,7 @@ import { AuthModule } from 'angular-auth-oidc-client';
     imports: [AuthModule.forRoot({
         config: {
             authority: 'https://localhost:44310',
-            redirectUrl: 'http://localhost:4200/home',
+            redirectUrl: 'http://localhost:4200/callback',
             postLogoutRedirectUri: window.location.origin,
             clientId: 'acme_web',
             scope: 'openid', // 'openid profile ' + your scopes

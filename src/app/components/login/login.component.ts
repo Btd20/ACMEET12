@@ -8,7 +8,6 @@ import { tokenUser } from '../../shared/interfaces/token';
 import jwt_decode from 'jwt-decode';
 import { OidcSecurityService } from 'angular-auth-oidc-client';
 
-
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
@@ -18,6 +17,7 @@ export class LoginComponent implements OnInit {
   form: FormGroup;
   token: tokenUser | undefined;
   eslogan = 'Booking has never been easier.';
+  usuario = this.oidcSecurityService.userData$;
 
   constructor(
     private fb: FormBuilder,
@@ -36,8 +36,12 @@ export class LoginComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  redirect() {
+  iniciarSesion() {
     this.oidcSecurityService.authorize();
+  }
+
+  cerrarSesion() {
+    this.oidcSecurityService.logoff();
   }
 
   submitForm(): void {

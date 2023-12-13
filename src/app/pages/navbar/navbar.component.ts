@@ -1,5 +1,6 @@
 import { Component, ViewChild } from '@angular/core';
 import { MatMenuTrigger } from '@angular/material/menu';
+import { OidcSecurityService } from 'angular-auth-oidc-client';
 
 @Component({
   selector: 'app-navbar',
@@ -10,6 +11,8 @@ export class NavbarComponent {
   @ViewChild('admnistration') administration!: MatMenuTrigger;
   mostrarElemento: boolean = false;
 
+  constructor(private oidcSecurityService: OidcSecurityService) {}
+
   openMenu() {
     this.administration.openMenu();
   }
@@ -19,5 +22,9 @@ export class NavbarComponent {
     if(userRole=="Administrador"){
       this.mostrarElemento= true;
     }
+  }
+
+  cerrarSesion() {
+    this.oidcSecurityService.logoff();
   }
 }

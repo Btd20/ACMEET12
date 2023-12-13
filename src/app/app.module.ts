@@ -13,6 +13,7 @@ import { LoginComponent } from './components/login/login.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { OnlineStatusComponent } from './components/online-status/online-status.component';
 import { AuthConfigModule } from './auth/auth-config.module';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { AuthConfigModule } from './auth/auth-config.module';
     BrowserAnimationsModule,
     SharedModule,
     FontAwesomeModule,
-    AuthConfigModule
+    AuthConfigModule,
+    HttpClientModule
 
   ],
   providers: [],

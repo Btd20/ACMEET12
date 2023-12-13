@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { ProfileService } from '../../../shared/services/profile.service';
 import { MakeReserveComponent } from '../../bookings/make-booking/make-booking.component';
 import { MatDialog } from '@angular/material/dialog';
+import { OidcSecurityService } from 'angular-auth-oidc-client';
 
 
 @Component({
@@ -11,7 +12,7 @@ import { MatDialog } from '@angular/material/dialog';
 })
 export class HomeComponent {
 
-  constructor(private _userService: ProfileService, private dialog: MatDialog){}
+  constructor(private _userService: ProfileService, private oidcSecurityService: OidcSecurityService, private dialog: MatDialog){}
 
   ngOnInit(){
 
@@ -20,6 +21,7 @@ export class HomeComponent {
       this.ObtenerUsuario(userName);
     }
     const userId = sessionStorage.getItem('userId')
+    this.oidcSecurityService.getAccessToken().subscribe(token => console.log(token))
   }
 
   ObtenerUsuario(userName: string){

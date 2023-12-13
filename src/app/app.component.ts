@@ -22,6 +22,7 @@ export class AppComponent {
         this.mensajeErrorExito("does not have an internet connection");
       }
     });
+    this.oidSecurityService.checkAuth().subscribe(({isAuthenticated, userData}) => null);
   }
   mensajeErrorExito(texto: string) {
     this._snackBar.open(`${texto}`, '', {
