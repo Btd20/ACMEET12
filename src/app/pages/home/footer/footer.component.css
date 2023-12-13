@@ -76,6 +76,17 @@
 .bounce-effect:hover {
   animation: bounce 1s infinite;
 }
+.bounceYeray-effect:hover {
+  animation: bounceYeray 2.5s infinite;
+}
+
+.bounceOriol-effect:hover {
+  animation: bounceOriol 2.5s infinite;
+}
+
+.bounceHarp-effect:hover {
+  animation: bounceHarp 2.5s infinite;
+}
 
 @keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
@@ -91,6 +102,60 @@
   }
 }
 
+@keyframes bounceYeray {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-500px);
+  }
+
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+@keyframes bounceHarp {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-350px);
+  }
+
+  60% {
+    transform: translateY(-15px);
+  }
+}
+@keyframes bounceOriol {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-90px);
+  }
+
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+@keyframes bounceGuille {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-70px);
+  }
+
+  60% {
+    transform: translateY(-15px);
+  }
+}
 
 @media screen and (max-width: 767px) {
   .footer-container {
